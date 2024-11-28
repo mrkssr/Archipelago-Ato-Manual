@@ -1,0 +1,1222 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Blue Orb",
+            "category": [
+                "Pillars"
+            ],
+            "region": "rA1_28",
+            "id": 1
+        },
+        {
+            "name": "Red Orb",
+            "category": [
+                "Sky Cemetery"
+            ],
+            "region": "rA1_79",
+            "id": 2
+        },
+        {
+            "name": "Yellow Orb",
+            "category": [
+                "Swamp"
+            ],
+            "region": "rA1_112",
+            "id": 3
+        },
+        {
+            "name": "Demon Blade",
+            "category": [
+                "Forbidden Isle"
+            ],
+            "region": "rA1_134",
+            "id": 4
+        },
+        {
+            "name": "Dodge",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA0_4PowerUp",
+            "id": 10
+        },
+        {
+            "name": "Dodge Upgrade",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_4",
+            "id": 11
+        },
+        {
+            "name": "Dash",
+            "category": [
+                "Hills"
+            ],
+            "region": "rA0_7",
+            "id": 12
+        },
+        {
+            "name": "Chain Dash",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA0_23",
+            "id": 13
+        },
+        {
+            "name": "Chain Dash Upgrade",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_168ArcherReward",
+            "requires": "|Double Jump|",
+            "id": 14
+        },
+        {
+            "name": "Double Jump",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA0_19",
+            "requires": "|Dash|",
+            "id": 15
+        },
+        {
+            "name": "Speed Charge",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA0_40",
+            "id": 16
+        },
+        {
+            "name": "Crystal Break",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_8",
+            "id": 17
+        },
+        {
+            "name": "Spin",
+            "category": [
+                "Pillars"
+            ],
+            "region": "rA1_16spinpower",
+            "id": 18
+        },
+        {
+            "name": "Spin Upgrade",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_94ArenaSpin",
+            "requires": "|Spin|",
+            "id": 19
+        },
+        {
+            "name": "Throw",
+            "category": [
+                "Sky Cemetery"
+            ],
+            "region": "rA1_69",
+            "requires": "|Double Jump| or |Armor|",
+            "id": 20
+        },
+        {
+            "name": "Throw Upgrade",
+            "category": [
+                "Hills"
+            ],
+            "region": "rA1_138ArenaThrow",
+            "id": 21
+        },
+        {
+            "name": "Armor",
+            "category": [
+                "Swamp"
+            ],
+            "region": "rA1_98",
+            "id": 22
+        },
+        {
+            "name": "Armor Upgrade",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_141ArenaArmor",
+            "requires": "|Armor|",
+            "id": 23
+        },
+        {
+            "name": "Vision",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_91",
+            "id": 24
+        },
+        {
+            "name": "Parry",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_51BossReward",
+            "id": 25
+        },
+        {
+            "name": "Meditate",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_165Meditate",
+            "id": 26
+        },
+        {
+            "name": "Triple Slash",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_166TempestReward",
+            "id": 27
+        },
+        {
+            "name": "Electric Wind Lethal Strike",
+            "category": [
+                "Hills"
+            ],
+            "region": "rA1_42Boss",
+            "requires": "|Double Jump|",
+            "id": 28
+        },
+        {
+            "name": "Fatal Draw",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_82FatalDraw",
+            "id": 29
+        },
+        {
+            "name": "Fatal Draw Upgrade",
+            "category": [
+                "Forbidden Isle"
+            ],
+            "region": "rA1_118ArenaFatalReward",
+            "id": 30
+        },
+        {
+            "name": "Echo Rune",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_64",
+            "id": 50
+        },
+        {
+            "name": "Agility Rune",
+            "category": [
+                "Temple"
+            ],
+            "region": "rA1_153Boss",
+            "requires": "(|Dash:1| and (|Double Jump| or |Armor|)) or |Dash:2|",
+            "id": 51
+        },
+        {
+            "name": "Mind Rune",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_59BossHiddenReward",
+            "id": 52
+        },
+        {
+            "name": "Juggernaut Rune",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_35",
+            "id": 53
+        },
+        {
+            "name": "Flurry Rune",
+            "category": [
+                "Hills"
+            ],
+            "region": "rA0_10",
+            "requires": "|Double Jump| or |Armor|",
+            "id": 54
+        },
+        {
+            "name": "Risk Rune",
+            "category": [
+                "Temple"
+            ],
+            "region": "rA1_148Boss",
+            "id": 55
+        },
+        {
+            "name": "Magic Bar Vagrant",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_1VagrantBossFinalReward",
+            "id": 60
+        },
+        {
+            "name": "Magic Bar Tiny Warrior",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_171TWReward",
+            "id": 61
+        },
+        {
+            "name": "Coin Most Left",
+            "category": [
+                "Forbidden Isle"
+            ],
+            "region": "rA1_122",
+            "id": 100
+        },
+        {
+            "name": "Coin Basement",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_8Basement",
+            "id": 101
+        },
+        {
+            "name": "Coin Love Room",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_136Love",
+            "requires": "|Dash|",
+            "id": 102
+        },
+        {
+            "name": "Coin Hub Left",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_1Coin0",
+            "requires": "|Double Jump| and (|Armor| or |Dash:2| or (|Dash:1| and |Dodge|))",
+            "id": 103
+        },
+        {
+            "name": "Coin Hub Up",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_1Coin1",
+            "requires": "|Double Jump|",
+            "id": 104
+        },
+        {
+            "name": "Coin Vagrant II Reward",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_29VagrantBossReward",
+            "requires": "|Double Jump|",
+            "id": 105
+        },
+        {
+            "name": "Coin Rogue",
+            "category": [
+                "Blossom"
+            ],
+            "requires": "|Double Jump| and |Dash:2|",
+            "region": "rA0_5Coin",
+            "id": 106
+        },
+        {
+            "name": "Coin Spins",
+            "category": [
+                "Pillars"
+            ],
+            "region": "rA1_23",
+            "requires": "|Dash| and |Spin| and |Double Jump|",
+            "id": 107
+        },
+        {
+            "name": "Coin Phantom Shin",
+            "category": [
+                "Hills"
+            ],
+            "region": "rA1_37",
+            "requires": "|Dash| or |Double Jump|",
+            "id": 108
+        },
+        {
+            "name": "Coin Behind Warp",
+            "category": [
+                "Hills"
+            ],
+            "region": "rA1_39Coin",
+            "id": 109
+        },
+        {
+            "name": "Coin Hidden Time Puzzle",
+            "category": [
+                "Hills"
+            ],
+            "region": "rA0_9Coin",
+            "id": 110
+        },
+        {
+            "name": "Coin 8 Coins Door",
+            "category": [
+                "Hills"
+            ],
+            "region": "rA1_43",
+            "requires": "|Double Jump| or |Armor|",
+            "id": 111
+        },
+        {
+            "name": "Coin Twitch Arena",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_54",
+            "id": 112
+        },
+        {
+            "name": "Coin Secret Room",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA0_14secret",
+            "requires": "|Speed Charge| and |Double Jump| and ((|Armor| and |Dash:1|) or |Dash:2|)",
+            "id": 113
+        },
+        {
+            "name": "Coin Phantom Jin",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_64Coin",
+            "requires": "|Spin|",
+            "id": 114
+        },
+        {
+            "name": "Coin Red Area Entry",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA0_24",
+            "requires": "|Double Jump| and ((|Dash:1| and |Dodge|) or |Dash:2| or (|Dash:1| or |Armor|))",
+            "id": 115
+        },
+        {
+            "name": "Coin Left of Bridge Room",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA0_26Coin",
+            "requires": "|Speed Charge| and |Double Jump|",
+            "id": 116
+        },
+        {
+            "name": "Coin Right of Double Jump Room",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA0_19Coin",
+            "requires": "|Throw| and (|Double Jump| or |Armor|)",
+            "id": 117
+        },
+        {
+            "name": "Coin Tempest",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_165Coin",
+            "requires": "|Double Jump|",
+            "id": 118
+        },
+        {
+            "name": "Coin After Bridge Drop",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA0_28",
+            "requires": "|Double Jump| or (|Double Jump| and (|Armor| or |Speed Charge|))",
+            "id": 119
+        },
+        {
+            "name": "Coin Vagrant I Reward",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_81VagrantBossReward",
+            "id": 120
+        },
+        {
+            "name": "Coin Fatal Draw",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_82",
+            "id": 121
+        },
+        {
+            "name": "Coin Breakable Floors",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_84Coin",
+            "requires": "|Double Jump| or |Armor|",
+            "id": 122
+        },
+        {
+            "name": "Coin Tiny Warrior Entry",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_169",
+            "requires": "|Armor| or (|Double Jump| and |Dash:2| or (|Dash:1| and |Armor|))",
+            "id": 123
+        },
+        {
+            "name": "Coin Time Puzzle Tiny Warrior",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_139",
+            "requires": "|Double Jump|",
+            "id": 124
+        },
+        {
+            "name": "Coin Bumper Time Puzzle",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA0_36Coin",
+            "id": 125
+        },
+        {
+            "name": "Coin Yari",
+            "category": [
+                "Sky Cemetery"
+            ],
+            "region": "rA1_77Coin",
+            "requires": "|Double Jump| and |Throw|",
+            "id": 126
+        },
+        {
+            "name": "Coin Armor Time Puzzle",
+            "category": [
+                "Swamp"
+            ],
+            "region": "rA1_100Coin",
+            "requires": "|Armor|",
+            "id": 127
+        },
+        {
+            "name": "Coin Father",
+            "category": [
+                "Swamp"
+            ],
+            "region": "rA1_105",
+            "requires": "|Armor|",
+            "id": 128
+        },
+        {
+            "name": "Coin Double Jump Paradise",
+            "category": [
+                "Temple"
+            ],
+            "region": "rA1_144Coin",
+            "requires": "|Double Jump|",
+            "id": 129
+        },
+        {
+            "name": "Coin Switch Puzzle",
+            "category": [
+                "Temple"
+            ],
+            "region": "rA1_151",
+            "requires": "|Double Jump| and |Throw|",
+            "id": 130
+        },
+        {
+            "name": "Coin Black Area Entry",
+            "category": [
+                "Temple"
+            ],
+            "region": "rA1_152",
+            "requires": "|Speed Charge| and |Double Jump|",
+            "id": 131
+        },
+        {
+            "name": "Talisman Start Room",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA0_0",
+            "requires": "|Dash| or (|Double Jump| and |Armor|)",
+            "id": 150
+        },
+        {
+            "name": "Talisman Runway",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_0runway",
+            "id": 151
+        },
+        {
+            "name": "Talisman Under Leaves",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_1under",
+            "requires": "|Double Jump| or |Armor| or ((|Double Jump| or |Armor|) and |Speed Charge|)",
+            "id": 152
+        },
+        {
+            "name": "Talisman Bandit",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_4",
+            "requires": "(|Dodge:2| and (|Double Jump| or |Armor|)) or (|Double Jump| or |Armor|)",
+            "id": 153
+        },
+        {
+            "name": "Talisman Leave Room",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_9",
+            "requires": "|Spin|",
+            "id": 154
+        },
+        {
+            "name": "Talisman Behind Rocks",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_11Armor",
+            "requires": "|Armor|",
+            "id": 155
+        },
+        {
+            "name": "Talisman Spin Puzzle",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_36",
+            "requires": "|Spin|",
+            "id": 156
+        },
+        {
+            "name": "Talisman Deflector",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_32Deflector",
+            "requires": "|Double Jump| and ((|Throw| and |Dash|) or (|Armor| and |Spin|))",
+            "id": 157
+        },
+        {
+            "name": "Talisman Twins",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_35",
+            "requires": "|Double Jump| or |Armor|",
+            "id": 158
+        },
+        {
+            "name": "Talisman Spins",
+            "category": [
+                "Pillars"
+            ],
+            "region": "rA1_20",
+            "requires": "|Double Jump| and |Spin| and |Crystal Break|",
+            "id": 159
+        },
+        {
+            "name": "Talisman Ancient Warrior Checkpoint",
+            "category": [
+                "Pillars"
+            ],
+            "region": "rA1_25CP",
+            "requires": "|Spin| and |Double Jump| and |Armor|",
+            "id": 160
+        },
+        {
+            "name": "Talisman Preview",
+            "category": [
+                "Hills"
+            ],
+            "region": "rA0_9",
+            "id": 161
+        },
+        {
+            "name": "Talisman Top Platforms",
+            "category": [
+                "Hills"
+            ],
+            "region": "rA0_8",
+            "requires": "|Crystal Break| and |Dash| and (|Double Jump| or |Spin|)",
+            "id": 162
+        },
+        {
+            "name": "Talisman Dash",
+            "category": [
+                "Hills"
+            ],
+            "region": "rA0_7",
+            "requires": "|Dash| or (|Double Jump| and |Crystal Break|)",
+            "id": 163
+        },
+        {
+            "name": "Talisman Jin",
+            "category": [
+                "Hills"
+            ],
+            "region": "rA0_11",
+            "requires": "|Double Jump| or |Armor|",
+            "id": 164
+        },
+        {
+            "name": "Talisman Hidden",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_46Hidden",
+            "requires": "|Vision| and (|Double Jump| or |Armor|)",
+            "id": 165
+        },
+        {
+            "name": "Talisman Armor Geisha Area",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_47Armor",
+            "requires": "|Armor|",
+            "id": 166
+        },
+        {
+            "name": "Talisman Fans",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_56fan",
+            "requires": "|Dodge:2| and |Spin|",
+            "id": 167
+        },
+        {
+            "name": "Talisman Secret",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA0_17secret",
+            "id": 168
+        },
+        {
+            "name": "Talisman Hidden Top",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA0_16secret",
+            "requires": "(|Crystal Break| or |Speed Charge|) and |Double Jump| and |Dash|",
+            "id": 169
+        },
+        {
+            "name": "Talisman Bumper Time Puzzle",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_57Secret",
+            "requires": "|Dash| or |Double Jump|",
+            "id": 170
+        },
+        {
+            "name": "Talisman Chain Dash",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA0_23",
+            "requires": "|Double Jump| and (|Dash:2| or (|Dash:1| and |Armor|))",
+            "id": 171
+        },
+        {
+            "name": "Talisman Black Piles Room",
+            "category": [
+                "Sky Cemetery"
+            ],
+            "region": "rA1_66dark",
+            "requires": "|Dash|",
+            "id": 172
+        },
+        {
+            "name": "Talisman Yari",
+            "category": [
+                "Sky Cemetery"
+            ],
+            "region": "rA1_74",
+            "requires": "|Double Jump| and |Dash| and |Throw|",
+            "id": 173
+        },
+        {
+            "name": "Talisman Low Gravity Bumper",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA0_31Secret",
+            "requires": "|Coin:3|",
+            "id": 174
+        },
+        {
+            "name": "Talisman Bumper",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_84",
+            "requires": "|Double Jump| and |Dash:2|",
+            "id": 175
+        },
+        {
+            "name": "Talisman Tiny Warrior",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA0_32secret",
+            "requires": "|Double Jump| and |Dash|",
+            "id": 176
+        },
+        {
+            "name": "Talisman Archer",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA0_37",
+            "requires": "|Double Jump| and (|Speed Charge| or |Armor|)",
+            "id": 177
+        },
+        {
+            "name": "Talisman Ninja",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA0_39",
+            "requires": "(|Double Jump| and |Speed Charge| and |Armor|) or (|Double Jump| and |Dash:2|)",
+            "id": 178
+        },
+        {
+            "name": "Talisman Hidden Breakables",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_92",
+            "requires": "|Double Jump| and |Dash| and |Vision|",
+            "id": 179
+        },
+        {
+            "name": "Talisman Sentinel",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_87",
+            "requires": "|Double Jump| and |Dash|",
+            "id": 180
+        },
+        {
+            "name": "Talisman Owl",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_FH0",
+            "id": 181
+        },
+        {
+            "name": "Talisman Throws",
+            "category": [
+                "Swamp"
+            ],
+            "region": "rA1_97",
+            "requires": "|Throw|",
+            "id": 182
+        },
+        {
+            "name": "Talisman Warps",
+            "category": [
+                "Swamp"
+            ],
+            "region": "rA1_102",
+            "requires": "|Armor| and |Double Jump|",
+            "id": 183
+        },
+        {
+            "name": "Talisman Warp Obstacles",
+            "category": [
+                "Temple"
+            ],
+            "region": "rA1_151Coin",
+            "requires": "|Double Jump| and |Crystal Break|",
+            "id": 184
+        },
+        {
+            "name": "Talisman Lore Room",
+            "category": [
+                "Temple"
+            ],
+            "region": "rA1_145",
+            "requires": "(|Double Jump| or |Armor|) and |Throw|",
+            "id": 185
+        },
+        {
+            "name": "Checkpoint Fatal Arena",
+            "category": [
+                "Forbidden Isle"
+            ],
+            "region": "rA1_118",
+            "requires": "|Coin:32| and |Dash| and (|Double Jump| or |Armor|)",
+            "id": 200
+        },
+        {
+            "name": "Checkpoint Monk",
+            "category": [
+                "Forbidden Isle"
+            ],
+            "region": "rA1_130",
+            "id": 201
+        },
+        {
+            "name": "Checkpoint Bandit",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_2",
+            "id": 202
+        },
+        {
+            "name": "Checkpoint Vagrant",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_1CP",
+            "requires": "|Double Jump| or |Armor|",
+            "id": 203
+        },
+        {
+            "name": "Checkpoint Rogue",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA0_4",
+            "id": 204
+        },
+        {
+            "name": "Checkpoint Twins",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_33",
+            "id": 205
+        },
+        {
+            "name": "Checkpoint Mother",
+            "category": [
+                "Pillars"
+            ],
+            "region": "rA1_14CP",
+            "requires": "|Double Jump|",
+            "id": 206
+        },
+        {
+            "name": "Checkpoint Spin Puzzles",
+            "category": [
+                "Pillars"
+            ],
+            "region": "rA1_21",
+            "id": 207
+        },
+        {
+            "name": "Checkpoint Ancient Warrior",
+            "category": [
+                "Pillars"
+            ],
+            "region": "rA1_25CP",
+            "id": 208
+        },
+        {
+            "name": "Checkpoint Phantom Shin",
+            "category": [
+                "Hills"
+            ],
+            "region": "rA1_41Nothing",
+            "requires": "|Double Jump|",
+            "id": 209
+        },
+        {
+            "name": "Checkpoint Throw Arena",
+            "category": [
+                "Hills"
+            ],
+            "region": "rA1_137",
+            "id": 210
+        },
+        {
+            "name": "Checkpoint Berserker",
+            "category": [
+                "Hills"
+            ],
+            "region": "rA0_10",
+            "id": 211
+        },
+        {
+            "name": "Checkpoint Geisha",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_50CP",
+            "id": 212
+        },
+        {
+            "name": "Checkpoint Phantom Jin",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_62",
+            "id": 213
+        },
+        {
+            "name": "Checkpoint Warden",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_57",
+            "id": 214
+        },
+        {
+            "name": "Checkpoint Guardian",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA0_20",
+            "id": 215
+        },
+        {
+            "name": "Checkpoint Tempest",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_164",
+            "id": 216
+        },
+        {
+            "name": "Checkpoint Armor Arena",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_140",
+            "requires": "|Armor|",
+            "id": 217
+        },
+        {
+            "name": "Checkpoint Child",
+            "category": [
+                "Sky Cemetery"
+            ],
+            "region": "rA1_67CP",
+            "requires": "|Double Jump| or |Armor|",
+            "id": 218
+        },
+        {
+            "name": "Checkpoint Yari",
+            "category": [
+                "Sky Cemetery"
+            ],
+            "region": "rA1_77",
+            "requires": "|Double Jump| or |Armor| or |Speed Charge|",
+            "id": 219
+        },
+        {
+            "name": "Checkpoint Bridge Drop",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA0_27",
+            "id": 220
+        },
+        {
+            "name": "Checkpoint Tiny Warrior",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_170",
+            "id": 221
+        },
+        {
+            "name": "Checkpoint Climb",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA0_36",
+            "id": 222
+        },
+        {
+            "name": "Checkpoint Archer",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_167",
+            "requires": "|Demon Blade|",
+            "id": 223
+        },
+        {
+            "name": "Checkpoint Ninja",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA0_38hallway",
+            "id": 224
+        },
+        {
+            "name": "Checkpoint Sentinel",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_86",
+            "requires": "|Double Jump| or |Armor|",
+            "id": 225
+        },
+        {
+            "name": "Checkpoint Spin Arena",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_93CP",
+            "id": 226
+        },
+        {
+            "name": "Checkpoint Acolyte",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA0_44",
+            "id": 227
+        },
+        {
+            "name": "Checkpoint Green Area Entry",
+            "category": [
+                "Swamp"
+            ],
+            "region": "rA1_96",
+            "id": 228
+        },
+        {
+            "name": "Checkpoint Father",
+            "category": [
+                "Swamp"
+            ],
+            "region": "rA1_103CP",
+            "id": 229
+        },
+        {
+            "name": "Checkpoint Deceiver",
+            "category": [
+                "Swamp"
+            ],
+            "region": "rA1_109",
+            "id": 230
+        },
+        {
+            "name": "Checkpoint Samurai",
+            "category": [
+                "Temple"
+            ],
+            "region": "rA1_146",
+            "requires": "|Double Jump|",
+            "id": 231
+        },
+        {
+            "name": "Checkpoint Demon",
+            "category": [
+                "Temple"
+            ],
+            "region": "rA1_157",
+            "id": 232
+        },
+        {
+            "name": "Checkpoint Rebirth",
+            "category": [
+                "Temple"
+            ],
+            "region": "rA1_159",
+            "id": 233
+        },
+        {
+            "name": "Acolyte",
+            "category": [
+                "Bosses"
+            ],
+            "region": "rA0_45Boss",
+            "place_item": ["Prologue Done"],
+            "id": 300
+        },
+        {
+            "name": "Samurai",
+            "category": [
+                "Bosses"
+            ],
+            "region": "rA0_45Boss",
+            "place_item": ["Defeated Samurai"],
+            "id": 301
+        },
+        {
+            "name": "Defeat Rebirth",
+            "victory": true,
+            "category": [
+                "Goal"
+            ],
+            "region": "rA1_162Boss",
+            "id": 1000
+        },
+        {
+            "name": "Coin Hunt (8 Coins)",
+            "victory": true,
+            "category": [
+                "Goal"
+            ],
+            "requires": "|Coin:8|",
+            "id": 1010
+        },
+        {
+            "name": "Coin Hunt (16 Coins)",
+            "victory": true,
+            "category": [
+                "Goal"
+            ],
+            "requires": "|Coin:16|",
+            "id": 1011
+        },
+        {
+            "name": "Coin Hunt (24 Coins)",
+            "victory": true,
+            "category": [
+                "Goal"
+            ],
+            "requires": "|Coin:24|",
+            "id": 1012
+        },
+        {
+            "name": "Coin Hunt (All Coins)",
+            "victory": true,
+            "category": [
+                "Goal"
+            ],
+            "requires": "|Coin:all|",
+            "id": 1013
+        }
+    ]
+}

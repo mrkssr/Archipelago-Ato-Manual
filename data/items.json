@@ -1,0 +1,255 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+    "data": [
+        {
+            "name": "Blue Orb",
+            "category": [
+                "Orbs"
+            ],
+            "progression": true,
+            "id": 1
+        },
+        {
+            "name": "Red Orb",
+            "category": [
+                "Orbs"
+            ],
+            "progression": true,
+            "id": 2
+        },
+        {
+            "name": "Yellow Orb",
+            "category": [
+                "Orbs"
+            ],
+            "progression": true,
+            "id": 3
+        },
+        {
+            "name": "Demon Blade",
+            "category": [
+                "Skills"
+            ],
+            "progression": true,
+            "id": 4
+        },
+        {
+            "count": 2,
+            "name": "Dodge",
+            "category": [
+                "Skills"
+            ],
+            "progression": true,
+            "id": 10
+        },
+        {
+            "count": 3,
+            "name": "Dash",
+            "category": [
+                "Skills"
+            ],
+            "progression": true,
+            "id": 12
+        },
+        {
+            "name": "Double Jump",
+            "category": [
+                "Skills"
+            ],
+            "progression": true,
+            "id": 15
+        },
+        {
+            "name": "Speed Charge",
+            "category": [
+                "Skills"
+            ],
+            "progression": true,
+            "id": 16
+        },
+        {
+            "name": "Crystal Break",
+            "category": [
+                "Skills"
+            ],
+            "progression": true,
+            "id": 17
+        },
+        {
+            "count": 2,
+            "name": "Spin",
+            "category": [
+                "Skills"
+            ],
+            "progression": true,
+            "id": 18
+        },
+        {
+            "count": 2,
+            "name": "Throw",
+            "category": [
+                "Skills"
+            ],
+            "progression": true,
+            "id": 20
+        },
+        {
+            "count": 2,
+            "name": "Armor",
+            "category": [
+                "Skills"
+            ],
+            "progression": true,
+            "id": 22
+        },
+        {
+            "name": "Vision",
+            "category": [
+                "Skills"
+            ],
+            "progression": true,
+            "id": 24
+        },
+        {
+            "name": "Parry",
+            "category": [
+                "Skills"
+            ],
+            "progression": false,
+            "id": 25
+        },
+        {
+            "name": "Meditate",
+            "category": [
+                "Skills"
+            ],
+            "progression": false,
+            "id": 26
+        },
+        {
+            "name": "Triple Slash",
+            "category": [
+                "Skills"
+            ],
+            "progression": false,
+            "id": 27
+        },
+        {
+            "name": "Electric Wind Lethal Strike",
+            "category": [
+                "Skills"
+            ],
+            "progression": false,
+            "id": 28
+        },
+        {
+            "count": 2,
+            "name": "Fatal Draw",
+            "category": [
+                "Skills"
+            ],
+            "progression": true,
+            "id": 29
+        },
+        {
+            "name": "Echo Rune",
+            "category": [
+                "Runes"
+            ],
+            "progression": false,
+            "id": 50
+        },
+        {
+            "name": "Agility Rune",
+            "category": [
+                "Runes"
+            ],
+            "progression": false,
+            "id": 51
+        },
+        {
+            "name": "Mind Rune",
+            "category": [
+                "Runes"
+            ],
+            "progression": false,
+            "id": 52
+        },
+        {
+            "name": "Juggernaut Rune",
+            "category": [
+                "Runes"
+            ],
+            "progression": false,
+            "id": 53
+        },
+        {
+            "name": "Flurry Rune",
+            "category": [
+                "Runes"
+            ],
+            "progression": false,
+            "id": 54
+        },
+        {
+            "name": "Risk Rune",
+            "category": [
+                "Runes"
+            ],
+            "progression": false,
+            "id": 55
+        },
+        {
+            "count": 2,
+            "name": "Magic Bar",
+            "category": [
+                "Magic Bars"
+            ],
+            "progression": false,
+            "id": 60
+        },
+        {
+            "count": 32,
+            "name": "Coin",
+            "category": [
+                "Coins"
+            ],
+            "progression": true,
+            "id": 100
+        },
+        {
+            "count": 36,
+            "name": "Talisman",
+            "category": [
+                "Talismans"
+            ],
+            "progression": false,
+            "id": 150
+        },
+        {
+            "count": 34,
+            "name": "Checkpoint",
+            "category": [
+                "Checkpoints"
+            ],
+            "progression": false,
+            "id": 200
+        },
+        {
+            "name": "Prologue Done",
+            "category": [
+                "Events"
+            ],
+            "progression": true,
+            "id": 300
+        },
+        {
+            "name": "Defeated Samurai",
+            "category": [
+                "Events"
+            ],
+            "progression": true,
+            "id": 301
+        }
+    ]
+}
