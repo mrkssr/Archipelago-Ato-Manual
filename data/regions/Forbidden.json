@@ -1,0 +1,123 @@
+{
+    "rA1_115": {
+        "requires": "|Crystal Break|",
+        "connects_to": [
+            "rA1_116"
+        ]
+    },
+    "rA1_116": {
+        "connects_to": [
+            "rA1_117"
+        ]
+    },
+    "rA1_117": {
+        "connects_to": [
+            "rA1_118"
+        ]
+    },
+    "rA1_118": {
+        "requires": "|Double Jump|",
+        "connects_to": [
+            "rA1_118ArenaFatal",
+            "rA1_119"
+        ]
+    },
+    "rA1_118ArenaFatal": {
+        "requires": "|Coin:32| and |Dash| and (|Double Jump| or |Armor|)",
+        "connects_to": [
+            "rA1_118ArenaFatalReward"
+        ]
+    },
+    "rA1_118ArenaFatalReward": {},
+    "rA1_119": {
+        "requires": "|Dash| and (|Double Jump| or |Armor|)",
+        "connects_to": [
+            "rA1_120",
+            "rA1_123"
+        ]
+    },
+    "rA1_120": {
+        "connects_to": [
+            "rA1_121"
+        ]
+    },
+    "rA1_121": {
+        "connects_to": [
+            "rA1_122"
+        ]
+    },
+    "rA1_122": {},
+    "rA1_123": {
+        "requires": "|Speed Charge| and |Dash| and (|Double Jump| or |Armor|)",
+        "connects_to": [
+            "rA1_124"
+        ]
+    },
+    "rA1_124": {
+        "requires": "|Double Jump| and |Armor| and |Dash|",
+        "connects_to": [
+            "rA1_125"
+        ]
+    },
+    "rA1_125": {
+        "requires": "|Double Jump| and |Spin|",
+        "connects_to": [
+            "rA1_126"
+        ]
+    },
+    "rA1_126": {
+        "requires": "|Double Jump| and |Throw|",
+        "connects_to": [
+            "rA1_127"
+        ]
+    },
+    "rA1_127": {
+        "requires": "|Double Jump|",
+        "connects_to": [
+            "rA1_128"
+        ]
+    },
+    "rA1_128": {
+        "requires": "|Double Jump| and |Spin| and |Throw| and |Armor|",
+        "connects_to": [
+            "rA1_129"
+        ]
+    },
+    "rA1_129": {
+        "requires": "|Double Jump|",
+        "connects_to": [
+            "rA1_130"
+        ]
+    },
+    "rA1_130": {
+        "connects_to": [
+            "rA1_131"
+        ]
+    },
+    "rA1_131": {
+        "connects_to": [
+            "rA1_132Boss"
+        ]
+    },
+    "rA1_132Boss": {
+        "connects_to": [
+            "rA1_133"
+        ]
+    },
+    "rA1_133": {
+        "connects_to": [
+            "rA1_134"
+        ]
+    },
+    "rA1_134": {
+        "connects_to": [
+            "rA1_135"
+        ]
+    },
+    "rA1_135": {
+        "requires": "|Double Jump| and (|Dash:2| or (|Dash:1| and |Armor|)) and |Demon Blade|",
+        "connects_to": [
+            "rA1_120"
+        ]
+    }
+}

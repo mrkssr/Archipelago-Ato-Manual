@@ -1,0 +1,100 @@
+{
+    "rA1_96": {
+        "connects_to": [
+            "rA1_96Warp",
+            "rA1_97",
+            "rA1_98"
+        ]
+    },
+    "rA1_96Warp": {
+        "requires": "|Double Jump| or |Armor|"
+    },
+    "rA1_97": {},
+    "rA1_98": {
+        "connects_to": [
+            "rA1_99"
+        ]
+    },
+    "rA1_99": {
+        "connects_to": [
+            "rA1_100"
+        ]
+    },
+    "rA1_100": {
+        "requires": "|Armor|",
+        "connects_to": [
+            "rA1_100Coin",
+            "rA1_101"
+        ]
+    },
+    "rA1_100Coin": {"requires": "|Armor|"},
+    "rA1_101": {
+        "requires": "|Armor|",
+        "connects_to": [
+            "rA1_102",
+            "rA1_103CP"
+        ]
+    },
+    "rA1_102": {
+        "requires": "|Armor|"
+    },
+    "rA1_103CP": {
+        "requires": "|Armor| and |Double Jump|",
+        "connects_to": [
+            "rA1_104Boss"
+        ]
+    },
+    "rA1_104Boss": {
+        "connects_to": [
+            "rA1_105"
+        ]
+    },
+    "rA1_105": {
+        "requires": "|Armor|",
+        "connects_to": [
+            "rA1_106"
+        ]
+    },
+    "rA1_106": {
+        "connects_to": [
+            "rA1_107"
+        ],
+        "requires": "|Armor|"
+    },
+    "rA1_107": {
+        "connects_to": [
+            "rA1_108"
+        ],
+        "requires": "|Armor| and |Double Jump|"
+    },
+    "rA1_108": {
+        "requires": "|Armor| and |Double Jump|",
+        "connects_to": [
+            "rA1_109"
+        ]
+    },
+    "rA1_109": {
+        "requires": "|Armor| and |Double Jump| and |Dash|",
+        "connects_to": [
+            "rA1_110"
+        ]
+    },
+    "rA1_110": {
+        "connects_to": [
+            "rA1_113",
+            "rA1_111BossFake"
+        ]
+    },
+    "rA1_113": {
+        "connects_to": [
+            "rA1_114Boss"
+        ]
+    },
+    "rA1_114Boss": {},
+    "rA1_111BossFake": {
+        "connects_to": [
+            "rA1_112"
+        ]
+    },
+    "rA1_112": {}
+}

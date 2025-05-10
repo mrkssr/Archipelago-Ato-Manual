@@ -1,0 +1,113 @@
+{
+    "rA1_142": {
+        "connects_to": [
+            "rA1_143"
+        ]
+    },
+    "rA1_143": {
+        "connects_to": [
+            "rA1_144","rA1_146"
+        ]
+    },
+    "rA1_144": {
+        "connects_to": [
+            "rA1_144Coin",
+            "rA1_145"
+        ],"requires": "|Double Jump| or |Armor|"
+    },
+    "rA1_144Coin": {},
+    "rA1_145": {
+    },
+    "rA1_146": {
+        "requires": "|Double Jump| and (|Dash:2| or (|Dash:1| and |Armor|))",
+        "connects_to": [
+            "rA1_147",
+            "rA1_149",
+            "rA1_152"
+        ]
+    },
+    "rA1_147": {
+        "connects_to": [
+            "rA1_148Boss"
+        ]
+    },
+    "rA1_148Boss": {"requires": "|Double Jump| or |Armor|"},
+    "rA1_149": {
+        "requires": "|Double Jump| or |Armor|",
+        "connects_to": [
+            "rA1_150Warp",
+            "rA1_151"
+        ]
+    },
+    "rA1_150Warp": {
+        "requires": "|Double Jump| and (|Dash:2| or (|Dash:1| and |Armor|))"
+    },
+    "rA1_151": {
+        "requires": "(|Double Jump| and |Armor|) or |Dash|",
+        "connects_to": [
+            "rA1_151Coin"
+        ]
+    },
+    "rA1_151Coin": {
+        "requires": "|Double Jump| and |Coin:13| and |Crystal Break|"
+    },
+    "rA1_152": {
+        "requires": "|Defeated Samurai|",
+        "connects_to": [
+            "rA1_153Boss"
+        ]
+    },
+    "rA1_153Boss": {
+        "requires": "|Demon Blade|",
+        "connects_to": [
+            "rA1_154"
+        ]
+    },
+    "rA1_154": {
+        "requires": "(|Dash:1| and (|Double Jump| or |Armor|)) or |Dash:2|",
+            "connects_to": [
+            "rA1_155"
+        ]
+    },
+    "rA1_155": {
+        "connects_to": [
+            "rA1_156"
+        ]
+    },
+    "rA1_156": {
+        "connects_to": [
+            "rA1_156hallway"
+        ]
+    },
+    "rA1_156hallway": {
+        "connects_to": [
+            "rA1_157"
+        ]
+    },
+    "rA1_157": {
+        "connects_to": [
+            "rA1_158Boss"
+        ]
+    },
+    "rA1_158Boss": {
+        "connects_to": [
+            "rA1_159"
+        ]
+    },
+    "rA1_159": {
+        "connects_to": [
+            "rA1_160"
+        ]
+    },
+    "rA1_160": {
+        "connects_to": [
+            "rA1_161"
+        ]
+    },
+    "rA1_161": {
+        "connects_to": [
+            "rA1_162Boss"
+        ]
+    },
+    "rA1_162Boss": {}
+}

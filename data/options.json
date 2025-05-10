@@ -9,10 +9,14 @@
             "display_name": "Goal",
             "description": "How to End your Randomized playthrough.",
             "aliases": {
-                "boss": 0,
+                "final boss": 0,
                 "boss hunt low": 1,
-                "boss hunt middle": 2,
-                "all bosses": 3
+                "boss hunt mid": 2,
+                "all bosses": 3,
+                "coin hunt low": 4,
+                "coin hunt mid": 5,
+                "coin hunt high": 6,
+                "all coins": 7
             },
             "hidden": false
         },
@@ -43,11 +47,15 @@
                 "rebirth": 0,
                 "mask hunt (11)": 1,
                 "mask hunt (22)": 2,
-                "mask hunt (All)": 3
+                "mask hunt (All)": 3,
+                "coin hunt (8 coins)": 4,
+                "coin hunt (16 coins)": 5,
+                "coin hunt (24 coins)": 6,
+                "coin hunt (all coins)": 7
             },
             "default": 0,
             "allow_custom_value": false,
-            "group": "Example Options"
+            "group": "Goal"
         },
         "orb_shuffle": {
             "description": [
@@ -56,6 +64,60 @@
             "type": "Toggle",
             "default": true,
             "group": "Orbs"
+        },
+        "skills_shuffle": {
+            "description": [
+                "Randomize the ..."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Skills"
+        },
+        "runes_shuffle": {
+            "description": [
+                "Randomize the ..."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Runes"
+        },
+        "coins_shuffle": {
+            "description": [
+                "Randomize the ..."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Coins"
+        },
+        "talismans_shuffle": {
+            "description": [
+                "Randomize the ..."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Talismans"
+        },
+        "checkpoints_shuffle": {
+            "description": [
+                "Randomize the ..."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Checkpoints"
+        },
+        "logic": {
+            "description": [
+                "'normal' = uses the intended skills",
+                "'hard' = uses certain techs to reach locations without all necessary skills"
+            ],
+            "type": "Choice",
+            "values" : {
+                "normal" : 0,
+                "hard" : 1
+            },
+            "default": 0,
+            "allow_custom_value": false
+
         },
         "Example_Range": {
             "type": "Range",
@@ -72,17 +134,6 @@
                 "example": 2
             },
             "group": "Example Options"
-        },
-        "DLC_enabled": {
-            "display_name": "DLC Enabled",
-            "description": "Is the Dlc enabled?",
-            "type": "Toggle",
-            "visibility": [
-                "simple_ui",
-                "complex_ui",
-                "template"
-            ],
-            "default": true
         }
     }
 }

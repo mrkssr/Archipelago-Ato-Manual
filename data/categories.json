@@ -1,51 +1,19 @@
 {
     "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
-    "Orbs": {
-        "yaml_option": [
-            "orb_shuffle"
-        ],
-        "desc": "Randomize Orbs"
-    },
-    "Skills": {
-        "yaml_option": [
-            "skill_shuffle"
-        ],
-        "desc": "Randomize Skills"
-    },
-    "Runes": {
-        "yaml_option": [
-            "rune_shuffle"
-        ],
-        "desc": "Randomize Runes"
-    },
-    "Coins": {
-        "yaml_option": [
-            "coin_shuffle"
-        ],
-        "desc": "Randomize Coins"
-    },
-    "Talismans": {
-        "yaml_option": [
-            "talisman_shuffle"
-        ],
-        "default": false,
-        "desc": "Randomize Talismans"
-    },
-    "Checkpoints": {
-        "yaml_option": [
-            "checkpoint_shuffle"
-        ],
-        "default": false,
-        "desc": "Randomize Checkpoints"
-    },
+    "Orbs": {},
+    "Skills": {},
+    "Runes": {},
+    "Coins": {},
+    "Talismans": {},
+    "Checkpoints": {},
     "Blossom": {},
     "Hills": {},
     "Fall": {},
     "Lake": {},
-    "Pillars": {},
-    "Sky Cemetery": {},
+    "Pillar": {},
+    "Crimson": {},
     "Swamp": {},
-    "Forbidden Isle": {},
+    "Forbidden": {},
     "Temple": {},
     "Bosses": {},
     "Events": {}

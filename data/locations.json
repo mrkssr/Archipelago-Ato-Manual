@@ -4,7 +4,7 @@
         {
             "name": "Blue Orb",
             "category": [
-                "Pillars"
+                "Pillar"
             ],
             "region": "rA1_28",
             "id": 1
@@ -12,7 +12,7 @@
         {
             "name": "Red Orb",
             "category": [
-                "Sky Cemetery"
+                "Crimson"
             ],
             "region": "rA1_79",
             "id": 2
@@ -28,7 +28,7 @@
         {
             "name": "Demon Blade",
             "category": [
-                "Forbidden Isle"
+                "Forbidden"
             ],
             "region": "rA1_134",
             "id": 4
@@ -71,7 +71,7 @@
                 "Lake"
             ],
             "region": "rA1_168ArcherReward",
-            "requires": "|Double Jump|",
+            "requires": "{double_jump()}",
             "id": 14
         },
         {
@@ -102,7 +102,7 @@
         {
             "name": "Spin",
             "category": [
-                "Pillars"
+                "Pillar"
             ],
             "region": "rA1_16spinpower",
             "id": 18
@@ -119,10 +119,10 @@
         {
             "name": "Throw",
             "category": [
-                "Sky Cemetery"
+                "Crimson"
             ],
             "region": "rA1_69",
-            "requires": "|Double Jump| or |Armor|",
+            "requires": "{double_jump()} or {armor()}",
             "id": 20
         },
         {
@@ -147,7 +147,7 @@
                 "Fall"
             ],
             "region": "rA1_141ArenaArmor",
-            "requires": "|Armor|",
+            "requires": "{armor()}",
             "id": 23
         },
         {
@@ -188,7 +188,7 @@
                 "Hills"
             ],
             "region": "rA1_42Boss",
-            "requires": "|Double Jump|",
+            "requires": "{double_jump()}",
             "id": 28
         },
         {
@@ -202,7 +202,7 @@
         {
             "name": "Fatal Draw Upgrade",
             "category": [
-                "Forbidden Isle"
+                "Forbidden"
             ],
             "region": "rA1_118ArenaFatalReward",
             "id": 30
@@ -221,7 +221,7 @@
                 "Temple"
             ],
             "region": "rA1_153Boss",
-            "requires": "(|Dash:1| and (|Double Jump| or |Armor|)) or |Dash:2|",
+            "requires": "{chain_dash()}",
             "id": 51
         },
         {
@@ -246,7 +246,7 @@
                 "Hills"
             ],
             "region": "rA0_10",
-            "requires": "|Double Jump| or |Armor|",
+            "requires": "{double_jump()} or {armor()}",
             "id": 54
         },
         {
@@ -276,7 +276,7 @@
         {
             "name": "Coin Most Left",
             "category": [
-                "Forbidden Isle"
+                "Forbidden"
             ],
             "region": "rA1_122",
             "id": 100
@@ -304,7 +304,7 @@
                 "Blossom"
             ],
             "region": "rA1_1Coin0",
-            "requires": "|Double Jump| and (|Armor| or |Dash:2| or (|Dash:1| and |Dodge|))",
+            "requires": "{double_jump()}",
             "id": 103
         },
         {
@@ -313,7 +313,7 @@
                 "Blossom"
             ],
             "region": "rA1_1Coin1",
-            "requires": "|Double Jump|",
+            "requires": "{double_jump()}",
             "id": 104
         },
         {
@@ -322,7 +322,7 @@
                 "Blossom"
             ],
             "region": "rA1_29VagrantBossReward",
-            "requires": "|Double Jump|",
+            "requires": "{double_jump()}",
             "id": 105
         },
         {
@@ -330,17 +330,17 @@
             "category": [
                 "Blossom"
             ],
-            "requires": "|Double Jump| and |Dash:2|",
+            "requires": "{double_jump()} and {chain_dash()}",
             "region": "rA0_5Coin",
             "id": 106
         },
         {
             "name": "Coin Spins",
             "category": [
-                "Pillars"
+                "Pillar"
             ],
             "region": "rA1_23",
-            "requires": "|Dash| and |Spin| and |Double Jump|",
+            "requires": "|Dash| and |Spin| and {double_jump()}",
             "id": 107
         },
         {
@@ -349,7 +349,7 @@
                 "Hills"
             ],
             "region": "rA1_37",
-            "requires": "|Dash| or |Double Jump|",
+            "requires": "|Dash| or {double_jump()}",
             "id": 108
         },
         {
@@ -374,7 +374,7 @@
                 "Hills"
             ],
             "region": "rA1_43",
-            "requires": "|Double Jump| or |Armor|",
+            "requires": "{double_jump()} or {armor()}",
             "id": 111
         },
         {
@@ -391,7 +391,7 @@
                 "Fall"
             ],
             "region": "rA0_14secret",
-            "requires": "|Speed Charge| and |Double Jump| and ((|Armor| and |Dash:1|) or |Dash:2|)",
+            "requires": "|Speed Charge| and {double_jump()} and (({armor()} and |Dash:1|) or {chain_dash()})",
             "id": 113
         },
         {
@@ -409,7 +409,7 @@
                 "Fall"
             ],
             "region": "rA0_24",
-            "requires": "|Double Jump| and ((|Dash:1| and |Dodge|) or |Dash:2| or (|Dash:1| or |Armor|))",
+            "requires": "{double_jump()} and ({chain_dash()})",
             "id": 115
         },
         {
@@ -418,7 +418,7 @@
                 "Fall"
             ],
             "region": "rA0_26Coin",
-            "requires": "|Speed Charge| and |Double Jump|",
+            "requires": "|Speed Charge| and {double_jump()}",
             "id": 116
         },
         {
@@ -427,7 +427,7 @@
                 "Fall"
             ],
             "region": "rA0_19Coin",
-            "requires": "|Throw| and (|Double Jump| or |Armor|)",
+            "requires": "|Throw| and ({double_jump()} or {armor()})",
             "id": 117
         },
         {
@@ -436,7 +436,7 @@
                 "Fall"
             ],
             "region": "rA1_165Coin",
-            "requires": "|Double Jump|",
+            "requires": "{double_jump()}",
             "id": 118
         },
         {
@@ -445,7 +445,7 @@
                 "Lake"
             ],
             "region": "rA0_28",
-            "requires": "|Double Jump| or (|Double Jump| and (|Armor| or |Speed Charge|))",
+            "requires": "({logic_normal()} and {double_jump()} and |Speed Charge|) or ({logic_hard()})",
             "id": 119
         },
         {
@@ -470,7 +470,7 @@
                 "Lake"
             ],
             "region": "rA1_84Coin",
-            "requires": "|Double Jump| or |Armor|",
+            "requires": "{double_jump()} or {armor()}",
             "id": 122
         },
         {
@@ -479,7 +479,7 @@
                 "Lake"
             ],
             "region": "rA1_169",
-            "requires": "|Armor| or (|Double Jump| and |Dash:2| or (|Dash:1| and |Armor|))",
+            "requires": "{armor()} or ({chain_dash()})",
             "id": 123
         },
         {
@@ -488,7 +488,7 @@
                 "Lake"
             ],
             "region": "rA1_139",
-            "requires": "|Double Jump|",
+            "requires": "{double_jump()}",
             "id": 124
         },
         {
@@ -502,10 +502,10 @@
         {
             "name": "Coin Yari",
             "category": [
-                "Sky Cemetery"
+                "Crimson"
             ],
             "region": "rA1_77Coin",
-            "requires": "|Double Jump| and |Throw|",
+            "requires": "{double_jump()} and |Throw|",
             "id": 126
         },
         {
@@ -514,7 +514,7 @@
                 "Swamp"
             ],
             "region": "rA1_100Coin",
-            "requires": "|Armor|",
+            "requires": "{armor()}",
             "id": 127
         },
         {
@@ -523,7 +523,7 @@
                 "Swamp"
             ],
             "region": "rA1_105",
-            "requires": "|Armor|",
+            "requires": "{armor()}",
             "id": 128
         },
         {
@@ -532,7 +532,7 @@
                 "Temple"
             ],
             "region": "rA1_144Coin",
-            "requires": "|Double Jump|",
+            "requires": "{double_jump()}",
             "id": 129
         },
         {
@@ -541,7 +541,7 @@
                 "Temple"
             ],
             "region": "rA1_151",
-            "requires": "|Double Jump| and |Throw|",
+            "requires": "{double_jump()} and |Throw|",
             "id": 130
         },
         {
@@ -550,7 +550,7 @@
                 "Temple"
             ],
             "region": "rA1_152",
-            "requires": "|Speed Charge| and |Double Jump|",
+            "requires": "|Speed Charge| and {double_jump()}",
             "id": 131
         },
         {
@@ -559,7 +559,7 @@
                 "Blossom"
             ],
             "region": "rA0_0",
-            "requires": "|Dash| or (|Double Jump| and |Armor|)",
+            "requires": "|Dash| or ({double_jump()} and {armor()})",
             "id": 150
         },
         {
@@ -576,7 +576,7 @@
                 "Blossom"
             ],
             "region": "rA1_1under",
-            "requires": "|Double Jump| or |Armor| or ((|Double Jump| or |Armor|) and |Speed Charge|)",
+            "requires": "{double_jump()} or {armor()} or (({double_jump()} or {armor()}) and |Speed Charge|)",
             "id": 152
         },
         {
@@ -585,7 +585,7 @@
                 "Blossom"
             ],
             "region": "rA1_4",
-            "requires": "(|Dodge:2| and (|Double Jump| or |Armor|)) or (|Double Jump| or |Armor|)",
+            "requires": "(|Dodge:2| and ({double_jump()} or {armor()})) or ({double_jump()} or {armor()})",
             "id": 153
         },
         {
@@ -603,7 +603,7 @@
                 "Blossom"
             ],
             "region": "rA1_11Armor",
-            "requires": "|Armor|",
+            "requires": "{armor()}",
             "id": 155
         },
         {
@@ -621,7 +621,7 @@
                 "Blossom"
             ],
             "region": "rA1_32Deflector",
-            "requires": "|Double Jump| and ((|Throw| and |Dash|) or (|Armor| and |Spin|))",
+            "requires": "{double_jump()} and ((|Throw| and |Dash|) or ({armor()} and |Spin|))",
             "id": 157
         },
         {
@@ -630,25 +630,25 @@
                 "Blossom"
             ],
             "region": "rA1_35",
-            "requires": "|Double Jump| or |Armor|",
+            "requires": "{double_jump()} or {armor()}",
             "id": 158
         },
         {
             "name": "Talisman Spins",
             "category": [
-                "Pillars"
+                "Pillar"
             ],
             "region": "rA1_20",
-            "requires": "|Double Jump| and |Spin| and |Crystal Break|",
+            "requires": "{double_jump()} and |Spin| and |Crystal Break|",
             "id": 159
         },
         {
             "name": "Talisman Ancient Warrior Checkpoint",
             "category": [
-                "Pillars"
+                "Pillar"
             ],
             "region": "rA1_25CP",
-            "requires": "|Spin| and |Double Jump| and |Armor|",
+            "requires": "|Spin| and {double_jump()} and {armor()}",
             "id": 160
         },
         {
@@ -665,7 +665,7 @@
                 "Hills"
             ],
             "region": "rA0_8",
-            "requires": "|Crystal Break| and |Dash| and (|Double Jump| or |Spin|)",
+            "requires": "|Dash|",
             "id": 162
         },
         {
@@ -674,7 +674,7 @@
                 "Hills"
             ],
             "region": "rA0_7",
-            "requires": "|Dash| or (|Double Jump| and |Crystal Break|)",
+            "requires": "|Dash| or ({double_jump()} and |Crystal Break|)",
             "id": 163
         },
         {
@@ -683,7 +683,7 @@
                 "Hills"
             ],
             "region": "rA0_11",
-            "requires": "|Double Jump| or |Armor|",
+            "requires": "{double_jump()} or {armor()}",
             "id": 164
         },
         {
@@ -692,7 +692,7 @@
                 "Fall"
             ],
             "region": "rA1_46Hidden",
-            "requires": "|Vision| and (|Double Jump| or |Armor|)",
+            "requires": "|Vision| and ({double_jump()} or {armor()})",
             "id": 165
         },
         {
@@ -701,7 +701,7 @@
                 "Fall"
             ],
             "region": "rA1_47Armor",
-            "requires": "|Armor|",
+            "requires": "{armor()}",
             "id": 166
         },
         {
@@ -727,7 +727,7 @@
                 "Fall"
             ],
             "region": "rA0_16secret",
-            "requires": "(|Crystal Break| or |Speed Charge|) and |Double Jump| and |Dash|",
+            "requires": "(|Crystal Break| or |Speed Charge|) and {double_jump()} and |Dash|",
             "id": 169
         },
         {
@@ -736,7 +736,7 @@
                 "Fall"
             ],
             "region": "rA1_57Secret",
-            "requires": "|Dash| or |Double Jump|",
+            "requires": "|Dash| or {double_jump()}",
             "id": 170
         },
         {
@@ -745,13 +745,13 @@
                 "Fall"
             ],
             "region": "rA0_23",
-            "requires": "|Double Jump| and (|Dash:2| or (|Dash:1| and |Armor|))",
+            "requires": "{double_jump()} and ({chain_dash()})",
             "id": 171
         },
         {
             "name": "Talisman Black Piles Room",
             "category": [
-                "Sky Cemetery"
+                "Crimson"
             ],
             "region": "rA1_66dark",
             "requires": "|Dash|",
@@ -760,10 +760,10 @@
         {
             "name": "Talisman Yari",
             "category": [
-                "Sky Cemetery"
+                "Crimson"
             ],
             "region": "rA1_74",
-            "requires": "|Double Jump| and |Dash| and |Throw|",
+            "requires": "{double_jump()} and |Dash| and |Throw|",
             "id": 173
         },
         {
@@ -781,7 +781,7 @@
                 "Lake"
             ],
             "region": "rA1_84",
-            "requires": "|Double Jump| and |Dash:2|",
+            "requires": "{double_jump()} and {chain_dash()}",
             "id": 175
         },
         {
@@ -790,7 +790,7 @@
                 "Lake"
             ],
             "region": "rA0_32secret",
-            "requires": "|Double Jump| and |Dash|",
+            "requires": "{double_jump()} and |Dash|",
             "id": 176
         },
         {
@@ -799,7 +799,7 @@
                 "Lake"
             ],
             "region": "rA0_37",
-            "requires": "|Double Jump| and (|Speed Charge| or |Armor|)",
+            "requires": "{double_jump()} and (|Speed Charge| or {armor()})",
             "id": 177
         },
         {
@@ -808,7 +808,7 @@
                 "Lake"
             ],
             "region": "rA0_39",
-            "requires": "(|Double Jump| and |Speed Charge| and |Armor|) or (|Double Jump| and |Dash:2|)",
+            "requires": "({double_jump()} and |Speed Charge| and {armor()}) or ({double_jump()} and {chain_dash()})",
             "id": 178
         },
         {
@@ -817,7 +817,7 @@
                 "Lake"
             ],
             "region": "rA1_92",
-            "requires": "|Double Jump| and |Dash| and |Vision|",
+            "requires": "{double_jump()} and |Dash| and |Vision|",
             "id": 179
         },
         {
@@ -826,7 +826,7 @@
                 "Lake"
             ],
             "region": "rA1_87",
-            "requires": "|Double Jump| and |Dash|",
+            "requires": "{double_jump()} and |Dash|",
             "id": 180
         },
         {
@@ -852,7 +852,7 @@
                 "Swamp"
             ],
             "region": "rA1_102",
-            "requires": "|Armor| and |Double Jump|",
+            "requires": "{armor()} and {double_jump()}",
             "id": 183
         },
         {
@@ -861,7 +861,7 @@
                 "Temple"
             ],
             "region": "rA1_151Coin",
-            "requires": "|Double Jump| and |Crystal Break|",
+            "requires": "{double_jump()} and |Crystal Break|",
             "id": 184
         },
         {
@@ -870,22 +870,22 @@
                 "Temple"
             ],
             "region": "rA1_145",
-            "requires": "(|Double Jump| or |Armor|) and |Throw|",
+            "requires": "({double_jump()} or {armor()}) and |Throw|",
             "id": 185
         },
         {
             "name": "Checkpoint Fatal Arena",
             "category": [
-                "Forbidden Isle"
+                "Forbidden"
             ],
             "region": "rA1_118",
-            "requires": "|Coin:32| and |Dash| and (|Double Jump| or |Armor|)",
+            "requires": "|Coin:32| and |Dash| and ({double_jump()} or {armor()})",
             "id": 200
         },
         {
             "name": "Checkpoint Monk",
             "category": [
-                "Forbidden Isle"
+                "Forbidden"
             ],
             "region": "rA1_130",
             "id": 201
@@ -904,7 +904,7 @@
                 "Blossom"
             ],
             "region": "rA1_1CP",
-            "requires": "|Double Jump| or |Armor|",
+            "requires": "{double_jump()} or {armor()}",
             "id": 203
         },
         {
@@ -926,16 +926,16 @@
         {
             "name": "Checkpoint Mother",
             "category": [
-                "Pillars"
+                "Pillar"
             ],
             "region": "rA1_14CP",
-            "requires": "|Double Jump|",
+            "requires": "{double_jump()}",
             "id": 206
         },
         {
             "name": "Checkpoint Spin Puzzles",
             "category": [
-                "Pillars"
+                "Pillar"
             ],
             "region": "rA1_21",
             "id": 207
@@ -943,7 +943,7 @@
         {
             "name": "Checkpoint Ancient Warrior",
             "category": [
-                "Pillars"
+                "Pillar"
             ],
             "region": "rA1_25CP",
             "id": 208
@@ -954,7 +954,7 @@
                 "Hills"
             ],
             "region": "rA1_41Nothing",
-            "requires": "|Double Jump|",
+            "requires": "{double_jump()}",
             "id": 209
         },
         {
@@ -1019,25 +1019,25 @@
                 "Fall"
             ],
             "region": "rA1_140",
-            "requires": "|Armor|",
+            "requires": "{armor()}",
             "id": 217
         },
         {
             "name": "Checkpoint Child",
             "category": [
-                "Sky Cemetery"
+                "Crimson"
             ],
             "region": "rA1_67CP",
-            "requires": "|Double Jump| or |Armor|",
+            "requires": "{double_jump()} or {armor()}",
             "id": 218
         },
         {
             "name": "Checkpoint Yari",
             "category": [
-                "Sky Cemetery"
+                "Crimson"
             ],
             "region": "rA1_77",
-            "requires": "|Double Jump| or |Armor| or |Speed Charge|",
+            "requires": "{double_jump()} or {armor()} or |Speed Charge|",
             "id": 219
         },
         {
@@ -1087,7 +1087,7 @@
                 "Lake"
             ],
             "region": "rA1_86",
-            "requires": "|Double Jump| or |Armor|",
+            "requires": "{double_jump()} or {armor()}",
             "id": 225
         },
         {
@@ -1136,7 +1136,7 @@
                 "Temple"
             ],
             "region": "rA1_146",
-            "requires": "|Double Jump|",
+            "requires": "{double_jump()}",
             "id": 231
         },
         {
@@ -1172,51 +1172,6 @@
             "region": "rA0_45Boss",
             "place_item": ["Defeated Samurai"],
             "id": 301
-        },
-        {
-            "name": "Defeat Rebirth",
-            "victory": true,
-            "category": [
-                "Goal"
-            ],
-            "region": "rA1_162Boss",
-            "id": 1000
-        },
-        {
-            "name": "Coin Hunt (8 Coins)",
-            "victory": true,
-            "category": [
-                "Goal"
-            ],
-            "requires": "|Coin:8|",
-            "id": 1010
-        },
-        {
-            "name": "Coin Hunt (16 Coins)",
-            "victory": true,
-            "category": [
-                "Goal"
-            ],
-            "requires": "|Coin:16|",
-            "id": 1011
-        },
-        {
-            "name": "Coin Hunt (24 Coins)",
-            "victory": true,
-            "category": [
-                "Goal"
-            ],
-            "requires": "|Coin:24|",
-            "id": 1012
-        },
-        {
-            "name": "Coin Hunt (All Coins)",
-            "victory": true,
-            "category": [
-                "Goal"
-            ],
-            "requires": "|Coin:all|",
-            "id": 1013
         }
     ]
 }

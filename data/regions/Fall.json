@@ -1,0 +1,231 @@
+{
+    "rA0_12": {
+        "connects_to": [
+            "rA0_13"
+        ]
+    },
+    "rA0_13": {
+        "connects_to": [
+            "rA0_14secret",
+            "rA0_16secret",
+            "rA0_15"
+        ]
+    },
+    "rA0_14secret": {
+        "requires": "|Crystal Break|",
+        "connects_to": [
+            "rA1_43",
+            "rA1_44",
+            "rA1_55Warp"
+        ]
+    },
+    "rA1_44": {
+        "connects_to": [
+            "rA1_45"
+        ]
+    },
+    "rA1_45": {
+        "connects_to": [
+            "rA1_46Hidden",
+            "rA1_47Armor",
+            "rA1_48"
+        ],
+        "requires": "|Coin:10|"
+    },
+    "rA1_46Hidden": {},
+    "rA1_47Armor": {},
+    "rA1_48": {
+        "connects_to": [
+            "rA1_49Paper",
+            "rA1_50CP"
+        ]
+    },
+    "rA1_49Paper": {
+        "requires": "|Speed Charge| and (|Dash:2| or (|Dash:1| and |Armor|))"
+    },
+    "rA1_50CP": {
+        "connects_to": [
+            "rA1_51Boss",
+            "rA1_52"
+        ]
+    },
+    "rA1_51Boss": {
+        "connects_to": [
+            "rA1_51BossReward"
+        ]
+    },
+    "rA1_51BossReward": {},
+    "rA1_52": {
+        "connects_to": [
+            "rA1_53VagrantBoss",
+            "rA1_54"
+        ]
+    },
+    "rA1_53VagrantBoss": {},
+    "rA1_54": {
+        "connects_to": [
+            "rATwitchArena"
+        ]
+    },
+    "rATwitchArena": {},
+    "rA1_55Warp": {
+        "connects_to": [
+            "rA1_56fan",
+            "rA1_57"
+        ]
+    },
+    "rA1_56fan": {
+        "requires": "|Spin|"
+    },
+    "rA1_57": {
+        "connects_to": [
+            "rA1_57Secret",
+            "rA1_59BossHidden",
+            "rA1_164"
+        ],
+        "requires": "|Double Jump| or |Armor|"
+    },
+    "rA1_57Secret": {},
+    "rA1_59BossHidden": {
+        "requires": "|Vision|",
+        "connects_to": [
+            "rA1_59BossHiddenReward"
+        ]
+    },
+    "rA1_59BossHiddenReward": {},
+    "rA1_164": {
+        "connects_to": [
+            "rA1_165"
+        ]
+    },
+    "rA1_165": {
+        "connects_to": [
+            "rA1_165Coin",
+            "rA1_165Meditate",
+            "rA1_166Tempest"
+        ]
+    },
+    "rA1_165Coin": {},
+    "rA1_165Meditate": {},
+    "rA1_166Tempest": {
+        "requires": "|Demon Blade| and (|Double Jump| or |Armor|)",
+        "connects_to": [
+            "rA1_166TempestReward"
+        ]
+    },
+    "rA1_166TempestReward": {
+        "requires": "(|Double Jump| or |Armor|)"
+    },
+    "rA0_15": {
+        "connects_to": [
+            "rA0_18",
+            "rA0_20"
+        ]
+    },
+    "rA0_18": {
+        "connects_to": [
+            "rA0_19"
+        ]
+    },
+    "rA0_19": {
+        "connects_to": [
+            "rA0_19Coin",
+            "rA1_140"
+        ],
+        "requires": "|Dash:2| or (|Dash:1| and (|Armor| or |Double Jump|))"
+    },
+    "rA0_19Coin": {
+        "requires": "|Double Jump|"
+    },
+    "rA1_140": {
+        "requires": "|Coin:13|",
+        "connects_to": [
+            "rA1_141ArenaArmor"
+        ]
+    },
+    "rA1_141ArenaArmor": {},
+    "rA0_20": {
+        "requires": "|Double Jump|",
+        "connects_to": [
+            "rA0_22Boss",
+            "rA0_24"
+        ]
+    },
+    "rA0_22Boss": {
+        "requires": "|Dash| and |Double Jump|",
+        "connects_to": [
+            "rA0_23"
+        ]
+    },
+    "rA0_23": {},
+    "rA0_24": {
+        "requires": "|Double Jump| and ((|Dash:1| and |Dodge|) or |Dash:2| or (|Dash:1| or |Armor|))",
+        "connects_to": [
+            "rA0_25hallway",
+            "rA1_61"
+        ]
+    },
+    "rA0_25hallway": {
+        "connects_to": [
+            "rA0_26"
+        ]
+    },
+    "rA0_26": {
+        "connects_to": [
+            "rA0_26Coin",
+            "rA0_27"
+        ],
+        "requires": "|Double Jump|"
+    },
+    "rA0_26Coin": {
+        "requires": "|Speed Charge| and |Double Jump|"
+    },
+    "rA1_61": {
+        "requires": "|Crystal Break| and |Double Jump| and (|Dash:2| or (|Dash:1| and |Dodge|) or (|Dash:1| and |Armor|))",
+        "connects_to": [
+            "rA1_60",
+            "rA1_62",
+            "rA1_65"
+        ]
+    },
+    "rA1_60": {
+        "requires": "|Double Jump| and |Dash|",
+        "connects_to": [
+            "rA0_16secret"
+        ]
+    },
+    "rA0_16secret": {
+        "requires": "|Double Jump| and |Dash|",
+        "connects_to": [
+            "rA0_17secret"
+        ]
+    },
+    "rA0_17secret": {
+        "requires": "|Double Jump| and |Dash:2| or (|Dash:1| and (|Dodge| or |Armor|))",
+        "connects_to": [
+            "rA0_17hallway"
+        ]
+    },
+    "rA0_17hallway": {
+        "connects_to": [
+            "rA0_12"
+        ]
+    },
+    "rA1_62": {
+        "connects_to": [
+            "rA1_63BossDevil"
+        ],
+        "requires": "|Coin:10|"
+    },
+    "rA1_63BossDevil": {
+        "connects_to": [
+            "rA1_64"
+        ]
+    },
+    "rA1_64": {
+        "connects_to": [
+            "rA1_64Coin"
+        ]
+    },
+    "rA1_64Coin": {}
+}

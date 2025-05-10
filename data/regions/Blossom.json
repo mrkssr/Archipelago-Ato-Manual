@@ -1,0 +1,193 @@
+{
+    "rA0_0": {
+        "connects_to": [
+            "rA1_136Love",
+            "rA1_5",
+            "rA0_1",
+            "rA1_0"
+        ],
+        "starting": true
+    },
+    "rA0_1": {
+        "connects_to": [
+            "rA0_2"
+        ]
+    },
+    "rA0_2": {
+        "connects_to": [
+            "rA0_2Transition"
+        ]
+    },
+    "rA0_2Transition": {
+        "connects_to": [
+            "rA0_3"
+        ]
+    },
+    "rA0_3": {
+        "connects_to": [
+            "rA0_4"
+        ]
+    },
+    "rA0_4": {
+        "connects_to": [
+            "rA0_4PowerUp",
+            "rA0_5"
+        ]
+    },
+    "rA0_4PowerUp": {},
+    "rA0_5": {
+        "connects_to": [
+            "rA0_5Coin",
+            "rA0_5Transition"
+        ]
+    },
+    "rA0_5Coin": {
+        "requires": "|Dash:2| or (|Dash:1| and (|Armor| or |Double Jump| or |Dodge|))"
+    },
+    "rA1_136Love": {},
+    "rA1_5": {
+        "requires": "|Dash:2| or (|Dash:1| and |Dodge|)",
+        "connects_to": [
+            "rA1_6"
+        ]
+    },
+    "rA1_6": {
+        "connects_to": [
+            "rA1_7Warp",
+            "rA1_8"
+        ]
+    },
+    "rA1_7Warp": {},
+    "rA1_8": {
+        "connects_to": [
+            "rA1_8Basement",
+            "rA1_115"
+        ]
+    },
+    "rA1_8Basement": {
+        "requires": "|Armor|"
+    },
+    "rA1_0": {
+        "requires": "|Dash| or (|Double Jump| and |Armor|)",
+        "connects_to": [
+            "rA1_0runway",
+            "rA1_1"
+        ]
+    },
+    "rA1_0runway": {
+        "requires": "|Dash| and |Double Jump| and |Speed Charge|",
+        "connects_to": [
+            "rA0_0"
+        ]
+    },
+    "rA1_1": {
+        "requires": "|Crystal Break| and (|Dash| or |Armor|)",
+        "connects_to": [
+            "rA1_1under",
+            "rA1_2",
+            "rA1_9",
+            "rA1_1hub"
+        ]
+    },
+    "rA1_1under": {},
+    "rA1_2": {
+        "requires": "|Double Jump| or |Armor|",
+        "connects_to": [
+            "rA1_3Boss"
+        ]
+    },
+    "rA1_3Boss": {
+        "requires": "|Double Jump| and (|Armor| or |Dash|)",
+        "connects_to": [
+            "rA1_4"
+        ]
+    },
+    "rA1_4": {},
+    "rA1_1hub": {
+        "connects_to": [
+            "rA1_1Coin0",
+            "rA1_1Coin1",
+            "rA1_1CP"
+        ],
+        "requires": "|Double Jump| or |Armor|"
+    },
+    "rA1_1Coin0": {},
+    "rA1_1Coin1": {"requires": "|Double Jump|"},
+    "rA1_1CP": {
+        "requires": "|Double Jump| and (|Dash| or |Armor|)",
+        "connects_to": [
+            "rA1_1VagrantBossFinal"
+        ]
+    },
+    "rA1_1VagrantBossFinal": {
+        "connects_to": [
+            "rA1_1VagrantBossFinalReward"
+        ]
+    },
+    "rA1_1VagrantBossFinalReward": {},
+    "rA1_9": {
+        "connects_to": [
+            "rA1_4",
+            "rA1_10"
+        ],
+        "requires": "|Double Jump| or |Armor|"
+    },
+    "rA1_10": {
+        "requires": "|Dash:2| or (|Dash:1| and |Armor|)",
+        "connects_to": [
+            "rA1_11Armor",
+            "rA1_12Warp",
+            "rA1_29",
+            "rA1_13halltotopillar"
+        ]
+    },
+    "rA1_11Armor": {},
+    "rA1_12Warp": {
+        "requires": "|Dash| and |Double Jump|"
+    },
+    "rA1_29": {
+        "connects_to": [
+            "rA1_10",
+            "rA1_29VagrantBoss",
+            "rA1_30"
+        ]
+    },
+    "rA1_29VagrantBoss": {
+        "requires": "|Coin:5| and (|Double Jump| or |Armor|)",
+        "connects_to": [
+            "rA1_29VagrantBossReward"
+        ]
+    },
+    "rA1_29VagrantBossReward": {},
+    "rA1_30": {
+        "connects_to": [
+            "rA1_29",
+            "rA1_36",
+            "rA1_31",
+            "rA1_37"
+        ]
+    },
+    "rA1_36": {},
+    "rA1_31": {
+        "connects_to": [
+            "rA1_32Deflector",
+            "rA1_33"
+        ],
+        "requires": "|Double Jump|"
+    },
+    "rA1_32Deflector": {},
+    "rA1_33": {
+        "connects_to": [
+            "rA1_34BearDouble"
+        ],
+        "requires": "|Dash| and (|Double Jump| or |Armor|)"
+    },
+    "rA1_34BearDouble": {
+        "connects_to": [
+            "rA1_35"
+        ]
+    },
+    "rA1_35": {
+        "connects_to": []
+    }
+}

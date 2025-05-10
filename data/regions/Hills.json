@@ -1,0 +1,92 @@
+{
+    "rA0_5Transition": {
+        "connects_to": [
+            "rA0_6"
+        ]
+    },
+    "rA0_6": {
+        "connects_to": [
+            "rA0_7",
+            "rA0_8"
+        ]
+    },
+    "rA0_7": {},
+    "rA0_8": {
+        "requires": "|Dash|",
+        "connects_to": [
+            "rA0_9",
+            "rA0_10",
+            "rA1_38",
+            "rA1_137"
+        ]
+    },
+    "rA0_9": {
+        "requires": "|Dash|",
+        "connects_to": [
+            "rA0_9Coin"
+        ]
+    },
+    "rA0_9Coin": {},
+    "rA1_38": {
+        "requires": "|Crystal Break| and |Dash| and (|Double Jump| or |Spin|)",
+        "connects_to": [
+            "rA0_8",
+            "rA1_37"
+        ]
+    },
+    "rA1_37": {
+        "connects_to": [
+            "rA1_30",
+            "rA1_40Nothing",
+            "rA1_39Warp"
+        ]
+    },
+    "rA1_40Nothing": {
+        "requires": "|Double Jump|",
+        "connects_to": [
+            "rA1_41Nothing"
+        ]
+    },
+    "rA1_41Nothing": {
+        "requires": "(|Speed Charge| and |Dash:1|) or (|Dash:2| and |Double Jump|) or (|Double Jump| and |Armor|)",
+        "connects_to": [
+            "rA1_42Boss"
+        ]
+    },
+    "rA1_42Boss": {
+        "requires": "|Double Jump|",
+        "connects_to": [
+            "rA1_41Nothing"
+        ]
+    },
+    "rA1_39Warp": {
+        "requires": "(|Double Jump| and |Armor|) or |Dash|",
+        "connects_to": [
+            "rA1_39Coin"
+        ]
+    },
+    "rA1_39Coin": {"requires": "|Double Jump|"},
+    "rA0_10": {
+        "connects_to": [
+            "rA0_11"
+        ]
+    },
+    "rA0_11": {
+        "connects_to": [
+            "rA0_12"
+        ]
+    },
+    "rA1_43": {
+        "requires": "|Coin:8| and |Double Jump|",
+        "connects_to": [
+            "rA0_7"
+        ]
+    },
+    "rA1_137": {
+        "requires": "|Dash| and |Double Jump| and (|Throw| or |Armor|) and |Coin:13|",
+        "connects_to": [
+            "rA1_138ArenaThrow"
+        ]
+    },
+    "rA1_138ArenaThrow": {}
+}

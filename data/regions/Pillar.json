@@ -1,0 +1,92 @@
+{
+    "rA1_13halltotopillar": {
+        "requires": "|Dash| and |Double Jump|",
+        "connects_to": [
+            "rA1_14CP"
+        ]
+    },
+    "rA1_14CP": {
+        "connects_to": [
+            "rA1_15boss",
+            "rA1_17"
+        ],
+        "requires": "|Double Jump|"
+    },
+    "rA1_15boss": {
+        "connects_to": [
+            "rA1_16spinpower"
+        ],
+        "requires": "|Double Jump| or |Armor|"
+    },
+    "rA1_16spinpower": {},
+    "rA1_17": {
+        "requires": "|Spin|",
+        "connects_to": [
+            "rA1_18"
+        ]
+    },
+    "rA1_18": {
+        "requires": "|Spin| and |Double Jump|",
+        "connects_to": [
+            "rA1_18easy"
+        ]
+    },
+    "rA1_18easy": {
+        "requires": "|Spin| and |Double Jump|",
+        "connects_to": [
+            "rA1_19"
+        ]
+    },
+    "rA1_19": {
+        "requires": "|Spin| and |Double Jump|",
+        "connects_to": [
+            "rA1_20",
+            "rA1_21"
+        ]
+    },
+    "rA1_20": {
+        "requires": "|Spin| and |Double Jump| and |Dash|",
+        "connects_to": []
+    },
+    "rA1_21": {
+        "requires": "|Spin| and |Double Jump| and |Dash|",
+        "connects_to": [
+            "rA1_22"
+        ]
+    },
+    "rA1_22": {
+        "connects_to": [
+            "rA1_23"
+        ]
+    },
+    "rA1_23": {
+        "connects_to": [
+            "rA1_24"
+        ],
+        "requires": "|Dash| and |Spin| and |Double Jump|"
+    },
+    "rA1_24": {
+        "requires": "|Spin| and |Dash| and |Double Jump|",
+        "connects_to": [
+            "rA1_25CP"
+        ]
+    },
+    "rA1_25CP": {
+        "requires": "|Spin| and |Dash| and |Double Jump|",
+        "connects_to": [
+            "rA1_26"
+        ]
+    },
+    "rA1_26": {
+        "connects_to": [
+            "rA1_27"
+        ]
+    },
+    "rA1_27": {
+        "requires": "|Spin|",
+        "connects_to": [
+            "rA1_28"
+        ]
+    },
+    "rA1_28": {"requires": "|Spin|"}
+}
