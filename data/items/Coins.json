@@ -1,0 +1,14 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+    "data": [
+        {
+            "count": 32,
+            "name": "Coin",
+            "category": [
+                "Coins"
+            ],
+            "progression": true,
+            "id": 100
+        }
+    ]
+}

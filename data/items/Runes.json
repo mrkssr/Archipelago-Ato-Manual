@@ -1,0 +1,47 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+    "data": [
+        {
+            "name": "Echo Rune",
+            "category": [
+                "Runes"
+            ],
+            "id": 50
+        },
+        {
+            "name": "Agility Rune",
+            "category": [
+                "Runes"
+            ],
+            "id": 51
+        },
+        {
+            "name": "Mind Rune",
+            "category": [
+                "Runes"
+            ],
+            "id": 52
+        },
+        {
+            "name": "Juggernaut Rune",
+            "category": [
+                "Runes"
+            ],
+            "id": 53
+        },
+        {
+            "name": "Flurry Rune",
+            "category": [
+                "Runes"
+            ],
+            "id": 54
+        },
+        {
+            "name": "Risk Rune",
+            "category": [
+                "Runes"
+            ],
+            "id": 55
+        }
+    ]
+}

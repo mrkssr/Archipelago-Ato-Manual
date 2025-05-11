@@ -1,0 +1,29 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+    "data": [
+        {
+            "name": "Blue Shard",
+            "category": [
+                "Shards"
+            ],
+            "progression": true,
+            "id": 1
+        },
+        {
+            "name": "Red Shard",
+            "category": [
+                "Shards"
+            ],
+            "progression": true,
+            "id": 2
+        },
+        {
+            "name": "Yellow Shard",
+            "category": [
+                "Shards"
+            ],
+            "progression": true,
+            "id": 3
+        }
+    ]
+}

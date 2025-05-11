@@ -1,0 +1,21 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+    "data": [
+        {
+            "name": "Prologue Done",
+            "category": [
+                "Events"
+            ],
+            "progression": true,
+            "id": 300
+        },
+        {
+            "name": "Defeated Samurai",
+            "category": [
+                "Events"
+            ],
+            "progression": true,
+            "id": 301
+        }
+    ]
+}

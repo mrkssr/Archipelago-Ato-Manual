@@ -1,0 +1,14 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+    "data": [
+        {
+            "count": 2,
+            "name": "Magic Bar",
+            "category": [
+                "Magic Bars"
+            ],
+            "useful": false,
+            "id": 60
+        }
+    ]
+}

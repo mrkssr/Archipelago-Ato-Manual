@@ -1,0 +1,126 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+    "data": [
+        {
+            "name": "Demon Blade",
+            "category": [
+                "Skills"
+            ],
+            "progression": true,
+            "id": 4
+        },
+        {
+            "count": 2,
+            "name": "Dodge",
+            "category": [
+                "Skills"
+            ],
+            "progression": true,
+            "id": 10
+        },
+        {
+            "count": 3,
+            "name": "Dash",
+            "category": [
+                "Skills"
+            ],
+            "progression": true,
+            "id": 12
+        },
+        {
+            "name": "Double Jump",
+            "category": [
+                "Skills"
+            ],
+            "progression": true,
+            "id": 15
+        },
+        {
+            "name": "Speed Charge",
+            "category": [
+                "Skills"
+            ],
+            "progression": true,
+            "id": 16
+        },
+        {
+            "name": "Crystal Break",
+            "category": [
+                "Skills"
+            ],
+            "progression": true,
+            "id": 17
+        },
+        {
+            "count": 2,
+            "name": "Spin",
+            "category": [
+                "Skills"
+            ],
+            "progression": true,
+            "id": 18
+        },
+        {
+            "count": 2,
+            "name": "Throw",
+            "category": [
+                "Skills"
+            ],
+            "progression": true,
+            "id": 20
+        },
+        {
+            "count": 2,
+            "name": "Armor",
+            "category": [
+                "Skills"
+            ],
+            "progression": true,
+            "id": 22
+        },
+        {
+            "name": "Vision",
+            "category": [
+                "Skills"
+            ],
+            "progression": true,
+            "id": 24
+        },
+        {
+            "name": "Parry",
+            "category": [
+                "Skills"
+            ],
+            "id": 25
+        },
+        {
+            "name": "Meditate",
+            "category": [
+                "Skills"
+            ],
+            "id": 26
+        },
+        {
+            "name": "Triple Slash",
+            "category": [
+                "Skills"
+            ],
+            "id": 27
+        },
+        {
+            "name": "Electric Wind Lethal Strike",
+            "category": [
+                "Skills"
+            ],
+            "id": 28
+        },
+        {
+            "count": 2,
+            "name": "Fatal Draw",
+            "category": [
+                "Skills"
+            ],
+            "id": 29
+        }
+    ]
+}
