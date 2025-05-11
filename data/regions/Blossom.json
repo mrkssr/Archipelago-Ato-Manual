@@ -6,6 +6,10 @@
             "rA0_1",
             "rA1_0"
         ],
+        "exit_requires": {
+            "rA1_5": "{double_jump()} and {chain_dash()}",
+            "rA1_0": "{dash()}"
+        },
         "starting": true
     },
     "rA0_1": {
@@ -39,14 +43,14 @@
         "connects_to": [
             "rA0_5Coin",
             "rA0_5Transition"
-        ]
+        ],
+        "exit_requires": {
+            "rA0_5Coin": "({logic_normal()} and {vision()} and {chain_dash()}) or ({logic_hard()} and {double_jump()} and {armor()})"
+        }
     },
-    "rA0_5Coin": {
-        "requires": "|Dash:2| or (|Dash:1| and (|Armor| or |Double Jump| or |Dodge|))"
-    },
+    "rA0_5Coin": {},
     "rA1_136Love": {},
     "rA1_5": {
-        "requires": "|Dash:2| or (|Dash:1| and |Dodge|)",
         "connects_to": [
             "rA1_6"
         ]
@@ -55,66 +59,89 @@
         "connects_to": [
             "rA1_7Warp",
             "rA1_8"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_7Warp": "|Crystal Break|"
+        }
     },
     "rA1_7Warp": {},
     "rA1_8": {
         "connects_to": [
             "rA1_8Basement",
             "rA1_115"
-        ]
+        ],
+        "entrance_requires": {
+            "rA1_6": "{prologue_done()}"
+        },
+        "exit_requires": {
+            "rA1_8Basement": "{armor()}",
+            "rA1_115": "{all_shards()} and |Crystal Break|"
+        }
     },
-    "rA1_8Basement": {
-        "requires": "|Armor|"
-    },
+    "rA1_8Basement": {},
     "rA1_0": {
-        "requires": "|Dash| or (|Double Jump| and |Armor|)",
         "connects_to": [
             "rA1_0runway",
             "rA1_1"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_0runway": "{chain_dash()} and {double_jump()}",
+            "rA1_1": "{chain_dash()} and |Crystal Break|"
+        }
     },
     "rA1_0runway": {
-        "requires": "|Dash| and |Double Jump| and |Speed Charge|",
         "connects_to": [
             "rA0_0"
         ]
     },
     "rA1_1": {
-        "requires": "|Crystal Break| and (|Dash| or |Armor|)",
         "connects_to": [
             "rA1_1under",
             "rA1_2",
             "rA1_9",
             "rA1_1hub"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_2": "{double_jump()}",
+            "rA1_9": "{double_jump()}",
+            "rA1_1hub": "{double_jump()}"
+        }
     },
     "rA1_1under": {},
     "rA1_2": {
-        "requires": "|Double Jump| or |Armor|",
         "connects_to": [
             "rA1_3Boss"
         ]
     },
     "rA1_3Boss": {
-        "requires": "|Double Jump| and (|Armor| or |Dash|)",
         "connects_to": [
-            "rA1_4"
-        ]
+            "rA1_4-down"
+        ],
+        "requires": "{dash()}"
     },
-    "rA1_4": {},
+    "rA1_4-up": {},
+    "rA1_4-down": {
+        "connects_to": [
+            "rA1_4-up"
+        ],
+        "exit_requires": {
+            "rA1_4-up": "{dodge_upgrade()}"
+        }
+    },
     "rA1_1hub": {
         "connects_to": [
             "rA1_1Coin0",
             "rA1_1Coin1",
             "rA1_1CP"
         ],
-        "requires": "|Double Jump| or |Armor|"
+        "exit_requires": {
+            "rA1_1Coin1": "{double_jump()}",
+            "rA1_1CP": "{double_jump()} and {dash()}"
+        }
     },
     "rA1_1Coin0": {},
-    "rA1_1Coin1": {"requires": "|Double Jump|"},
+    "rA1_1Coin1": {},
     "rA1_1CP": {
-        "requires": "|Double Jump| and (|Dash| or |Armor|)",
         "connects_to": [
             "rA1_1VagrantBossFinal"
         ]
@@ -127,33 +154,41 @@
     "rA1_1VagrantBossFinalReward": {},
     "rA1_9": {
         "connects_to": [
-            "rA1_4",
+            "rA1_4-up",
             "rA1_10"
         ],
-        "requires": "|Double Jump| or |Armor|"
+        "exit_requires": {
+            "rA1_10": "{double_jump()} and {chain_dash()}"
+        }
     },
     "rA1_10": {
-        "requires": "|Dash:2| or (|Dash:1| and |Armor|)",
         "connects_to": [
             "rA1_11Armor",
             "rA1_12Warp",
             "rA1_29",
             "rA1_13halltotopillar"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_12Warp": "{double_jump()} and {dash()}",
+            "rA1_13halltotopillar": "{double_jump()} and {dash()}"
+        }
     },
     "rA1_11Armor": {},
     "rA1_12Warp": {
-        "requires": "|Dash| and |Double Jump|"
+        "requires": "{double_jump()}"
     },
     "rA1_29": {
         "connects_to": [
             "rA1_10",
             "rA1_29VagrantBoss",
             "rA1_30"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_29VagrantBoss": "{double_jump()}"
+        }
     },
     "rA1_29VagrantBoss": {
-        "requires": "|Coin:5| and (|Double Jump| or |Armor|)",
+        "requires": "|Coin:5|",
         "connects_to": [
             "rA1_29VagrantBossReward"
         ]
@@ -165,7 +200,11 @@
             "rA1_36",
             "rA1_31",
             "rA1_37"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_29": "{double_jump()}",
+            "rA1_31": "{double_jump()}"
+        }
     },
     "rA1_36": {},
     "rA1_31": {
@@ -173,14 +212,15 @@
             "rA1_32Deflector",
             "rA1_33"
         ],
-        "requires": "|Double Jump|"
+        "exit_requires": {
+            "rA1_33": "{double_jump()}"
+        }
     },
     "rA1_32Deflector": {},
     "rA1_33": {
         "connects_to": [
             "rA1_34BearDouble"
-        ],
-        "requires": "|Dash| and (|Double Jump| or |Armor|)"
+        ]
     },
     "rA1_34BearDouble": {
         "connects_to": [

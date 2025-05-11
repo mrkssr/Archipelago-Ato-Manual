@@ -5,7 +5,7 @@
             "rA1_66dark",
             "rA1_67CP"
         ],
-        "requires": "|Double Jump| or |Armor|"
+        "requires": "{double_jump()} or {armor()}"
     },
     "rA1_65Warp": {},
     "rA1_66dark": {
@@ -17,7 +17,7 @@
         ]
     },
     "rA1_68Boss": {
-        "requires": "|Double Jump| and |Dash|",
+        "requires": "{double_jump()} and {dash()}",
         "connects_to": [
             "rA1_69"
         ]
@@ -33,19 +33,19 @@
         ]
     },
     "rA1_71": {
-        "requires": "|Double Jump| and (|Dash| or |Armor|)",
+        "requires": "{double_jump()} and ({dash()} or {armor()})",
         "connects_to": [
             "rA1_72"
         ]
     },
     "rA1_72": {
-        "requires": "|Throw| or (|Double Jump| and |Armor| and |Speed Charge|)",
+        "requires": "|Throw| or ({double_jump()} and {armor()} and |Speed Charge|)",
         "connects_to": [
             "rA1_73"
         ]
     },
     "rA1_73": {
-        "requires": "(|Armor| or |Dash|) and |Throw|",
+        "requires": "({armor()} or {dash()}) and |Throw|",
         "connects_to": [
             "rA1_74",
             "rA1_75"
@@ -58,13 +58,13 @@
         ]
     },
     "rA1_76": {
-        "requires": "|Double Jump| and ((|Armor| and |Spin|) or |Throw|)",
+        "requires": "{double_jump()} and (({armor()} and {spin()}) or |Throw|)",
         "connects_to": [
             "rA1_77"
         ]
     },
     "rA1_77": {
-        "requires": "|Throw| or (|Speed Charge| and |Double Jump| and |Spin|)",
+        "requires": "|Throw| or (|Speed Charge| and {double_jump()} and {spin()})",
         "connects_to": [
             "rA1_77Coin",
             "rA1_78BossYari"

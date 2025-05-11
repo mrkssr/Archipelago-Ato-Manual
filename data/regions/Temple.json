@@ -13,13 +13,13 @@
         "connects_to": [
             "rA1_144Coin",
             "rA1_145"
-        ],"requires": "|Double Jump| or |Armor|"
+        ],"requires": "{double_jump()} or {armor()}"
     },
     "rA1_144Coin": {},
     "rA1_145": {
     },
     "rA1_146": {
-        "requires": "|Double Jump| and (|Dash:2| or (|Dash:1| and |Armor|))",
+        "requires": "{double_jump()} and (|Dash:2| or (|Dash:1| and {armor()}))",
         "connects_to": [
             "rA1_147",
             "rA1_149",
@@ -31,25 +31,25 @@
             "rA1_148Boss"
         ]
     },
-    "rA1_148Boss": {"requires": "|Double Jump| or |Armor|"},
+    "rA1_148Boss": {"requires": "{double_jump()} or {armor()}"},
     "rA1_149": {
-        "requires": "|Double Jump| or |Armor|",
+        "requires": "{double_jump()} or {armor()}",
         "connects_to": [
             "rA1_150Warp",
             "rA1_151"
         ]
     },
     "rA1_150Warp": {
-        "requires": "|Double Jump| and (|Dash:2| or (|Dash:1| and |Armor|))"
+        "requires": "{double_jump()} and (|Dash:2| or (|Dash:1| and {armor()}))"
     },
     "rA1_151": {
-        "requires": "(|Double Jump| and |Armor|) or |Dash|",
+        "requires": "({double_jump()} and {armor()}) or {dash()}",
         "connects_to": [
             "rA1_151Coin"
         ]
     },
     "rA1_151Coin": {
-        "requires": "|Double Jump| and |Coin:13| and |Crystal Break|"
+        "requires": "{double_jump()} and |Coin:13| and |Crystal Break|"
     },
     "rA1_152": {
         "requires": "|Defeated Samurai|",
@@ -64,7 +64,7 @@
         ]
     },
     "rA1_154": {
-        "requires": "(|Dash:1| and (|Double Jump| or |Armor|)) or |Dash:2|",
+        "requires": "(|Dash:1| and ({double_jump()} or {armor()})) or |Dash:2|",
             "connects_to": [
             "rA1_155"
         ]

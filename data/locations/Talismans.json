@@ -7,7 +7,7 @@
                 "Blossom"
             ],
             "region": "rA0_0",
-            "requires": "|Dash| or ({double_jump()} and {armor()})",
+            "requires": "{dash()}",
             "id": 150
         },
         {
@@ -16,6 +16,7 @@
                 "Blossom"
             ],
             "region": "rA1_0runway",
+            "requires": "|Speed Charge| and {double_jump()}",
             "id": 151
         },
         {
@@ -24,7 +25,7 @@
                 "Blossom"
             ],
             "region": "rA1_1under",
-            "requires": "{double_jump()} or {armor()} or (({double_jump()} or {armor()}) and |Speed Charge|)",
+            "requires": "{double_jump()} or {armor()}",
             "id": 152
         },
         {
@@ -32,8 +33,8 @@
             "category": [
                 "Blossom"
             ],
-            "region": "rA1_4",
-            "requires": "(|Dodge:2| and ({double_jump()} or {armor()})) or ({double_jump()} or {armor()})",
+            "region": "rA1_4-up",
+            "requires": "({logic_normal()} and {double_jump()} and {dodge_upgrade()}) or ({logic_hard()} and {double_jump()} and {armor()})",
             "id": 153
         },
         {
@@ -42,7 +43,7 @@
                 "Blossom"
             ],
             "region": "rA1_9",
-            "requires": "|Spin|",
+            "requires": "({logic_normal()} and {spin()}) or ({logic_hard()} and {double_jump()} and {chain_dash()})",
             "id": 154
         },
         {
@@ -60,7 +61,7 @@
                 "Blossom"
             ],
             "region": "rA1_36",
-            "requires": "|Spin|",
+            "requires": "{spin()} and {double_jump()}",
             "id": 156
         },
         {
@@ -69,7 +70,7 @@
                 "Blossom"
             ],
             "region": "rA1_32Deflector",
-            "requires": "{double_jump()} and ((|Throw| and |Dash|) or ({armor()} and |Spin|))",
+            "requires": "({logic_normal()} and {double_jump()} and |Throw| and {dash()}) or ({logic_hard()} and {double_jump()} and {armor()})",
             "id": 157
         },
         {
@@ -78,7 +79,7 @@
                 "Blossom"
             ],
             "region": "rA1_35",
-            "requires": "{double_jump()} or {armor()}",
+            "requires": "{double_jump()}",
             "id": 158
         },
         {
@@ -87,7 +88,7 @@
                 "Pillar"
             ],
             "region": "rA1_20",
-            "requires": "{double_jump()} and |Spin| and |Crystal Break|",
+            "requires": "{spin()} and {double_jump()}",
             "id": 159
         },
         {
@@ -96,7 +97,7 @@
                 "Pillar"
             ],
             "region": "rA1_25CP",
-            "requires": "{spin()} and {double_jump()} and {armor()}",
+            "requires": "{spin()} and {double_jump()}",
             "id": 160
         },
         {
@@ -113,7 +114,7 @@
                 "Hills"
             ],
             "region": "rA0_8",
-            "requires": "|Dash|",
+            "requires": "{dash()}",
             "id": 162
         },
         {
@@ -122,7 +123,7 @@
                 "Hills"
             ],
             "region": "rA0_7",
-            "requires": "|Dash| or ({double_jump()} and |Crystal Break|)",
+            "requires": "{dash()} or ({double_jump()} and |Crystal Break|)",
             "id": 163
         },
         {
@@ -167,7 +168,7 @@
                 "Fall"
             ],
             "region": "rA1_57Secret",
-            "requires": "|Dash| or {double_jump()}",
+            "requires": "{dash()} or {double_jump()}",
             "id": 168
         },
         {
@@ -184,7 +185,7 @@
                 "Fall"
             ],
             "region": "rA0_16secret",
-            "requires": "(|Crystal Break| or |Speed Charge|) and {double_jump()} and |Dash|",
+            "requires": "(|Crystal Break| or |Speed Charge|) and {double_jump()} and {dash()}",
             "id": 170
         },
         {
@@ -202,7 +203,7 @@
                 "Crimson"
             ],
             "region": "rA1_66dark",
-            "requires": "|Dash|",
+            "requires": "{dash()}",
             "id": 172
         },
         {
@@ -211,7 +212,7 @@
                 "Crimson"
             ],
             "region": "rA1_74",
-            "requires": "{double_jump()} and |Dash| and |Throw|",
+            "requires": "{double_jump()} and {dash()} and |Throw|",
             "id": 173
         },
         {
@@ -238,7 +239,7 @@
                 "Lake"
             ],
             "region": "rA0_32secret",
-            "requires": "{double_jump()} and |Dash|",
+            "requires": "{double_jump()} and {dash()}",
             "id": 176
         },
         {
@@ -265,7 +266,7 @@
                 "Lake"
             ],
             "region": "rA1_92",
-            "requires": "{double_jump()} and |Dash| and |Vision|",
+            "requires": "{double_jump()} and {dash()} and |Vision|",
             "id": 179
         },
         {
@@ -274,7 +275,7 @@
                 "Lake"
             ],
             "region": "rA1_87",
-            "requires": "{double_jump()} and |Dash|",
+            "requires": "{double_jump()} and {dash()}",
             "id": 180
         },
         {

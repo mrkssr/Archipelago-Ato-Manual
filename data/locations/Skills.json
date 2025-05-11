@@ -22,7 +22,7 @@
             "category": [
                 "Blossom"
             ],
-            "region": "rA1_4",
+            "region": "rA1_4-down",
             "id": 11
         },
         {
@@ -73,7 +73,6 @@
                 "Blossom"
             ],
             "region": "rA1_8",
-            "requires": "{prologue_done()}",
             "id": 17
         },
         {

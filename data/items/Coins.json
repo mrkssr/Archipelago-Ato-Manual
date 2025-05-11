@@ -5,7 +5,8 @@
             "count": 32,
             "name": "Coin",
             "category": [
-                "Coins"
+                "Coins",
+                "Goal"
             ],
             "progression": true,
             "id": 100

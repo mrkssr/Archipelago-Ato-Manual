@@ -1,6 +1,6 @@
 {
     "rA1_13halltotopillar": {
-        "requires": "|Dash| and |Double Jump|",
+        "requires": "{double_jump()}",
         "connects_to": [
             "rA1_14CP"
         ]
@@ -10,46 +10,49 @@
             "rA1_15boss",
             "rA1_17"
         ],
-        "requires": "|Double Jump|"
+        "exit_requires": {
+            "rA1_15boss": "{double_jump()}"
+        }
     },
     "rA1_15boss": {
         "connects_to": [
             "rA1_16spinpower"
-        ],
-        "requires": "|Double Jump| or |Armor|"
+        ]
     },
     "rA1_16spinpower": {},
     "rA1_17": {
-        "requires": "|Spin|",
+        "requires": "{spin()}",
         "connects_to": [
             "rA1_18"
         ]
     },
     "rA1_18": {
-        "requires": "|Spin| and |Double Jump|",
+        "requires": "{spin()} and {double_jump()}",
         "connects_to": [
             "rA1_18easy"
         ]
     },
     "rA1_18easy": {
-        "requires": "|Spin| and |Double Jump|",
+        "requires": "{spin()}",
         "connects_to": [
             "rA1_19"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_19": "{double_jump()}"
+        }
     },
     "rA1_19": {
-        "requires": "|Spin| and |Double Jump|",
+        "requires": "{spin()} and {double_jump()} and {dash()}",
         "connects_to": [
             "rA1_20",
             "rA1_21"
         ]
     },
     "rA1_20": {
-        "requires": "|Spin| and |Double Jump| and |Dash|",
+        "requires": "|Crystal Break|",
         "connects_to": []
     },
     "rA1_21": {
-        "requires": "|Spin| and |Double Jump| and |Dash|",
         "connects_to": [
             "rA1_22"
         ]
@@ -57,22 +60,24 @@
     "rA1_22": {
         "connects_to": [
             "rA1_23"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_23": "({logic_normal()} and {double_jump()} and {spin()}) or ({logic_hard()} and {double_jump()} and ({armor()} or {spin()}))"
+        }
     },
     "rA1_23": {
         "connects_to": [
             "rA1_24"
         ],
-        "requires": "|Dash| and |Spin| and |Double Jump|"
+        "requires": "({logic_normal()} and {chain_dash()} and {spin()} and {double_jump()}) or ({logic_hard()} and {dash()} and {armor()} and {spin()} and {double_jump()})"
     },
     "rA1_24": {
-        "requires": "|Spin| and |Dash| and |Double Jump|",
+        "requires": "{spin()} and (({chain_dash()} and {logic_normal()}) or {logic_hard()})",
         "connects_to": [
             "rA1_25CP"
         ]
     },
     "rA1_25CP": {
-        "requires": "|Spin| and |Dash| and |Double Jump|",
         "connects_to": [
             "rA1_26"
         ]
@@ -83,10 +88,12 @@
         ]
     },
     "rA1_27": {
-        "requires": "|Spin|",
         "connects_to": [
             "rA1_28"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_28": "{spin()}"
+        }
     },
-    "rA1_28": {"requires": "|Spin|"}
+    "rA1_28": {}
 }

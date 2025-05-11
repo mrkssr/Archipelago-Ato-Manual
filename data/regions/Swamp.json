@@ -7,7 +7,7 @@
         ]
     },
     "rA1_96Warp": {
-        "requires": "|Double Jump| or |Armor|"
+        "requires": "{double_jump()} or {armor()}"
     },
     "rA1_97": {},
     "rA1_98": {
@@ -21,25 +21,25 @@
         ]
     },
     "rA1_100": {
-        "requires": "|Armor|",
+        "requires": "{armor()}",
         "connects_to": [
             "rA1_100Coin",
             "rA1_101"
         ]
     },
-    "rA1_100Coin": {"requires": "|Armor|"},
+    "rA1_100Coin": {"requires": "{armor()}"},
     "rA1_101": {
-        "requires": "|Armor|",
+        "requires": "{armor()}",
         "connects_to": [
             "rA1_102",
             "rA1_103CP"
         ]
     },
     "rA1_102": {
-        "requires": "|Armor|"
+        "requires": "{armor()}"
     },
     "rA1_103CP": {
-        "requires": "|Armor| and |Double Jump|",
+        "requires": "{armor()} and {double_jump()}",
         "connects_to": [
             "rA1_104Boss"
         ]
@@ -50,7 +50,7 @@
         ]
     },
     "rA1_105": {
-        "requires": "|Armor|",
+        "requires": "{armor()}",
         "connects_to": [
             "rA1_106"
         ]
@@ -59,22 +59,22 @@
         "connects_to": [
             "rA1_107"
         ],
-        "requires": "|Armor|"
+        "requires": "{armor()}"
     },
     "rA1_107": {
         "connects_to": [
             "rA1_108"
         ],
-        "requires": "|Armor| and |Double Jump|"
+        "requires": "{armor()} and {double_jump()}"
     },
     "rA1_108": {
-        "requires": "|Armor| and |Double Jump|",
+        "requires": "{armor()} and {double_jump()}",
         "connects_to": [
             "rA1_109"
         ]
     },
     "rA1_109": {
-        "requires": "|Armor| and |Double Jump| and |Dash|",
+        "requires": "{armor()} and {double_jump()} and {dash()}",
         "connects_to": [
             "rA1_110"
         ]

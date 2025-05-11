@@ -12,7 +12,7 @@
     },
     "rA0_7": {},
     "rA0_8": {
-        "requires": "|Dash|",
+        "requires": "{dash()}",
         "connects_to": [
             "rA0_9",
             "rA0_10",
@@ -21,14 +21,14 @@
         ]
     },
     "rA0_9": {
-        "requires": "|Dash|",
+        "requires": "{dash()}",
         "connects_to": [
             "rA0_9Coin"
         ]
     },
     "rA0_9Coin": {},
     "rA1_38": {
-        "requires": "|Crystal Break| and |Dash| and (|Double Jump| or |Spin|)",
+        "requires": "|Crystal Break| and {dash()} and ({double_jump()} or {spin()})",
         "connects_to": [
             "rA0_8",
             "rA1_37"
@@ -42,30 +42,30 @@
         ]
     },
     "rA1_40Nothing": {
-        "requires": "|Double Jump|",
+        "requires": "{double_jump()}",
         "connects_to": [
             "rA1_41Nothing"
         ]
     },
     "rA1_41Nothing": {
-        "requires": "(|Speed Charge| and |Dash:1|) or (|Dash:2| and |Double Jump|) or (|Double Jump| and |Armor|)",
+        "requires": "(|Speed Charge| and |Dash:1|) or (|Dash:2| and {double_jump()}) or ({double_jump()} and {armor()})",
         "connects_to": [
             "rA1_42Boss"
         ]
     },
     "rA1_42Boss": {
-        "requires": "|Double Jump|",
+        "requires": "{double_jump()}",
         "connects_to": [
             "rA1_41Nothing"
         ]
     },
     "rA1_39Warp": {
-        "requires": "(|Double Jump| and |Armor|) or |Dash|",
+        "requires": "({double_jump()} and {armor()}) or {dash()}",
         "connects_to": [
             "rA1_39Coin"
         ]
     },
-    "rA1_39Coin": {"requires": "|Double Jump|"},
+    "rA1_39Coin": {"requires": "{double_jump()}"},
     "rA0_10": {
         "connects_to": [
             "rA0_11"
@@ -77,13 +77,13 @@
         ]
     },
     "rA1_43": {
-        "requires": "|Coin:8| and |Double Jump|",
+        "requires": "|Coin:8| and {double_jump()}",
         "connects_to": [
             "rA0_7"
         ]
     },
     "rA1_137-CP": {
-        "requires": "|Dash| and |Double Jump| and (|Throw| or |Armor|) and |Coin:13|",
+        "requires": "{dash()} and {double_jump()} and (|Throw| or {armor()}) and |Coin:13|",
         "connects_to": [
             "rA1_138ArenaThrow"
         ]

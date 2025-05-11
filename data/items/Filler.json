@@ -8,6 +8,15 @@
             ],
             "filler": true,
             "id": 302
+        },
+        {
+            "name": "Mask",
+            "category": [
+                "Mask",
+                "Goal"
+            ],
+            "progression": true,
+            "id": 304
         }
     ]
 }

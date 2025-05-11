@@ -45,6 +45,33 @@
             ],
             "requires": "|Coin:all|",
             "id": 1013
+        },
+        {
+            "name": "Goal: Mask Hunt (11 Masks)",
+            "victory": true,
+            "category": [
+                "Goal"
+            ],
+            "requires": "|Mask:11|",
+            "id": 1014
+        },
+        {
+            "name": "Goal: Mask Hunt (22 Masks)",
+            "victory": true,
+            "category": [
+                "Goal"
+            ],
+            "requires": "|Mask:22|",
+            "id": 1015
+        },
+        {
+            "name": "Goal: Mask Hunt (All Masks)",
+            "victory": true,
+            "category": [
+                "Goal"
+            ],
+            "requires": "|Mask:ALL|",
+            "id": 1016
         }
     ]
 }

@@ -43,7 +43,7 @@
         ]
     },
     "rA1_171TW": {
-        "requires": "|Double Jump| and (|Dash| or |Armor|)",
+        "requires": "{double_jump()} and ({dash()} or {armor()})",
         "connects_to": [
             "rA1_171TWReward"
         ]
@@ -51,7 +51,7 @@
     "rA1_171TWReward": {},
     "rA1_139": {"requires": "|Crystal Break|"},
     "rA0_33": {
-        "requires": "|Double Jump| and |Dash|",
+        "requires": "{double_jump()} and {dash()}",
         "connects_to": [
             "rA0_34"
         ]
@@ -62,13 +62,13 @@
         ]
     },
     "rA0_35": {
-        "requires": "|Double Jump|",
+        "requires": "{double_jump()}",
         "connects_to": [
             "rA0_36"
         ]
     },
     "rA0_36": {
-        "requires": "|Double Jump| and |Dash|",
+        "requires": "{double_jump()} and {dash()}",
         "connects_to": [
             "rA0_36Coin",
             "rA0_36hallway",
@@ -89,7 +89,7 @@
     },
     "rA1_84Coin": {},
     "rA1_83": {
-        "requires": "(|Double Jump| or |Armor|) and |Dash|",
+        "requires": "({double_jump()} or {armor()}) and {dash()}",
         "connects_to": [
             "rA1_81"
         ]
@@ -108,27 +108,27 @@
     },
     "rA1_81VagrantBossReward": {},
     "rA1_80Warp": {
-        "requires": "|Double Jump|",
+        "requires": "{double_jump()}",
         "connects_to": [
             "rA0_26"
         ]
     },
     "rA1_82": {
-        "requires": "|Double Jump|",
+        "requires": "{double_jump()}",
         "connects_to": [
             "rA1_82FatalDraw"
         ]
     },
     "rA1_82FatalDraw": {"requires": "|Coin:18|"},
     "rA0_37": {
-        "requires": "|Double Jump| and |Dash|",
+        "requires": "{double_jump()} and {dash()}",
         "connects_to": [
             "rA1_167",
             "rA0_38hallway"
         ]
     },
     "rA1_167": {
-        "requires": "|Double Jump| and (|Dash:2| or |Armor|)",
+        "requires": "{double_jump()} and (|Dash:2| or {armor()})",
         "connects_to": [
             "rA1_168Archer"
         ]
@@ -165,7 +165,7 @@
         ]
     },
     "rA0_43": {
-        "requires": "|Speed Charge| and |Double Jump| and |Dash:2|",
+        "requires": "|Speed Charge| and {double_jump()} and |Dash:2|",
         "connects_to": [
             "rA0_88",
             "rA0_44",
@@ -173,7 +173,7 @@
         ]
     },
     "rA0_88": {
-        "requires": "|Speed Charge| and |Double Jump| and |Dash|",
+        "requires": "|Speed Charge| and {double_jump()} and {dash()}",
         "connects_to": [
             "rA1_87"
         ]
@@ -197,34 +197,34 @@
         ]
     },
     "rA1_89Warp": {
-        "requires": "|Double Jump|"
+        "requires": "{double_jump()}"
     },
     "rA1_92": {
-        "requires": "|Double Jump|",
+        "requires": "{double_jump()}",
         "connects_to": [
             "rA1_93CP"
         ]
     },
     "rA1_93CP": {
-        "requires": "|Coin:13| and |Spin|",
+        "requires": "|Coin:13| and {spin()}",
         "connects_to": [
             "rA1_163StatueRoom",
             "rA1_94ArenaSpin"
         ]
     },
     "rA1_163StatueRoom": {
-        "requires": "|Dash| or |Armor|",
+        "requires": "{dash()} or {armor()}",
         "connects_to": [
             "rA1_FH0"
         ]
     },
     "rA1_FH0": {
-        "requires": "|Double Jump|"
+        "requires": "{double_jump()}"
     },
     "rA1_94ArenaSpin": {
     },
     "rA1_90Sentinel": {
-        "requires": "|Double Jump| and (|Dash| or |Armor|) and |Crystal Break|",
+        "requires": "{double_jump()} and ({dash()} or {armor()}) and |Crystal Break|",
         "connects_to": [
             "rA1_91"
         ]
@@ -234,7 +234,7 @@
     "rA0_44": {
         "connects_to": [
             "rA0_45Boss"
-        ],"requires": "|Double Jump|"
+        ],"requires": "{double_jump()}"
     },
     "rA0_45Boss": {
         "connects_to": [

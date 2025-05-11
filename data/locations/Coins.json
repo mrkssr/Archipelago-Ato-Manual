@@ -77,7 +77,7 @@
                 "Hills"
             ],
             "region": "rA1_37",
-            "requires": "|Dash| or {double_jump()}",
+            "requires": "{double_jump()}",
             "id": 108
         },
         {
@@ -127,7 +127,7 @@
                 "Fall"
             ],
             "region": "rA1_64Coin",
-            "requires": "{double_jump} or {logic_hard()}",
+            "requires": "{double_jump()} or {logic_hard()}",
             "id": 114
         },
         {

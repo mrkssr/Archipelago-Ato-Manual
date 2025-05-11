@@ -11,6 +11,10 @@ def dodge(world: World, multiworld: MultiWorld, state: CollectionState, player: 
     """Has the player dodge ability?"""
     return state.has("Dodge", player)
 
+def dodge_upgrade(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
+    """Has the player dodge upgrade ability?"""
+    return state.has_all("Dodge", player)
+
 def dash(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
     """Has player dash ability?"""
     if state.has("Dash", player):
@@ -78,7 +82,7 @@ def spin(world: World, multiworld: MultiWorld, state: CollectionState, player: i
     return state.has("Spin", player)
 
 def vision(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
-    if state.has("vision"):
+    if state.has("vision", player):
         return True
 
     if logic_hard(world, multiworld, state, player):
@@ -104,11 +108,11 @@ def logic_hard(world: World, multiworld: MultiWorld, state: CollectionState, pla
 # Logic Done
 
 # Events
-def prologue_done():
+def prologue_done(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
     """Post prologue environment"""
     return False
 
-def is_prologue():
+def is_prologue(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
     """Prologue environment"""
-    return not prologue_done()
+    return not prologue_done(world, multiworld, state, player)
 # Events Done

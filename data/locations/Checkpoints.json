@@ -7,7 +7,7 @@
                 "Forbidden"
             ],
             "region": "rA1_118",
-            "requires": "|Coin:32| and |Dash| and ({double_jump()} or {armor()})",
+            "requires": "|Coin:32| and {dash()} and ({double_jump()} or {armor()})",
             "id": 200
         },
         {
@@ -32,7 +32,7 @@
                 "Blossom"
             ],
             "region": "rA1_1CP",
-            "requires": "{double_jump()} or {armor()}",
+            "requires": "{double_jump()}",
             "id": 203
         },
         {
@@ -90,7 +90,7 @@
             "category": [
                 "Hills"
             ],
-            "region": "rA1_137",
+            "region": "rA1_137-CP",
             "id": 210
         },
         {

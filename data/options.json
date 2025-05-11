@@ -9,13 +9,21 @@
             "display_name": "Goal",
             "description": "How to End your Randomized playthrough.",
             "aliases": {
+                "rebirth": 0,
                 "final boss": 0,
+                "mask hunt (11)": 1,
                 "boss hunt low": 1,
+                "mask hunt (22)": 2,
                 "boss hunt mid": 2,
+                "mask hunt (All)": 3,
                 "all bosses": 3,
+                "coin hunt (8 coins)": 4,
                 "coin hunt low": 4,
+                "coin hunt (16 coins)": 5,
                 "coin hunt mid": 5,
+                "coin hunt (24 coins)": 6,
                 "coin hunt high": 6,
+                "coin hunt (all coins)": 7,
                 "all coins": 7
             },
             "hidden": false
@@ -44,14 +52,14 @@
                 "Currently the only use for Choice in Manual outside of hooks is the goal"
             ],
             "values": {
-                "rebirth": 0,
-                "mask hunt (11)": 1,
-                "mask hunt (22)": 2,
-                "mask hunt (All)": 3,
-                "coin hunt (8 coins)": 4,
-                "coin hunt (16 coins)": 5,
-                "coin hunt (24 coins)": 6,
-                "coin hunt (all coins)": 7
+                "Goal: Defeat Rebirth": 0,
+                "Goal: Mask Hunt (11 Masks)": 1,
+                "Goal: Mask Hunt (22 Masks)": 2,
+                "Goal: Mask Hunt (All Masks)": 3,
+                "Goal: Coin Hunt (8 Coins)": 4,
+                "Goal: Coin Hunt (16 Coins)": 5,
+                "Goal: Coin Hunt (24 Coins)": 6,
+                "Goal: Coin Hunt (All Coins)": 7
             },
             "default": 0,
             "allow_custom_value": false,

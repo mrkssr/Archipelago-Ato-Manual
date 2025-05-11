@@ -13,12 +13,11 @@
         ],
         "exit_requires": {
             "rA0_14secret": "|Crystal Break|",
-            "rA0_16secret": "|Crystal Break|",
+            "rA0_16secret": "{double_jump()} and {dash()}",
             "rA0_15-up": "{double_jump()}"
         }
     },
     "rA0_14secret": {
-        "requires": "|Crystal Break|",
         "connects_to": [
             "rA1_43",
             "rA1_44",
@@ -47,7 +46,7 @@
         ]
     },
     "rA1_49Paper": {
-        "requires": "|Speed Charge| and (|Dash:2| or (|Dash:1| and |Armor|))"
+        "requires": "|Speed Charge| and (|Dash:2| or (|Dash:1| and {armor()}))"
     },
     "rA1_50CP": {
         "connects_to": [
@@ -81,7 +80,7 @@
         ]
     },
     "rA1_56fan": {
-        "requires": "|Spin|"
+        "requires": "{spin()}"
     },
     "rA1_57": {
         "connects_to": [
@@ -89,7 +88,7 @@
             "rA1_59BossHidden",
             "rA1_164"
         ],
-        "requires": "|Double Jump| or |Armor|"
+        "requires": "{double_jump()} or {armor()}"
     },
     "rA1_57Secret": {},
     "rA1_59BossHidden": {
@@ -114,13 +113,13 @@
     "rA1_165Coin": {},
     "rA1_165Meditate": {},
     "rA1_166Tempest": {
-        "requires": "|Demon Blade| and (|Double Jump| or |Armor|)",
+        "requires": "|Demon Blade| and ({double_jump()} or {armor()})",
         "connects_to": [
             "rA1_166TempestReward"
         ]
     },
     "rA1_166TempestReward": {
-        "requires": "(|Double Jump| or |Armor|)"
+        "requires": "({double_jump()} or {armor()})"
     },
     "rA0_15-up": {
         "connects_to": [
@@ -144,10 +143,10 @@
             "rA0_19Coin",
             "rA1_140"
         ],
-        "requires": "|Dash:2| or (|Dash:1| and (|Armor| or |Double Jump|))"
+        "requires": "|Dash:2| or (|Dash:1| and ({armor()} or {double_jump()}))"
     },
     "rA0_19Coin": {
-        "requires": "|Double Jump|"
+        "requires": "{double_jump()}"
     },
     "rA1_140": {
         "requires": "|Coin:13|",
@@ -157,21 +156,21 @@
     },
     "rA1_141ArenaArmor": {},
     "rA0_20": {
-        "requires": "|Double Jump|",
+        "requires": "{double_jump()}",
         "connects_to": [
             "rA0_22Boss",
             "rA0_24"
         ]
     },
     "rA0_22Boss": {
-        "requires": "|Dash| and |Double Jump|",
+        "requires": "{dash()} and {double_jump()}",
         "connects_to": [
             "rA0_23"
         ]
     },
     "rA0_23": {},
     "rA0_24": {
-        "requires": "|Double Jump| and ((|Dash:1| and |Dodge|) or |Dash:2| or (|Dash:1| or |Armor|))",
+        "requires": "{double_jump()} and ((|Dash:1| and |Dodge|) or |Dash:2| or (|Dash:1| or {armor()}))",
         "connects_to": [
             "rA0_25hallway",
             "rA1_61"
@@ -187,13 +186,13 @@
             "rA0_26Coin",
             "rA0_27"
         ],
-        "requires": "|Double Jump|"
+        "requires": "{double_jump()}"
     },
     "rA0_26Coin": {
-        "requires": "|Speed Charge| and |Double Jump|"
+        "requires": "|Speed Charge| and {double_jump()}"
     },
     "rA1_61": {
-        "requires": "|Crystal Break| and |Double Jump| and (|Dash:2| or (|Dash:1| and |Dodge|) or (|Dash:1| and |Armor|))",
+        "requires": "|Crystal Break| and {double_jump()} and (|Dash:2| or (|Dash:1| and |Dodge|) or (|Dash:1| and {armor()}))",
         "connects_to": [
             "rA1_60",
             "rA1_62",
@@ -201,19 +200,19 @@
         ]
     },
     "rA1_60": {
-        "requires": "|Double Jump| and |Dash|",
+        "requires": "{double_jump()} and {dash()}",
         "connects_to": [
             "rA0_16secret"
         ]
     },
     "rA0_16secret": {
-        "requires": "|Double Jump| and |Dash|",
+        "requires": "{double_jump()} and {dash()}",
         "connects_to": [
             "rA0_17secret"
         ]
     },
     "rA0_17secret": {
-        "requires": "|Double Jump| and |Dash:2| or (|Dash:1| and (|Dodge| or |Armor|))",
+        "requires": "{double_jump()} and |Dash:2| or (|Dash:1| and (|Dodge| or {armor()}))",
         "connects_to": [
             "rA0_17hallway"
         ]
