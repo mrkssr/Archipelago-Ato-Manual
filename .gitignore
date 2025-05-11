@@ -1,4 +1,5 @@
 __pycache__/
 
 data/items.json
+data/locations.json
 data/regions.json
