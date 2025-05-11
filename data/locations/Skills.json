@@ -1,0 +1,190 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Demon Blade",
+            "category": [
+                "Forbidden"
+            ],
+            "region": "rA1_134",
+            "id": 4
+        },
+        {
+            "name": "Dodge",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA0_4PowerUp",
+            "id": 10
+        },
+        {
+            "name": "Dodge Upgrade",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_4",
+            "id": 11
+        },
+        {
+            "name": "Dash",
+            "category": [
+                "Hills"
+            ],
+            "region": "rA0_7",
+            "id": 12
+        },
+        {
+            "name": "Chain Dash",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA0_23",
+            "id": 13
+        },
+        {
+            "name": "Chain Dash Upgrade",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_168ArcherReward",
+            "requires": "{double_jump()}",
+            "id": 14
+        },
+        {
+            "name": "Double Jump",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA0_19",
+            "requires": "{dash()}",
+            "id": 15
+        },
+        {
+            "name": "Speed Charge",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA0_40",
+            "id": 16
+        },
+        {
+            "name": "Crystal Break",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_8",
+            "requires": "{prologue_done()}",
+            "id": 17
+        },
+        {
+            "name": "Spin",
+            "category": [
+                "Pillar"
+            ],
+            "region": "rA1_16spinpower",
+            "id": 18
+        },
+        {
+            "name": "Spin Upgrade",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_94ArenaSpin",
+            "requires": "{spin()}",
+            "id": 19
+        },
+        {
+            "name": "Throw",
+            "category": [
+                "Crimson"
+            ],
+            "region": "rA1_69",
+            "requires": "{double_jump()}",
+            "id": 20
+        },
+        {
+            "name": "Throw Upgrade",
+            "category": [
+                "Hills"
+            ],
+            "region": "rA1_137-ArenaReward",
+            "id": 21
+        },
+        {
+            "name": "Armor",
+            "category": [
+                "Swamp"
+            ],
+            "region": "rA1_98",
+            "id": 22
+        },
+        {
+            "name": "Armor Upgrade",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_141ArenaArmor",
+            "requires": "{armor()}",
+            "id": 23
+        },
+        {
+            "name": "Vision",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_91",
+            "requires": "{double_jump()}",
+            "id": 24
+        },
+        {
+            "name": "Parry",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_51BossReward",
+            "id": 25
+        },
+        {
+            "name": "Meditate",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_165Meditate",
+            "id": 26
+        },
+        {
+            "name": "Triple Slash",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_166TempestReward",
+            "id": 27
+        },
+        {
+            "name": "Electric Wind Lethal Strike",
+            "category": [
+                "Hills"
+            ],
+            "region": "rA1_42Boss",
+            "requires": "{double_jump()}",
+            "id": 28
+        },
+        {
+            "name": "Fatal Draw",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_82FatalDraw",
+            "id": 29
+        },
+        {
+            "name": "Fatal Draw Upgrade",
+            "category": [
+                "Forbidden"
+            ],
+            "region": "rA1_118ArenaFatalReward",
+            "requires": "{double_jump()}",
+            "id": 30
+        }
+    ]
+}

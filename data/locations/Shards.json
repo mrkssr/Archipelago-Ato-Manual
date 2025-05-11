@@ -1,0 +1,29 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Blue Shard",
+            "category": [
+                "Pillar"
+            ],
+            "region": "rA1_28",
+            "id": 1
+        },
+        {
+            "name": "Red Shard",
+            "category": [
+                "Crimson"
+            ],
+            "region": "rA1_79",
+            "id": 2
+        },
+        {
+            "name": "Yellow Shard",
+            "category": [
+                "Swamp"
+            ],
+            "region": "rA1_112",
+            "id": 3
+        }
+    ]
+}

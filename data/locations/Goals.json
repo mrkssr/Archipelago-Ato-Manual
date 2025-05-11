@@ -1,0 +1,50 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Goal: Defeat Rebirth",
+            "victory": true,
+            "category": [
+                "Goal"
+            ],
+            "region": "rA1_162Boss",
+            "id": 1000
+        },
+        {
+            "name": "Goal: Coin Hunt (8 Coins)",
+            "victory": true,
+            "category": [
+                "Goal"
+            ],
+            "requires": "|Coin:8|",
+            "id": 1010
+        },
+        {
+            "name": "Goal: Coin Hunt (16 Coins)",
+            "victory": true,
+            "category": [
+                "Goal"
+            ],
+            "requires": "|Coin:16|",
+            "id": 1011
+        },
+        {
+            "name": "Goal: Coin Hunt (24 Coins)",
+            "victory": true,
+            "category": [
+                "Goal"
+            ],
+            "requires": "|Coin:24|",
+            "id": 1012
+        },
+        {
+            "name": "Goal: Coin Hunt (All Coins)",
+            "victory": true,
+            "category": [
+                "Goal"
+            ],
+            "requires": "|Coin:all|",
+            "id": 1013
+        }
+    ]
+}

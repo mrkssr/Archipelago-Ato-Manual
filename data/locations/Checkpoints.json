@@ -1,0 +1,287 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Checkpoint Fatal Arena",
+            "category": [
+                "Forbidden"
+            ],
+            "region": "rA1_118",
+            "requires": "|Coin:32| and |Dash| and ({double_jump()} or {armor()})",
+            "id": 200
+        },
+        {
+            "name": "Checkpoint Monk",
+            "category": [
+                "Forbidden"
+            ],
+            "region": "rA1_130",
+            "id": 201
+        },
+        {
+            "name": "Checkpoint Bandit",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_2",
+            "id": 202
+        },
+        {
+            "name": "Checkpoint Vagrant",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_1CP",
+            "requires": "{double_jump()} or {armor()}",
+            "id": 203
+        },
+        {
+            "name": "Checkpoint Rogue",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA0_4",
+            "id": 204
+        },
+        {
+            "name": "Checkpoint Twins",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_33",
+            "id": 205
+        },
+        {
+            "name": "Checkpoint Mother",
+            "category": [
+                "Pillar"
+            ],
+            "region": "rA1_14CP",
+            "requires": "{double_jump()}",
+            "id": 206
+        },
+        {
+            "name": "Checkpoint Spin Puzzles",
+            "category": [
+                "Pillar"
+            ],
+            "region": "rA1_21",
+            "id": 207
+        },
+        {
+            "name": "Checkpoint Ancient Warrior",
+            "category": [
+                "Pillar"
+            ],
+            "region": "rA1_25CP",
+            "id": 208
+        },
+        {
+            "name": "Checkpoint Phantom Shin",
+            "category": [
+                "Hills"
+            ],
+            "region": "rA1_41Nothing",
+            "requires": "{double_jump()}",
+            "id": 209
+        },
+        {
+            "name": "Checkpoint Throw Arena",
+            "category": [
+                "Hills"
+            ],
+            "region": "rA1_137",
+            "id": 210
+        },
+        {
+            "name": "Checkpoint Berserker",
+            "category": [
+                "Hills"
+            ],
+            "region": "rA0_10",
+            "id": 211
+        },
+        {
+            "name": "Checkpoint Geisha",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_50CP",
+            "id": 212
+        },
+        {
+            "name": "Checkpoint Phantom Jin",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_62",
+            "id": 213
+        },
+        {
+            "name": "Checkpoint Warden",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_57",
+            "id": 214
+        },
+        {
+            "name": "Checkpoint Guardian",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA0_20",
+            "id": 215
+        },
+        {
+            "name": "Checkpoint Tempest",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_164",
+            "id": 216
+        },
+        {
+            "name": "Checkpoint Armor Arena",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_140",
+            "requires": "{armor()}",
+            "id": 217
+        },
+        {
+            "name": "Checkpoint Child",
+            "category": [
+                "Crimson"
+            ],
+            "region": "rA1_67CP",
+            "requires": "{double_jump()} or {armor()}",
+            "id": 218
+        },
+        {
+            "name": "Checkpoint Yari",
+            "category": [
+                "Crimson"
+            ],
+            "region": "rA1_77",
+            "requires": "{double_jump()} or {armor()} or |Speed Charge|",
+            "id": 219
+        },
+        {
+            "name": "Checkpoint Bridge Drop",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA0_27",
+            "id": 220
+        },
+        {
+            "name": "Checkpoint Tiny Warrior",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_170",
+            "id": 221
+        },
+        {
+            "name": "Checkpoint Climb",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA0_36",
+            "id": 222
+        },
+        {
+            "name": "Checkpoint Archer",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_167",
+            "requires": "|Demon Blade|",
+            "id": 223
+        },
+        {
+            "name": "Checkpoint Ninja",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA0_38hallway",
+            "id": 224
+        },
+        {
+            "name": "Checkpoint Sentinel",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_86",
+            "requires": "{double_jump()} or {armor()}",
+            "id": 225
+        },
+        {
+            "name": "Checkpoint Spin Arena",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_93CP",
+            "id": 226
+        },
+        {
+            "name": "Checkpoint Acolyte",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA0_44",
+            "id": 227
+        },
+        {
+            "name": "Checkpoint Green Area Entry",
+            "category": [
+                "Swamp"
+            ],
+            "region": "rA1_96",
+            "id": 228
+        },
+        {
+            "name": "Checkpoint Father",
+            "category": [
+                "Swamp"
+            ],
+            "region": "rA1_103CP",
+            "id": 229
+        },
+        {
+            "name": "Checkpoint Deceiver",
+            "category": [
+                "Swamp"
+            ],
+            "region": "rA1_109",
+            "id": 230
+        },
+        {
+            "name": "Checkpoint Samurai",
+            "category": [
+                "Temple"
+            ],
+            "region": "rA1_146",
+            "requires": "{double_jump()}",
+            "id": 231
+        },
+        {
+            "name": "Checkpoint Demon",
+            "category": [
+                "Temple"
+            ],
+            "region": "rA1_157",
+            "id": 232
+        },
+        {
+            "name": "Checkpoint Rebirth",
+            "category": [
+                "Temple"
+            ],
+            "region": "rA1_159",
+            "id": 233
+        }
+    ]
+}

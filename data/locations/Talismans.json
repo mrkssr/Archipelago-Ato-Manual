@@ -1,0 +1,325 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Talisman Start Room",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA0_0",
+            "requires": "|Dash| or ({double_jump()} and {armor()})",
+            "id": 150
+        },
+        {
+            "name": "Talisman Runway",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_0runway",
+            "id": 151
+        },
+        {
+            "name": "Talisman Under Leaves",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_1under",
+            "requires": "{double_jump()} or {armor()} or (({double_jump()} or {armor()}) and |Speed Charge|)",
+            "id": 152
+        },
+        {
+            "name": "Talisman Bandit",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_4",
+            "requires": "(|Dodge:2| and ({double_jump()} or {armor()})) or ({double_jump()} or {armor()})",
+            "id": 153
+        },
+        {
+            "name": "Talisman Leave Room",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_9",
+            "requires": "|Spin|",
+            "id": 154
+        },
+        {
+            "name": "Talisman Behind Rocks",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_11Armor",
+            "requires": "{armor()}",
+            "id": 155
+        },
+        {
+            "name": "Talisman Spin Puzzle",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_36",
+            "requires": "|Spin|",
+            "id": 156
+        },
+        {
+            "name": "Talisman Deflector",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_32Deflector",
+            "requires": "{double_jump()} and ((|Throw| and |Dash|) or ({armor()} and |Spin|))",
+            "id": 157
+        },
+        {
+            "name": "Talisman Twins",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_35",
+            "requires": "{double_jump()} or {armor()}",
+            "id": 158
+        },
+        {
+            "name": "Talisman Spins",
+            "category": [
+                "Pillar"
+            ],
+            "region": "rA1_20",
+            "requires": "{double_jump()} and |Spin| and |Crystal Break|",
+            "id": 159
+        },
+        {
+            "name": "Talisman Ancient Warrior Checkpoint Room",
+            "category": [
+                "Pillar"
+            ],
+            "region": "rA1_25CP",
+            "requires": "{spin()} and {double_jump()} and {armor()}",
+            "id": 160
+        },
+        {
+            "name": "Talisman Preview",
+            "category": [
+                "Hills"
+            ],
+            "region": "rA0_9",
+            "id": 161
+        },
+        {
+            "name": "Talisman Top Platforms",
+            "category": [
+                "Hills"
+            ],
+            "region": "rA0_8",
+            "requires": "|Dash|",
+            "id": 162
+        },
+        {
+            "name": "Talisman Dash",
+            "category": [
+                "Hills"
+            ],
+            "region": "rA0_7",
+            "requires": "|Dash| or ({double_jump()} and |Crystal Break|)",
+            "id": 163
+        },
+        {
+            "name": "Talisman Jin",
+            "category": [
+                "Hills"
+            ],
+            "region": "rA0_11",
+            "requires": "{double_jump()} or {armor()}",
+            "id": 164
+        },
+        {
+            "name": "Talisman Hidden",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_46Hidden",
+            "requires": "|Vision| and ({double_jump()} or {armor()})",
+            "id": 165
+        },
+        {
+            "name": "Talisman Armor Haunt Area",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_47Armor",
+            "requires": "{armor()}",
+            "id": 166
+        },
+        {
+            "name": "Talisman Fans",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_56fan",
+            "requires": "|Dodge:2| and |Spin|",
+            "id": 167
+        },
+        {
+            "name": "Talisman Bumper Time Puzzle",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_57Secret",
+            "requires": "|Dash| or {double_jump()}",
+            "id": 168
+        },
+        {
+            "name": "Talisman Secret",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA0_17secret",
+            "id": 169
+        },
+        {
+            "name": "Talisman Left Red Area Entry",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA0_16secret",
+            "requires": "(|Crystal Break| or |Speed Charge|) and {double_jump()} and |Dash|",
+            "id": 170
+        },
+        {
+            "name": "Talisman Chain Dash Room",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA0_23",
+            "requires": "{double_jump()} and ({chain_dash()})",
+            "id": 171
+        },
+        {
+            "name": "Talisman Black Piles Room",
+            "category": [
+                "Crimson"
+            ],
+            "region": "rA1_66dark",
+            "requires": "|Dash|",
+            "id": 172
+        },
+        {
+            "name": "Talisman Yari",
+            "category": [
+                "Crimson"
+            ],
+            "region": "rA1_74",
+            "requires": "{double_jump()} and |Dash| and |Throw|",
+            "id": 173
+        },
+        {
+            "name": "Talisman 3 Coins Door",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA0_31Secret",
+            "requires": "|Coin:3|",
+            "id": 174
+        },
+        {
+            "name": "Talisman Bumper",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_84",
+            "requires": "{double_jump()} and {chain_dash()}",
+            "id": 175
+        },
+        {
+            "name": "Talisman Tiny Warrior",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA0_32secret",
+            "requires": "{double_jump()} and |Dash|",
+            "id": 176
+        },
+        {
+            "name": "Talisman Archer",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA0_37",
+            "requires": "{double_jump()} and (|Speed Charge| or {armor()})",
+            "id": 177
+        },
+        {
+            "name": "Talisman Ninja",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA0_39",
+            "requires": "({double_jump()} and |Speed Charge| and {armor()}) or ({double_jump()} and {chain_dash()})",
+            "id": 178
+        },
+        {
+            "name": "Talisman Hidden Breakables",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_92",
+            "requires": "{double_jump()} and |Dash| and |Vision|",
+            "id": 179
+        },
+        {
+            "name": "Talisman Sentinel",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_87",
+            "requires": "{double_jump()} and |Dash|",
+            "id": 180
+        },
+        {
+            "name": "Talisman Owl",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_FH0",
+            "id": 181
+        },
+        {
+            "name": "Talisman Throws",
+            "category": [
+                "Swamp"
+            ],
+            "region": "rA1_97",
+            "requires": "|Throw|",
+            "id": 182
+        },
+        {
+            "name": "Talisman Warps",
+            "category": [
+                "Swamp"
+            ],
+            "region": "rA1_102",
+            "requires": "{armor()} and {double_jump()}",
+            "id": 183
+        },
+        {
+            "name": "Talisman Warp Obstacles",
+            "category": [
+                "Temple"
+            ],
+            "region": "rA1_151Coin",
+            "requires": "{double_jump()} and |Crystal Break|",
+            "id": 184
+        },
+        {
+            "name": "Talisman Lore Room",
+            "category": [
+                "Temple"
+            ],
+            "region": "rA1_145",
+            "requires": "({double_jump()} or {armor()}) and |Throw|",
+            "id": 185
+        }
+    ]
+}

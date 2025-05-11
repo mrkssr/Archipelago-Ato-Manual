@@ -1,0 +1,56 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Echo Rune",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_64",
+            "requires": "{double_jump()}",
+            "id": 50
+        },
+        {
+            "name": "Agility Rune",
+            "category": [
+                "Temple"
+            ],
+            "region": "rA1_153Boss",
+            "requires": "{chain_dash()}",
+            "id": 51
+        },
+        {
+            "name": "Mind Rune",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA1_59BossHiddenReward",
+            "id": 52
+        },
+        {
+            "name": "Juggernaut Rune",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_35",
+            "id": 53
+        },
+        {
+            "name": "Flurry Rune",
+            "category": [
+                "Hills"
+            ],
+            "region": "rA0_10",
+            "requires": "{double_jump()} and {prologue_done()}",
+            "id": 54
+        },
+        {
+            "name": "Risk Rune",
+            "category": [
+                "Temple"
+            ],
+            "region": "rA1_148Boss",
+            "id": 55
+        }
+    ]
+}

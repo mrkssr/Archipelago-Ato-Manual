@@ -1,0 +1,21 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Magic Bar Vagrant",
+            "category": [
+                "Blossom"
+            ],
+            "region": "rA1_1VagrantBossFinalReward",
+            "id": 60
+        },
+        {
+            "name": "Magic Bar Tiny Warrior",
+            "category": [
+                "Lake"
+            ],
+            "region": "rA1_171TWReward",
+            "id": 61
+        }
+    ]
+}
