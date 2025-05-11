@@ -17,7 +17,7 @@
             "rA0_9",
             "rA0_10",
             "rA1_38",
-            "rA1_137"
+            "rA1_137-CP"
         ]
     },
     "rA0_9": {
@@ -82,11 +82,18 @@
             "rA0_7"
         ]
     },
-    "rA1_137": {
+    "rA1_137-CP": {
         "requires": "|Dash| and |Double Jump| and (|Throw| or |Armor|) and |Coin:13|",
         "connects_to": [
             "rA1_138ArenaThrow"
         ]
     },
-    "rA1_138ArenaThrow": {}
+    "rA1_137-ArenaReward": {
+
+    },
+    "rA1_138ArenaThrow": {
+        "connects_to": [
+            "rA1_137-ArenaReward"
+        ]
+    }
 }

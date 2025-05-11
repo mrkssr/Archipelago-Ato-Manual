@@ -2,25 +2,25 @@
     "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
     "data": [
         {
-            "name": "Blue Orb",
+            "name": "Blue Shard",
             "category": [
-                "Orbs"
+                "Shards"
             ],
             "progression": true,
             "id": 1
         },
         {
-            "name": "Red Orb",
+            "name": "Red Shard",
             "category": [
-                "Orbs"
+                "Shards"
             ],
             "progression": true,
             "id": 2
         },
         {
-            "name": "Yellow Orb",
+            "name": "Yellow Shard",
             "category": [
-                "Orbs"
+                "Shards"
             ],
             "progression": true,
             "id": 3
@@ -115,7 +115,6 @@
             "category": [
                 "Skills"
             ],
-            "progression": false,
             "id": 25
         },
         {
@@ -123,7 +122,6 @@
             "category": [
                 "Skills"
             ],
-            "progression": false,
             "id": 26
         },
         {
@@ -131,7 +129,6 @@
             "category": [
                 "Skills"
             ],
-            "progression": false,
             "id": 27
         },
         {
@@ -139,7 +136,6 @@
             "category": [
                 "Skills"
             ],
-            "progression": false,
             "id": 28
         },
         {
@@ -148,7 +144,6 @@
             "category": [
                 "Skills"
             ],
-            "progression": true,
             "id": 29
         },
         {
@@ -156,7 +151,6 @@
             "category": [
                 "Runes"
             ],
-            "progression": false,
             "id": 50
         },
         {
@@ -164,7 +158,6 @@
             "category": [
                 "Runes"
             ],
-            "progression": false,
             "id": 51
         },
         {
@@ -172,7 +165,6 @@
             "category": [
                 "Runes"
             ],
-            "progression": false,
             "id": 52
         },
         {
@@ -180,7 +172,6 @@
             "category": [
                 "Runes"
             ],
-            "progression": false,
             "id": 53
         },
         {
@@ -188,7 +179,6 @@
             "category": [
                 "Runes"
             ],
-            "progression": false,
             "id": 54
         },
         {
@@ -196,7 +186,6 @@
             "category": [
                 "Runes"
             ],
-            "progression": false,
             "id": 55
         },
         {
@@ -205,7 +194,7 @@
             "category": [
                 "Magic Bars"
             ],
-            "progression": false,
+            "useful": false,
             "id": 60
         },
         {
@@ -223,17 +212,313 @@
             "category": [
                 "Talismans"
             ],
-            "progression": false,
             "id": 150
         },
         {
-            "count": 34,
-            "name": "Checkpoint",
+            "count": 1,
+            "name": "Checkpoint Fatal Arena",
             "category": [
                 "Checkpoints"
             ],
-            "progression": false,
+            "useful": true,
             "id": 200
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Monk",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 201
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Bandit",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 202
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Vagrant",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 203
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Rogue",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 204
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Twins",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 205
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Mother",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 206
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Spin Puzzles",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 207
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Ancient Warrior",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 208
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Phantom Shin",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 209
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Throw Arena",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 210
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Berserker",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 211
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Geisha",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 212
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Phantom Jin",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 213
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Warden",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 214
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Guardian",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 215
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Tempest",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 216
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Armor Arena",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 217
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Child",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 218
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Yari",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 219
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Bridge Drop",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 220
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Tiny Warrior",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 221
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Climb",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 222
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Archer",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 223
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Ninja",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 224
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Sentinel",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 225
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Spin Arena",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 226
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Acolyte",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 227
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Green Area Entry",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 228
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Father",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 229
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Deceiver",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 230
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Samurai",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 231
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Demon",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 232
+        },
+        {
+            "count": 1,
+            "name": "Checkpoint Rebirth",
+            "category": [
+                "Checkpoints"
+            ],
+            "useful": true,
+            "id": 233
         },
         {
             "name": "Prologue Done",
@@ -250,6 +535,14 @@
             ],
             "progression": true,
             "id": 301
+        },
+        {
+            "name": "Love",
+            "category": [
+                "Filler"
+            ],
+            "filler": true,
+            "id": 302
         }
     ]
 }

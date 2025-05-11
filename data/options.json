@@ -63,7 +63,7 @@
             ],
             "type": "Toggle",
             "default": true,
-            "group": "Orbs"
+            "group": "Shards"
         },
         "skills_shuffle": {
             "description": [

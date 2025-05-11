@@ -8,8 +8,14 @@
         "connects_to": [
             "rA0_14secret",
             "rA0_16secret",
-            "rA0_15"
-        ]
+            "rA0_15-up",
+            "rA0_15-down"
+        ],
+        "exit_requires": {
+            "rA0_14secret": "|Crystal Break|",
+            "rA0_16secret": "|Crystal Break|",
+            "rA0_15-up": "{double_jump()}"
+        }
     },
     "rA0_14secret": {
         "requires": "|Crystal Break|",
@@ -116,7 +122,13 @@
     "rA1_166TempestReward": {
         "requires": "(|Double Jump| or |Armor|)"
     },
-    "rA0_15": {
+    "rA0_15-up": {
+        "connects_to": [
+            "rA0_18",
+            "rA0_20"
+        ]
+    },
+    "rA0_15-down": {
         "connects_to": [
             "rA0_18",
             "rA0_20"

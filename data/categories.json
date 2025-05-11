@@ -1,6 +1,6 @@
 {
     "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
-    "Orbs": {},
+    "Shards": {},
     "Skills": {},
     "Runes": {},
     "Coins": {},
@@ -15,6 +15,11 @@
     "Swamp": {},
     "Forbidden": {},
     "Temple": {},
-    "Bosses": {},
-    "Events": {}
+    "Bosses": {
+        "hidden": true
+    },
+    "Events": {},
+    "Filler": {
+        "hidden": true
+    }
 }

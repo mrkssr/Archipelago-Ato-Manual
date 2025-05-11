@@ -13,7 +13,7 @@ def dodge(world: World, multiworld: MultiWorld, state: CollectionState, player: 
 
 def dash(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
     """Has player dash ability?"""
-    if state.count("Dash", player):
+    if state.has("Dash", player):
         return True
     
     if logic_hard(world, multiworld, state, player) and (double_jump(world, multiworld, state, player) and armor(world, multiworld, state, player)):
@@ -28,7 +28,12 @@ def chain_dash(world: World, multiworld: MultiWorld, state: CollectionState, pla
     
     if logic_hard(world, multiworld, state, player) and \
         dash_state(world, multiworld, state, player, 1) and \
-        (armor(world, multiworld, state, player) or dodge(world, multiworld, state, player)):
+        (
+            armor(world, multiworld, state, player) or
+            double_jump(world, multiworld, state, player) or
+            spin(world, multiworld, state, player) or
+            dodge(world, multiworld, state, player)
+        ):
         return True
     
     return False
@@ -40,7 +45,12 @@ def chain_dash_upgrade(world: World, multiworld: MultiWorld, state: CollectionSt
     
     if logic_hard(world, multiworld, state, player) and \
         dash_state(world, multiworld, state, player, 2) and \
-        (armor(world, multiworld, state, player) or dodge(world, multiworld, state, player)):
+        (
+            armor(world, multiworld, state, player) or
+            double_jump(world, multiworld, state, player) or
+            spin(world, multiworld, state, player) or
+            dodge(world, multiworld, state, player)
+        ):
         return True
     
     return False
@@ -62,12 +72,25 @@ def double_jump(world: World, multiworld: MultiWorld, state: CollectionState, pl
 def armor(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
     """Has the player armor ability?"""
     return state.has("Armor", player)
+
+def spin(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
+    """Has the player spin ability?"""
+    return state.has("Spin", player)
+
+def vision(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
+    if state.has("vision"):
+        return True
+
+    if logic_hard(world, multiworld, state, player):
+        return True
+    
+    return False
 # Skills Done
 
 # Shards
 def all_shards(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
     """All all shards collected?"""
-    return state.has_all(["Blue Orb", "Red Orb", "Yellow Orb"], player)
+    return state.has_all(["Blue Shard", "Red Shard", "Yellow Shard"], player)
 # Shards Done
 
 # Logic
@@ -89,26 +112,3 @@ def is_prologue():
     """Prologue environment"""
     return not prologue_done()
 # Events Done
-
-# Sometimes you have a requirement that is just too messy or repetitive to write out with boolean logic.
-# Define a function here, and you can use it in a requires string with {function_name()}.
-def overfishedAnywhere(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
-    """Has the player collected all fish from any fishing log?"""
-    for cat, items in world.item_name_groups:
-        if cat.endswith("Fishing Log") and state.has_all(items, player):
-            return True
-    return False
-
-# You can also pass an argument to your function, like {function_name(15)}
-# Note that all arguments are strings, so you'll need to convert them to ints if you want to do math.
-def anyClassLevel(world: World, multiworld: MultiWorld, state: CollectionState, player: int, level: str):
-    """Has the player reached the given level in any class?"""
-    for item in ["Figher Level", "Black Belt Level", "Thief Level", "Red Mage Level", "White Mage Level", "Black Mage Level"]:
-        if state.count(item, player) >= int(level):
-            return True
-    return False
-
-# You can also return a string from your function, and it will be evaluated as a requires string.
-def requiresMelee(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
-    """Returns a requires string that checks if the player has unlocked the tank."""
-    return "|Figher Level:15| or |Black Belt Level:15| or |Thief Level:15|"

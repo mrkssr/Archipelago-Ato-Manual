@@ -2,7 +2,7 @@
     "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
     "data": [
         {
-            "name": "Blue Orb",
+            "name": "Blue Shard",
             "category": [
                 "Pillar"
             ],
@@ -10,7 +10,7 @@
             "id": 1
         },
         {
-            "name": "Red Orb",
+            "name": "Red Shard",
             "category": [
                 "Crimson"
             ],
@@ -18,7 +18,7 @@
             "id": 2
         },
         {
-            "name": "Yellow Orb",
+            "name": "Yellow Shard",
             "category": [
                 "Swamp"
             ],
@@ -80,7 +80,7 @@
                 "Fall"
             ],
             "region": "rA0_19",
-            "requires": "|Dash|",
+            "requires": "{dash()}",
             "id": 15
         },
         {
@@ -97,6 +97,7 @@
                 "Blossom"
             ],
             "region": "rA1_8",
+            "requires": "{prologue_done()}",
             "id": 17
         },
         {
@@ -113,7 +114,7 @@
                 "Lake"
             ],
             "region": "rA1_94ArenaSpin",
-            "requires": "|Spin|",
+            "requires": "{spin()}",
             "id": 19
         },
         {
@@ -122,7 +123,7 @@
                 "Crimson"
             ],
             "region": "rA1_69",
-            "requires": "{double_jump()} or {armor()}",
+            "requires": "{double_jump()}",
             "id": 20
         },
         {
@@ -130,7 +131,7 @@
             "category": [
                 "Hills"
             ],
-            "region": "rA1_138ArenaThrow",
+            "region": "rA1_137-ArenaReward",
             "id": 21
         },
         {
@@ -156,6 +157,7 @@
                 "Lake"
             ],
             "region": "rA1_91",
+            "requires": "{double_jump()}",
             "id": 24
         },
         {
@@ -205,6 +207,7 @@
                 "Forbidden"
             ],
             "region": "rA1_118ArenaFatalReward",
+            "requires": "{double_jump()}",
             "id": 30
         },
         {
@@ -213,6 +216,7 @@
                 "Fall"
             ],
             "region": "rA1_64",
+            "requires": "{double_jump()}",
             "id": 50
         },
         {
@@ -246,7 +250,7 @@
                 "Hills"
             ],
             "region": "rA0_10",
-            "requires": "{double_jump()} or {armor()}",
+            "requires": "{double_jump()} and {prologue_done()}",
             "id": 54
         },
         {
@@ -295,7 +299,7 @@
                 "Blossom"
             ],
             "region": "rA1_136Love",
-            "requires": "|Dash|",
+            "requires": "{dash()}",
             "id": 102
         },
         {
@@ -340,7 +344,7 @@
                 "Pillar"
             ],
             "region": "rA1_23",
-            "requires": "|Dash| and |Spin| and {double_jump()}",
+            "requires": "{spin()} and {double_jump()}",
             "id": 107
         },
         {
@@ -374,7 +378,6 @@
                 "Hills"
             ],
             "region": "rA1_43",
-            "requires": "{double_jump()} or {armor()}",
             "id": 111
         },
         {
@@ -391,7 +394,7 @@
                 "Fall"
             ],
             "region": "rA0_14secret",
-            "requires": "|Speed Charge| and {double_jump()} and (({armor()} and |Dash:1|) or {chain_dash()})",
+            "requires": "({logic_normal()} and {chain_dash()} and |Speed Charge|) or ({logic_hard()} or {chain_dash()})",
             "id": 113
         },
         {
@@ -400,11 +403,11 @@
                 "Fall"
             ],
             "region": "rA1_64Coin",
-            "requires": "|Spin|",
+            "requires": "{double_jump} or {logic_hard()}",
             "id": 114
         },
         {
-            "name": "Coin Red Area Entry",
+            "name": "Coin Right Red Area Entry",
             "category": [
                 "Fall"
             ],
@@ -643,12 +646,12 @@
             "id": 159
         },
         {
-            "name": "Talisman Ancient Warrior Checkpoint",
+            "name": "Talisman Ancient Warrior Checkpoint Room",
             "category": [
                 "Pillar"
             ],
             "region": "rA1_25CP",
-            "requires": "|Spin| and {double_jump()} and {armor()}",
+            "requires": "{spin()} and {double_jump()} and {armor()}",
             "id": 160
         },
         {
@@ -696,7 +699,7 @@
             "id": 165
         },
         {
-            "name": "Talisman Armor Geisha Area",
+            "name": "Talisman Armor Haunt Area",
             "category": [
                 "Fall"
             ],
@@ -714,33 +717,33 @@
             "id": 167
         },
         {
-            "name": "Talisman Secret",
-            "category": [
-                "Fall"
-            ],
-            "region": "rA0_17secret",
-            "id": 168
-        },
-        {
-            "name": "Talisman Hidden Top",
-            "category": [
-                "Fall"
-            ],
-            "region": "rA0_16secret",
-            "requires": "(|Crystal Break| or |Speed Charge|) and {double_jump()} and |Dash|",
-            "id": 169
-        },
-        {
             "name": "Talisman Bumper Time Puzzle",
             "category": [
                 "Fall"
             ],
             "region": "rA1_57Secret",
             "requires": "|Dash| or {double_jump()}",
+            "id": 168
+        },
+        {
+            "name": "Talisman Secret",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA0_17secret",
+            "id": 169
+        },
+        {
+            "name": "Talisman Left Red Area Entry",
+            "category": [
+                "Fall"
+            ],
+            "region": "rA0_16secret",
+            "requires": "(|Crystal Break| or |Speed Charge|) and {double_jump()} and |Dash|",
             "id": 170
         },
         {
-            "name": "Talisman Chain Dash",
+            "name": "Talisman Chain Dash Room",
             "category": [
                 "Fall"
             ],
@@ -767,7 +770,7 @@
             "id": 173
         },
         {
-            "name": "Talisman Low Gravity Bumper",
+            "name": "Talisman 3 Coins Door",
             "category": [
                 "Lake"
             ],
@@ -1158,20 +1161,71 @@
         {
             "name": "Acolyte",
             "category": [
+                "Lake",
                 "Bosses"
             ],
             "region": "rA0_45Boss",
-            "place_item": ["Prologue Done"],
+            "place_item": [
+                "Prologue Done"
+            ],
             "id": 300
         },
         {
             "name": "Samurai",
             "category": [
+                "Temple",
                 "Bosses"
             ],
             "region": "rA0_45Boss",
-            "place_item": ["Defeated Samurai"],
+            "place_item": [
+                "Defeated Samurai"
+            ],
             "id": 301
+        },
+        {
+            "name": "Goal: Defeat Rebirth",
+            "victory": true,
+            "category": [
+                "Goal"
+            ],
+            "region": "rA1_162Boss",
+            "id": 1000
+        },
+        {
+            "name": "Goal: Coin Hunt (8 Coins)",
+            "victory": true,
+            "category": [
+                "Goal"
+            ],
+            "requires": "|Coin:8|",
+            "id": 1010
+        },
+        {
+            "name": "Goal: Coin Hunt (16 Coins)",
+            "victory": true,
+            "category": [
+                "Goal"
+            ],
+            "requires": "|Coin:16|",
+            "id": 1011
+        },
+        {
+            "name": "Goal: Coin Hunt (24 Coins)",
+            "victory": true,
+            "category": [
+                "Goal"
+            ],
+            "requires": "|Coin:24|",
+            "id": 1012
+        },
+        {
+            "name": "Goal: Coin Hunt (All Coins)",
+            "victory": true,
+            "category": [
+                "Goal"
+            ],
+            "requires": "|Coin:all|",
+            "id": 1013
         }
     ]
 }
