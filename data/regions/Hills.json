@@ -6,29 +6,44 @@
     },
     "rA0_6": {
         "connects_to": [
-            "rA0_7",
+            "rA0_7-up",
+            "rA0_7-down",
             "rA0_8"
         ]
     },
-    "rA0_7": {},
+    "rA0_7-up": {
+        "connectsTo": [
+            "rA1_43"
+        ],
+        "exit_requires": {
+            "rA1_43": "({logic_normal()} and {dash()} and {crystal_break()}) or ({logic_hard()} and {crystal_break()})"
+        }
+    },
+    "rA0_7-down": {},
     "rA0_8": {
-        "requires": "{dash()}",
         "connects_to": [
             "rA0_9",
             "rA0_10",
             "rA1_38",
             "rA1_137-CP"
-        ]
+        ],
+        "exit_requires": {
+            "rA0_9": "{dash()}",
+            "rA0_10": "({logic_normal()} and {dash()}) or ({logic_hard()})",
+            "rA1_38": "{dash()} and {crystal_break()}",
+            "rA1_137-CP": "{double_jump()} and {dash()}"
+        },
+        "entrance_requires": {
+            "rA1_38": "{crystal_break()}"
+        }
     },
     "rA0_9": {
-        "requires": "{dash()}",
         "connects_to": [
             "rA0_9Coin"
         ]
     },
     "rA0_9Coin": {},
     "rA1_38": {
-        "requires": "|Crystal Break| and {dash()} and ({double_jump()} or {spin()})",
         "connects_to": [
             "rA0_8",
             "rA1_37"
@@ -38,34 +53,44 @@
         "connects_to": [
             "rA1_30",
             "rA1_40Nothing",
-            "rA1_39Warp"
-        ]
+            "rA1_39Warp",
+            "rA1_38"
+        ],
+        "exit_requires": {
+            "rA1_30" : "{double_jump()}",
+            "rA1_39Warp" : "({logic_normal()} and {double_jump()} and {dash()}) or ({logic_hard()} and {armor()}) or ({logic_hard()} and {double_jump()} and |Speed Charge|)"
+        }
     },
     "rA1_40Nothing": {
         "requires": "{double_jump()}",
         "connects_to": [
             "rA1_41Nothing"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_41Nothing": "({logic_normal()} and {double_jump()} and {vision()} and {chain_dash()}) or ({logic_hard()} and {double_jump()} and {armor()})"
+        }
     },
     "rA1_41Nothing": {
-        "requires": "(|Speed Charge| and |Dash:1|) or (|Dash:2| and {double_jump()}) or ({double_jump()} and {armor()})",
+        "requires": "{double_jump()",
         "connects_to": [
             "rA1_42Boss"
         ]
     },
     "rA1_42Boss": {
-        "requires": "{double_jump()}",
         "connects_to": [
             "rA1_41Nothing"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_41Nothing": "{double_jump()} and {dash()}"
+        }
     },
     "rA1_39Warp": {
-        "requires": "({double_jump()} and {armor()}) or {dash()}",
+        "requires": "{double_jump()}",
         "connects_to": [
             "rA1_39Coin"
         ]
     },
-    "rA1_39Coin": {"requires": "{double_jump()}"},
+    "rA1_39Coin": {},
     "rA0_10": {
         "connects_to": [
             "rA0_11"
@@ -77,16 +102,25 @@
         ]
     },
     "rA1_43": {
-        "requires": "|Coin:8| and {double_jump()}",
         "connects_to": [
-            "rA0_7"
-        ]
+            "rA0_7-up",
+            "rA0_14secret"
+        ],
+        "entrance_requires": {
+            "rA0_14secret": "|Coin:8|"
+        },
+        "exit_requires": {
+            "rA0_7-up": "{double_jump()}"
+        }
     },
     "rA1_137-CP": {
-        "requires": "{dash()} and {double_jump()} and (|Throw| or {armor()}) and |Coin:13|",
+        "requires": "|Coin:13|",
         "connects_to": [
             "rA1_138ArenaThrow"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_138ArenaThrow": "({logic_normal()} and {throw()}) or ({logic_hard()} and {double_jump()} and {armor()})"
+        }
     },
     "rA1_137-ArenaReward": {
 

@@ -30,7 +30,7 @@
             "category": [
                 "Hills"
             ],
-            "region": "rA0_7",
+            "region": "rA0_7-down",
             "id": 12
         },
         {
@@ -132,7 +132,6 @@
                 "Lake"
             ],
             "region": "rA1_91",
-            "requires": "{double_jump()}",
             "id": 24
         },
         {
@@ -182,7 +181,6 @@
                 "Forbidden"
             ],
             "region": "rA1_118ArenaFatalReward",
-            "requires": "{double_jump()}",
             "id": 30
         }
     ]

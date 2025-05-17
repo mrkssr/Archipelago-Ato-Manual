@@ -6,66 +6,83 @@
     },
     "rA1_143": {
         "connects_to": [
-            "rA1_144","rA1_146"
-        ]
+            "rA1_144",
+            "rA1_146"
+        ],
+        "exit_requires": {
+            "rA1_144": "{double_jump()}",
+            "rA1_146": "{chain_dash()}"
+        }
     },
     "rA1_144": {
         "connects_to": [
             "rA1_144Coin",
             "rA1_145"
-        ],"requires": "{double_jump()} or {armor()}"
+        ]
     },
     "rA1_144Coin": {},
-    "rA1_145": {
-    },
+    "rA1_145": {},
     "rA1_146": {
-        "requires": "{double_jump()} and (|Dash:2| or (|Dash:1| and {armor()}))",
         "connects_to": [
             "rA1_147",
             "rA1_149",
             "rA1_152"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_149": "{double_jump()}",
+            "rA1_152": "|Defeated Samurai|"
+        }
     },
     "rA1_147": {
         "connects_to": [
             "rA1_148Boss"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_148Boss": "{double_jump()}"
+        }
     },
-    "rA1_148Boss": {"requires": "{double_jump()} or {armor()}"},
+    "rA1_148Boss": {
+        "requires": "{double_jump()} or {armor()}"
+    },
     "rA1_149": {
-        "requires": "{double_jump()} or {armor()}",
         "connects_to": [
             "rA1_150Warp",
             "rA1_151"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_151": "({logic_normal()} and {double_jump()} and {armor()} and {throw() and {vision()}} and {chain_dash()}) or ({logic_hard()} and {double_jump()} and {armor()})"
+        }
     },
     "rA1_150Warp": {
         "requires": "{double_jump()} and (|Dash:2| or (|Dash:1| and {armor()}))"
     },
     "rA1_151": {
-        "requires": "({double_jump()} and {armor()}) or {dash()}",
+        "requires": "{double_jump()}",
         "connects_to": [
             "rA1_151Coin"
         ]
     },
     "rA1_151Coin": {
-        "requires": "{double_jump()} and |Coin:13| and |Crystal Break|"
+        "requires": "|Coin:13| and |Crystal Break|"
     },
     "rA1_152": {
-        "requires": "|Defeated Samurai|",
         "connects_to": [
             "rA1_153Boss"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_153Boss": "|Demon Blade|"
+        }
     },
     "rA1_153Boss": {
-        "requires": "|Demon Blade|",
         "connects_to": [
             "rA1_154"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_154": "{chain_dash()}"
+        }
     },
     "rA1_154": {
-        "requires": "(|Dash:1| and ({double_jump()} or {armor()})) or |Dash:2|",
-            "connects_to": [
+        "connects_to": [
             "rA1_155"
         ]
     },

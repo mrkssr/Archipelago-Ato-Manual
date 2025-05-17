@@ -7,7 +7,7 @@
                 "Fall"
             ],
             "region": "rA1_64",
-            "requires": "{double_jump()}",
+            "requires": "{double_jump()} or {vision()}",
             "id": 50
         },
         {

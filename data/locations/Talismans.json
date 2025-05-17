@@ -122,8 +122,8 @@
             "category": [
                 "Hills"
             ],
-            "region": "rA0_7",
-            "requires": "{dash()} or ({double_jump()} and |Crystal Break|)",
+            "region": "rA0_7-up",
+            "requires": "({logic_normal()} and {dash()}) or ({logic_hard()})",
             "id": 163
         },
         {
@@ -132,7 +132,7 @@
                 "Hills"
             ],
             "region": "rA0_11",
-            "requires": "{double_jump()} or {armor()}",
+            "requires": "({logic_normal()} and {double_jump()}) or ({logic_hard()} and {armor()})",
             "id": 164
         },
         {
@@ -141,7 +141,7 @@
                 "Fall"
             ],
             "region": "rA1_46Hidden",
-            "requires": "|Vision| and ({double_jump()} or {armor()})",
+            "requires": "{vision()}",
             "id": 165
         },
         {
@@ -159,7 +159,7 @@
                 "Fall"
             ],
             "region": "rA1_56fan",
-            "requires": "|Dodge:2| and |Spin|",
+            "requires": "{dodge_upgrade()} and ({spin()})",
             "id": 167
         },
         {
@@ -168,7 +168,6 @@
                 "Fall"
             ],
             "region": "rA1_57Secret",
-            "requires": "{dash()} or {double_jump()}",
             "id": 168
         },
         {
@@ -185,7 +184,7 @@
                 "Fall"
             ],
             "region": "rA0_16secret",
-            "requires": "(|Crystal Break| or |Speed Charge|) and {double_jump()} and {dash()}",
+            "requires": "{double_jump()} and {dash()}",
             "id": 170
         },
         {
@@ -194,7 +193,7 @@
                 "Fall"
             ],
             "region": "rA0_23",
-            "requires": "{double_jump()} and ({chain_dash()})",
+            "requires": "({logic_normal()} and {chain_dash()}) or ({logic_normal()} and {double_jump()} and |Speed Charge|) or ({logic_hard()})",
             "id": 171
         },
         {
@@ -212,7 +211,7 @@
                 "Crimson"
             ],
             "region": "rA1_74",
-            "requires": "{double_jump()} and {dash()} and |Throw|",
+            "requires": "{double_jump()} and {dash()} and {throw()}",
             "id": 173
         },
         {
@@ -239,7 +238,7 @@
                 "Lake"
             ],
             "region": "rA0_32secret",
-            "requires": "{double_jump()} and {dash()}",
+            "requires": "({$logic_normal()} and {double_jump()} and {chain_dash()}) and ({$logic_hard()} and {double_jump()} and {dash()})",
             "id": 176
         },
         {
@@ -248,7 +247,7 @@
                 "Lake"
             ],
             "region": "rA0_37",
-            "requires": "{double_jump()} and (|Speed Charge| or {armor()})",
+            "requires": "{double_jump()} and {chain_dash()}",
             "id": 177
         },
         {
@@ -257,7 +256,7 @@
                 "Lake"
             ],
             "region": "rA0_39",
-            "requires": "({double_jump()} and |Speed Charge| and {armor()}) or ({double_jump()} and {chain_dash()})",
+            "requires": "({logic_normal()} and {double_jump()} and {chain_dash()}) or ({logic_hard()} and {double_jump()} and |Speed Charge| and {armor()}) or",
             "id": 178
         },
         {
@@ -266,7 +265,7 @@
                 "Lake"
             ],
             "region": "rA1_92",
-            "requires": "{double_jump()} and {dash()} and |Vision|",
+            "requires": "({logic_normal()} and {double_jump()} and {dash()} and {vision()}) or ({logic_hard()} and {double_jump()} and {armor()})",
             "id": 179
         },
         {
@@ -275,7 +274,6 @@
                 "Lake"
             ],
             "region": "rA1_87",
-            "requires": "{double_jump()} and {dash()}",
             "id": 180
         },
         {
@@ -284,6 +282,7 @@
                 "Lake"
             ],
             "region": "rA1_FH0",
+            "requires": "{double_jump()}",
             "id": 181
         },
         {
@@ -292,7 +291,7 @@
                 "Swamp"
             ],
             "region": "rA1_97",
-            "requires": "|Throw|",
+            "requires": "{throw()} and ({double_jump()} or {armor()})",
             "id": 182
         },
         {
@@ -301,7 +300,7 @@
                 "Swamp"
             ],
             "region": "rA1_102",
-            "requires": "{armor()} and {double_jump()}",
+            "requires": "({logic_normal()} and {armor()} and {double_jump()}) or ({logic_hard()} and {armor()})",
             "id": 183
         },
         {
@@ -319,7 +318,7 @@
                 "Temple"
             ],
             "region": "rA1_145",
-            "requires": "({double_jump()} or {armor()}) and |Throw|",
+            "requires": "({logic_normal()} and {double_jump()} and {throw()} and {vision()}) or ({logic_hard()} and {double_jump()} and {throw()}})",
             "id": 185
         }
     ]

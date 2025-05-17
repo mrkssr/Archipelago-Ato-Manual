@@ -4,11 +4,13 @@
             "rA1_96Warp",
             "rA1_97",
             "rA1_98"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_96Warp": "{double_jump()}",
+            "rA1_97": "{double_jump()}"
+        }
     },
-    "rA1_96Warp": {
-        "requires": "{double_jump()} or {armor()}"
-    },
+    "rA1_96Warp": {},
     "rA1_97": {},
     "rA1_98": {
         "connects_to": [
@@ -16,6 +18,7 @@
         ]
     },
     "rA1_99": {
+        "requires": "{armor()}",
         "connects_to": [
             "rA1_100"
         ]
@@ -27,19 +30,19 @@
             "rA1_101"
         ]
     },
-    "rA1_100Coin": {"requires": "{armor()}"},
+    "rA1_100Coin": {},
     "rA1_101": {
         "requires": "{armor()}",
         "connects_to": [
             "rA1_102",
             "rA1_103CP"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_103CP": "({logic_normal()} and {double_jump()}) or ({logic_hard()} and {armor()})"
+        }
     },
-    "rA1_102": {
-        "requires": "{armor()}"
-    },
+    "rA1_102": {},
     "rA1_103CP": {
-        "requires": "{armor()} and {double_jump()}",
         "connects_to": [
             "rA1_104Boss"
         ]
@@ -56,25 +59,24 @@
         ]
     },
     "rA1_106": {
+        "requires": "({logic_normal()} and {armor()} and {double_jump()}) or ({logic_hard()} and {armor()} and ({double_jump()} or {spin()} or {dodge()}))",
         "connects_to": [
             "rA1_107"
-        ],
-        "requires": "{armor()}"
+        ]
     },
     "rA1_107": {
+        "requires": "({logic_normal()} and {armor()} and {double_jump()}) or ({logic_hard()} and {armor()})",
         "connects_to": [
             "rA1_108"
-        ],
-        "requires": "{armor()} and {double_jump()}"
+        ]
     },
     "rA1_108": {
-        "requires": "{armor()} and {double_jump()}",
+        "requires": "{armor()} and {dash()}",
         "connects_to": [
             "rA1_109"
         ]
     },
     "rA1_109": {
-        "requires": "{armor()} and {double_jump()} and {dash()}",
         "connects_to": [
             "rA1_110"
         ]

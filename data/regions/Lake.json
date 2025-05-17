@@ -8,7 +8,10 @@
     "rA0_28": {
         "connects_to": [
             "rA0_23"
-        ]
+        ],
+        "exit_requires": {
+            "rA0_23": "({logic_normal()} and {double_jump()} and |Speed Charge|) or ({logic_hard()})"
+        }
     },
     "rA0_29": {
         "connects_to": [
@@ -17,19 +20,33 @@
     },
     "rA0_30": {
         "connects_to": [
-            "rA0_31",
+            "rA0_31"
+        ],
+        "exit_requires": {
+            "rA0_31": "({is_prologue()} and {double_jump()}) or ({logic_hard()} and {prologue_done()} and {double_jump()} and |Speed Charge|) or ({logic_hard()} and {prologue_done()} and {double_jump()} and {armor()})"
+        }
+    },
+    "rA0_31": {
+        "connects_to": [
             "rA0_31Secret",
             "rA0_33",
             "rA0_32secret"
-        ]
+        ],
+        "exit_requires": {
+            "rA0_31Secret": "({logic_normal()} and {is_prologue()} and {double_jump()} and {dash()}) or ({logic_hard()} and {is_prologue()} and {double_jump()} and {armor()}) or ({prologue_done()})",
+            "rA0_33" : "({is_prologue()} and {logic_normal()} and {double_jump()} and {chain_dash()}) or ({is_prologue()} and {logic_hard()} and {double_jump()} and {dash()}) or ({prologue_done()} and |Speed Charge| and {double_jump()} and {armor()})",
+            "rA0_32secret": "({is_prologue()} and {logic_normal()} and {double_jump()} and {dash()}) or ({is_prologue()} and {logic_hard()} and {dash()}) or ({prologue_done()} and |Crystal Break|)"
+        }
     },
-    "rA0_31": {},
     "rA0_31Secret": {},
     "rA0_32secret": {
         "connects_to": [
             "rA1_169",
             "rA1_139"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_139": "|Crystal Break|"
+        }
     },
     "rA1_169": {
         "connects_to": [
@@ -43,26 +60,26 @@
         ]
     },
     "rA1_171TW": {
-        "requires": "{double_jump()} and ({dash()} or {armor()})",
+        "requires": "{double_jump()} and {chain_dash()}",
         "connects_to": [
             "rA1_171TWReward"
         ]
     },
     "rA1_171TWReward": {},
-    "rA1_139": {"requires": "|Crystal Break|"},
+    "rA1_139": {},
     "rA0_33": {
-        "requires": "{double_jump()} and {dash()}",
         "connects_to": [
             "rA0_34"
         ]
     },
     "rA0_34": {
+        "requires": "({is_prologue()} and {double_jump()}) or ({prologue_done()})",
         "connects_to": [
             "rA0_35"
         ]
     },
     "rA0_35": {
-        "requires": "{double_jump()}",
+        "requires": "({logic_normal()} and {is_prologue()} and {double_jump()} and {chain_dash()}) or ({logic_hard()} and {is_prologue()}) or ({prologue_done()} and {double_jump()})",
         "connects_to": [
             "rA0_36"
         ]
@@ -73,23 +90,32 @@
             "rA0_36Coin",
             "rA0_36hallway",
             "rA0_37"
-        ]
+        ],
+        "exit_requires": {
+            "rA0_36hallway": "({is_prologue()}) or ({prologue_done()} and {double_jump()} and {chain_dash()})",
+            "rA0_37": "({is_prologue()}) or ({prologue_done()} and {double_jump()} and {chain_dash()})"
+        }
     },
     "rA0_36Coin": {},
     "rA0_36hallway": {
         "connects_to": [
             "rA1_84"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_84": "{double_jump()} or {prologue_done()}"
+        }
     },
     "rA1_84": {
         "connects_to": [
             "rA1_84Coin",
             "rA1_83"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_83": "{double_jump()} and {dash()}"
+        }
     },
     "rA1_84Coin": {},
     "rA1_83": {
-        "requires": "({double_jump()} or {armor()}) and {dash()}",
         "connects_to": [
             "rA1_81"
         ]
@@ -99,7 +125,11 @@
             "rA1_81VagrantBoss",
             "rA1_80Warp",
             "rA1_82"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_80Warp": "{double_jump()}",
+            "rA1_82": "{double_jump()}"
+        }
     },
     "rA1_81VagrantBoss": {
         "connects_to": [
@@ -108,18 +138,22 @@
     },
     "rA1_81VagrantBossReward": {},
     "rA1_80Warp": {
-        "requires": "{double_jump()}",
         "connects_to": [
             "rA0_26"
-        ]
+        ],
+        "exit_requires": {
+            "rA0_26": "|Crystal Break|"
+        }
     },
     "rA1_82": {
-        "requires": "{double_jump()}",
         "connects_to": [
             "rA1_82FatalDraw"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_82FatalDraw": "|Coin:18|"
+        }
     },
-    "rA1_82FatalDraw": {"requires": "|Coin:18|"},
+    "rA1_82FatalDraw": {},
     "rA0_37": {
         "requires": "{double_jump()} and {dash()}",
         "connects_to": [
@@ -128,7 +162,7 @@
         ]
     },
     "rA1_167": {
-        "requires": "{double_jump()} and (|Dash:2| or {armor()})",
+        "requires": "|Demon Blade|",
         "connects_to": [
             "rA1_168Archer"
         ]
@@ -142,11 +176,14 @@
     "rA0_38hallway": {
         "connects_to": [
             "rA0_39",
-            "rA0_40"
-        ]
+            "rA0_40",
+            "rA0_85"
+        ],
+        "exit_requires": {
+            "rA0_85": "{chain_dash()} and |Crystal Break|"
+        }
     },
-    "rA0_39": {
-    },
+    "rA0_39": {},
     "rA0_40": {
         "connects_to": [
             "rA0_41"
@@ -156,29 +193,42 @@
         "requires": "|Speed Charge|",
         "connects_to": [
             "rA0_42"
-        ]
+        ],
+        "exit_requires": {
+            "rA0_42": "{double_jump()}"
+        }
     },
     "rA0_42": {
-        "requires": "|Speed Charge|",
         "connects_to": [
             "rA0_43"
-        ]
+        ],
+        "exit_requires": {
+            "rA0_42": "({is_prologue()} and {double_jump} and {chain_dash} and |Speed Charge|) or ({prologue_done()} and {double_jump} and |Speed Charge|)"
+        }
     },
     "rA0_43": {
-        "requires": "|Speed Charge| and {double_jump()} and |Dash:2|",
         "connects_to": [
             "rA0_88",
             "rA0_44",
             "rA1_95"
-        ]
+        ],
+        "exit_requires": {
+            "rA0_88": "{double_jump()} and {chain_dash()} and |Speed Charge|",
+            "rA0_44": "{double_jump()}",
+            "rA1_95": "({double_jump()} or {prologue_done()}) and |Crystal Break|"
+        }
     },
     "rA0_88": {
-        "requires": "|Speed Charge| and {double_jump()} and {dash()}",
         "connects_to": [
-            "rA1_87"
-        ]
+            "rA1_87-up",
+            "rA1_87-down"
+        ],
+        "exit_requires": {
+            "rA1_87-up": "{dash()} and |Speed Charge|"
+        }
     },
-    "rA1_87": {
+    "rA1_87-up": {},
+    "rA1_87-down": {
         "connects_to": [
             "rA1_86"
         ]
@@ -189,62 +239,72 @@
             "rA1_89Warp",
             "rA1_92",
             "rA1_90Sentinel"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_89Warp": "{double_jump()}",
+            "rA1_92": "{double_jump()}",
+            "rA1_90Sentinel": "({logic_normal()} and {double_jump()} and {dash()} and |Crystal_break|) or ({logic_hard()} and {double_jump()} and {armor()} and |Crystal Break|) or ({logic_hard()} and {double_jump()} and {spin()} |Crystal Break|)"
+        }
     },
     "rA0_85": {
+        "requires": "{double_jump()}",
         "connects_to": [
             "rA0_38hallway"
         ]
     },
-    "rA1_89Warp": {
-        "requires": "{double_jump()}"
-    },
+    "rA1_89Warp": {},
     "rA1_92": {
-        "requires": "{double_jump()}",
         "connects_to": [
             "rA1_93CP"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_93CP": "|Coin:13| and {spin()}"
+        }
     },
     "rA1_93CP": {
-        "requires": "|Coin:13| and {spin()}",
         "connects_to": [
             "rA1_163StatueRoom",
             "rA1_94ArenaSpin"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_163StatueRoom": "({logic_normal()} and {dash()} and {vision()]}) or ({logic_hard()} and {armor()})"
+        }
     },
     "rA1_163StatueRoom": {
-        "requires": "{dash()} or {armor()}",
         "connects_to": [
             "rA1_FH0"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_FH0": "{double_jump()}"
+        }
     },
-    "rA1_FH0": {
-        "requires": "{double_jump()}"
-    },
-    "rA1_94ArenaSpin": {
-    },
+    "rA1_FH0": {},
+    "rA1_94ArenaSpin": {},
     "rA1_90Sentinel": {
-        "requires": "{double_jump()} and ({dash()} or {armor()}) and |Crystal Break|",
         "connects_to": [
             "rA1_91"
         ]
     },
-    "rA1_91": {
-    },
+    "rA1_91": {},
     "rA0_44": {
         "connects_to": [
             "rA0_45Boss"
-        ],"requires": "{double_jump()}"
+        ]
     },
     "rA0_45Boss": {
         "connects_to": [
             "rA1_142"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_142": "{prologue_done()}"
+        }
     },
     "rA1_95": {
-        "requires": "|Crystal Break|",
         "connects_to": [
             "rA1_96"
-        ]
+        ],
+        "exit_requires": {
+            "rA1_96": "{double_jump()}"
+        }
     }
 }

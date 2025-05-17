@@ -91,6 +91,7 @@
                 "Hills"
             ],
             "region": "rA1_137-CP",
+            "requires": "({logic_normal()} and {throw()}) or ({logic_hard()} and {double_jump()} and {armor()})",
             "id": 210
         },
         {
@@ -147,7 +148,7 @@
                 "Fall"
             ],
             "region": "rA1_140",
-            "requires": "{armor()}",
+            "requires": "|Coin:13| and {armor()}",
             "id": 217
         },
         {
@@ -156,7 +157,7 @@
                 "Crimson"
             ],
             "region": "rA1_67CP",
-            "requires": "{double_jump()} or {armor()}",
+            "requires": "{double_jump()}",
             "id": 218
         },
         {
@@ -165,7 +166,7 @@
                 "Crimson"
             ],
             "region": "rA1_77",
-            "requires": "{double_jump()} or {armor()} or |Speed Charge|",
+            "requires": "{double_jump()}",
             "id": 219
         },
         {
@@ -215,7 +216,7 @@
                 "Lake"
             ],
             "region": "rA1_86",
-            "requires": "{double_jump()} or {armor()}",
+            "requires": "{double_jump()}",
             "id": 225
         },
         {

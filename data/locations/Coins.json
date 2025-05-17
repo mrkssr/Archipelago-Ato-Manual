@@ -127,7 +127,7 @@
                 "Fall"
             ],
             "region": "rA1_64Coin",
-            "requires": "{double_jump()} or {logic_hard()}",
+            "requires": "{spin()}",
             "id": 114
         },
         {
@@ -154,7 +154,7 @@
                 "Fall"
             ],
             "region": "rA0_19Coin",
-            "requires": "|Throw| and ({double_jump()} or {armor()})",
+            "requires": "{double_jump()} and {throw()}",
             "id": 117
         },
         {
@@ -197,7 +197,7 @@
                 "Lake"
             ],
             "region": "rA1_84Coin",
-            "requires": "{double_jump()} or {armor()}",
+            "requires": "{double_jump()}",
             "id": 122
         },
         {
@@ -206,7 +206,7 @@
                 "Lake"
             ],
             "region": "rA1_169",
-            "requires": "{armor()} or ({chain_dash()})",
+            "requires": "({logic_normal()} and {double_jump()} and {dash()}) or ({logic_hard()} and {armor()})",
             "id": 123
         },
         {
@@ -232,7 +232,7 @@
                 "Crimson"
             ],
             "region": "rA1_77Coin",
-            "requires": "{double_jump()} and |Throw|",
+            "requires": "{throw()}",
             "id": 126
         },
         {
@@ -250,7 +250,6 @@
                 "Swamp"
             ],
             "region": "rA1_105",
-            "requires": "{armor()}",
             "id": 128
         },
         {
@@ -268,7 +267,7 @@
                 "Temple"
             ],
             "region": "rA1_151",
-            "requires": "{double_jump()} and |Throw|",
+            "requires": "{throw()}",
             "id": 130
         },
         {
