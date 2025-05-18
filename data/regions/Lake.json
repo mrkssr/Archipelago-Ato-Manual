@@ -203,7 +203,7 @@
             "rA0_43"
         ],
         "exit_requires": {
-            "rA0_42": "({is_prologue()} and {double_jump} and {chain_dash} and |Speed Charge|) or ({prologue_done()} and {double_jump} and |Speed Charge|)"
+            "rA0_43": "({is_prologue()} and {double_jump()} and {chain_dash()} and |Speed Charge|) or ({prologue_done()} and {double_jump()} and |Speed Charge|)"
         }
     },
     "rA0_43": {
@@ -243,7 +243,7 @@
         "exit_requires": {
             "rA1_89Warp": "{double_jump()}",
             "rA1_92": "{double_jump()}",
-            "rA1_90Sentinel": "({logic_normal()} and {double_jump()} and {dash()} and |Crystal_break|) or ({logic_hard()} and {double_jump()} and {armor()} and |Crystal Break|) or ({logic_hard()} and {double_jump()} and {spin()} |Crystal Break|)"
+            "rA1_90Sentinel": "({logic_normal()} and {double_jump()} and {dash()} and |Crystal Break|) or ({logic_hard()} and {double_jump()} and {armor()} and |Crystal Break|) or ({logic_hard()} and {double_jump()} and {spin()} and |Crystal Break|)"
         }
     },
     "rA0_85": {
@@ -267,7 +267,7 @@
             "rA1_94ArenaSpin"
         ],
         "exit_requires": {
-            "rA1_163StatueRoom": "({logic_normal()} and {dash()} and {vision()]}) or ({logic_hard()} and {armor()})"
+            "rA1_163StatueRoom": "({logic_normal()} and {dash()} and {vision()}) or ({logic_hard()} and {armor()})"
         }
     },
     "rA1_163StatueRoom": {

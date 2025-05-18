@@ -8,7 +8,7 @@
                 "Checkpoints"
             ],
             "region": "rA1_118",
-            "requires": "|Coin:32| and {dash()} and ({double_jump()} or {armor()})",
+            "requires": "|Coin:32| and {dash()} and {double_jump()}",
             "id": 200
         },
         {
@@ -102,7 +102,7 @@
                 "Checkpoints"
             ],
             "region": "rA1_137-CP",
-            "requires": "({logic_normal()} and {throw()}) or ({logic_hard()} and {double_jump()} and {armor()})",
+            "requires": "({logic_normal()} and |Throw|) or ({logic_hard()} and {double_jump()} and {armor()})",
             "id": 210
         },
         {

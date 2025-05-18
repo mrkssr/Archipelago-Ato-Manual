@@ -16,7 +16,7 @@
         ]
     },
     "rA1_118": {
-        "requires": "{double_jump()} and {dash}",
+        "requires": "{double_jump()} and {dash()}",
         "connects_to": [
             "rA1_118ArenaFatal",
             "rA1_119"
@@ -26,7 +26,7 @@
         }
     },
     "rA1_118ArenaFatal": {
-        "requires": "|Coin:32| and {dash()} and ({double_jump()} or {armor()})",
+        "requires": "|Coin:32| and {dash()} and {double_jump()}",
         "connects_to": [
             "rA1_118ArenaFatalReward"
         ]
@@ -53,7 +53,7 @@
     },
     "rA1_122": {},
     "rA1_123": {
-        "requires": "{dash()} and {double_jump()} or {armor()}",
+        "requires": "{dash()} and {double_jump()} and {armor()}",
         "connects_to": [
             "rA1_124"
         ]
@@ -65,7 +65,7 @@
         ]
     },
     "rA1_125": {
-        "requires": "{double_jump()} and {throw()}",
+        "requires": "{double_jump()} and |Throw|",
         "connects_to": [
             "rA1_126"
         ]
@@ -79,7 +79,7 @@
         }
     },
     "rA1_127": {
-        "requires": "{double_jump()} and {spin()} and {throw()} and {armor()} and (({logic_normal()} and {dash()}) or ({logic_hard()}))",
+        "requires": "{double_jump()} and {spin()} and |Throw| and {armor()} and (({logic_normal()} and {dash()}) or ({logic_hard()}))",
         "connects_to": [
             "rA1_128"
         ]

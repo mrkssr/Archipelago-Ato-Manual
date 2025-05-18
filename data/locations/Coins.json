@@ -65,8 +65,8 @@
                 "Blossom",
                 "Coins"
             ],
-            "requires": "{double_jump()} and {chain_dash()}",
             "region": "rA0_5Coin",
+            "requires": "{double_jump()} and {chain_dash()}",
             "id": 106
         },
         {
@@ -132,7 +132,7 @@
                 "Coins"
             ],
             "region": "rA0_14secret",
-            "requires": "({logic_normal()} and {chain_dash()} and |Speed Charge|) or ({logic_hard()} or {chain_dash()})",
+            "requires": "({logic_normal()} and {chain_dash()} and |Speed Charge|) or ({logic_hard()} and {chain_dash()})",
             "id": 113
         },
         {
@@ -152,7 +152,7 @@
                 "Coins"
             ],
             "region": "rA0_24",
-            "requires": "{double_jump()} and ({chain_dash()})",
+            "requires": "{double_jump()} and {chain_dash()}",
             "id": 115
         },
         {
@@ -172,7 +172,7 @@
                 "Coins"
             ],
             "region": "rA0_19Coin",
-            "requires": "{double_jump()} and {throw()}",
+            "requires": "{double_jump()} and |Throw|",
             "id": 117
         },
         {
@@ -259,7 +259,7 @@
                 "Coins"
             ],
             "region": "rA1_77Coin",
-            "requires": "{throw()}",
+            "requires": "|Throw|",
             "id": 126
         },
         {
@@ -298,7 +298,7 @@
                 "Coins"
             ],
             "region": "rA1_151",
-            "requires": "{throw()}",
+            "requires": "|Throw|",
             "id": 130
         },
         {

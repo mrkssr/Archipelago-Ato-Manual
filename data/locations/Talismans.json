@@ -28,7 +28,7 @@
                 "Talismans"
             ],
             "region": "rA1_1under",
-            "requires": "{double_jump()} or {armor()}",
+            "requires": "{double_jump()}",
             "id": 152
         },
         {
@@ -147,7 +147,7 @@
                 "Talismans"
             ],
             "region": "rA0_11",
-            "requires": "({logic_normal()} and {double_jump()}) or ({logic_hard()} and {armor()})",
+            "requires": "{double_jump()}",
             "id": 164
         },
         {
@@ -177,7 +177,7 @@
                 "Talismans"
             ],
             "region": "rA1_56fan",
-            "requires": "{dodge_upgrade()} and ({spin()})",
+            "requires": "{dodge_upgrade()} and {spin()}",
             "id": 167
         },
         {
@@ -235,7 +235,7 @@
                 "Talismans"
             ],
             "region": "rA1_74",
-            "requires": "{double_jump()} and {dash()} and {throw()}",
+            "requires": "{double_jump()} and {dash()} and |Throw|",
             "id": 173
         },
         {
@@ -265,7 +265,7 @@
                 "Talismans"
             ],
             "region": "rA0_32secret",
-            "requires": "({$logic_normal()} and {double_jump()} and {chain_dash()}) and ({$logic_hard()} and {double_jump()} and {dash()})",
+            "requires": "({logic_normal()} and {double_jump()} and {chain_dash()}) or ({logic_hard()} and {double_jump()} and {dash()})",
             "id": 176
         },
         {
@@ -285,7 +285,7 @@
                 "Talismans"
             ],
             "region": "rA0_39",
-            "requires": "({logic_normal()} and {double_jump()} and {chain_dash()}) or ({logic_hard()} and {double_jump()} and |Speed Charge| and {armor()}) or",
+            "requires": "({logic_normal()} and {double_jump()} and {chain_dash()}) or ({logic_hard()} and {double_jump()} and |Speed Charge| and {armor()})",
             "id": 178
         },
         {
@@ -304,7 +304,7 @@
                 "Lake",
                 "Talismans"
             ],
-            "region": "rA1_87",
+            "region": "rA1_87-up",
             "id": 180
         },
         {
@@ -324,7 +324,7 @@
                 "Talismans"
             ],
             "region": "rA1_97",
-            "requires": "{throw()} and ({double_jump()} or {armor()})",
+            "requires": "|Throw| and ({double_jump()} or {armor()})",
             "id": 182
         },
         {
@@ -354,7 +354,7 @@
                 "Talismans"
             ],
             "region": "rA1_145",
-            "requires": "({logic_normal()} and {double_jump()} and {throw()} and {vision()}) or ({logic_hard()} and {double_jump()} and {throw()}})",
+            "requires": "({logic_normal()} and {double_jump()} and |Throw| and {vision()}) or ({logic_hard()} and {double_jump()} and |Throw|)",
             "id": 185
         }
     ]

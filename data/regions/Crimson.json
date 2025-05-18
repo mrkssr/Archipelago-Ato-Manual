@@ -7,12 +7,12 @@
             "rA1_67CP"
         ],
         "exit_requires": {
-            "rA1_66dark": "{dodge_upgrage()}"
+            "rA1_66dark": "{dodge_upgrade()}"
         }
     },
     "rA1_65Warp": {},
     "rA1_66dark": {
-        "requires": "{dodge_upgrage()}"
+        "requires": "{dodge_upgrade()}"
     },
     "rA1_67CP": {
         "connects_to": [
@@ -35,7 +35,7 @@
             "rA1_71"
         ],
         "exit_requires": {
-            "rA1_71": "({logic_normal()} and {throw()} and {double_jump()} and {dash()}) or ({logic_hard()} and {double_jump()} and {armor()})"
+            "rA1_71": "({logic_normal()} and |Throw| and {double_jump()} and {dash()}) or ({logic_hard()} and {double_jump()} and {armor()})"
         }
     },
     "rA1_71": {
@@ -43,11 +43,11 @@
             "rA1_72"
         ],
         "exit_requires": {
-            "rA1_71": "({logic_normal()} and {throw()} and {double_jump()}) or ({logic_hard()} and {double_jump()} and {armor()} and {spin()})"
+            "rA1_72": "({logic_normal()} and |Throw| and {double_jump()}) or ({logic_hard()} and {double_jump()} and {armor()} and {spin()})"
         }
     },
     "rA1_72": {
-        "requires": "{logic_normal()} and {throw()} and {dash()}",
+        "requires": "{logic_normal()} and |Throw| and {dash()}",
         "connects_to": [
             "rA1_73"
         ],
@@ -56,7 +56,7 @@
         }
     },
     "rA1_73": {
-        "requires": "{double_jump()} and {throw()}",
+        "requires": "{double_jump()} and |Throw|",
         "connects_to": [
             "rA1_74",
             "rA1_75"
@@ -64,21 +64,19 @@
     },
     "rA1_74": {},
     "rA1_75": {
-        "requires": "{logic_normal()} and {double_jump()} and {throw()}",
         "connects_to": [
             "rA1_76"
         ],
         "exit_requires": {
-            "rA1_76": "{logic_hard()} and {double_jump()} and {armor()} and {spin()}"
+            "rA1_76": "({logic_normal()} and {double_jump()} and |Throw|) or ({logic_hard()} and {double_jump()} and {armor()} and {spin()})"
         }
     },
     "rA1_76": {
-        "requires": "{logic_normal()} and {throw()})",
         "connects_to": [
             "rA1_77"
         ],
         "exit_requires": {
-            "rA1_77": "{logic_hard()} and {double_jump()} and {armor()} and {spin()} and |Speed Charge|"
+            "rA1_77": "({logic_normal()} and |Throw|) or ({logic_hard()} and {double_jump()} and {armor()} and {spin()} and |Speed Charge|)"
         }
     },
     "rA1_77": {

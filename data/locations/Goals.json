@@ -2,7 +2,7 @@
     "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
     "data": [
         {
-            "name": "Goal: Defeat Rebirth",
+            "name": "Defeat Rebirth",
             "victory": true,
             "category": [
                 "Goal"
@@ -11,7 +11,7 @@
             "id": 1000
         },
         {
-            "name": "Goal: Coin Hunt (8 Coins)",
+            "name": "Coin Hunt (8 Coins)",
             "victory": true,
             "category": [
                 "Goal"
@@ -20,7 +20,7 @@
             "id": 1010
         },
         {
-            "name": "Goal: Coin Hunt (16 Coins)",
+            "name": "Coin Hunt (16 Coins)",
             "victory": true,
             "category": [
                 "Goal"
@@ -29,7 +29,7 @@
             "id": 1011
         },
         {
-            "name": "Goal: Coin Hunt (24 Coins)",
+            "name": "Coin Hunt (24 Coins)",
             "victory": true,
             "category": [
                 "Goal"
@@ -38,7 +38,7 @@
             "id": 1012
         },
         {
-            "name": "Goal: Coin Hunt (All Coins)",
+            "name": "Coin Hunt (All Coins)",
             "victory": true,
             "category": [
                 "Goal"
@@ -47,7 +47,7 @@
             "id": 1013
         },
         {
-            "name": "Goal: Mask Hunt (11 Masks)",
+            "name": "Mask Hunt (11 Masks)",
             "victory": true,
             "category": [
                 "Goal"
@@ -56,7 +56,7 @@
             "id": 1014
         },
         {
-            "name": "Goal: Mask Hunt (22 Masks)",
+            "name": "Mask Hunt (22 Masks)",
             "victory": true,
             "category": [
                 "Goal"
@@ -65,7 +65,7 @@
             "id": 1015
         },
         {
-            "name": "Goal: Mask Hunt (All Masks)",
+            "name": "Mask Hunt (All Masks)",
             "victory": true,
             "category": [
                 "Goal"

@@ -8,7 +8,7 @@
                 "Runes"
             ],
             "region": "rA1_64",
-            "requires": "{double_jump()} or {vision()}",
+            "requires": "({logic_normal()} and ({double_jump()} or {vision()})) or ({logic_hard()})",
             "id": 50
         },
         {

@@ -12,11 +12,8 @@
         ]
     },
     "rA0_7-up": {
-        "connectsTo": [
-            "rA1_43"
-        ],
-        "exit_requires": {
-            "rA1_43": "({logic_normal()} and {dash()} and {crystal_break()}) or ({logic_hard()} and {crystal_break()})"
+        "entrance_requires": {
+            "rA1_43": "|Crystal Break|"
         }
     },
     "rA0_7-down": {},
@@ -30,11 +27,11 @@
         "exit_requires": {
             "rA0_9": "{dash()}",
             "rA0_10": "({logic_normal()} and {dash()}) or ({logic_hard()})",
-            "rA1_38": "{dash()} and {crystal_break()}",
+            "rA1_38": "{dash()} and |Crystal Break|",
             "rA1_137-CP": "{double_jump()} and {dash()}"
         },
         "entrance_requires": {
-            "rA1_38": "{crystal_break()}"
+            "rA1_38": "|Crystal Break|"
         }
     },
     "rA0_9": {
@@ -119,7 +116,7 @@
             "rA1_138ArenaThrow"
         ],
         "exit_requires": {
-            "rA1_138ArenaThrow": "({logic_normal()} and {throw()}) or ({logic_hard()} and {double_jump()} and {armor()})"
+            "rA1_138ArenaThrow": "({logic_normal()} and |Throw|) or ({logic_hard()} and {double_jump()} and {armor()})"
         }
     },
     "rA1_137-ArenaReward": {

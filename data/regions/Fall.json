@@ -157,7 +157,7 @@
     },
     "rA0_19Coin": {
         "entrance_requires": {
-            "rA0_19": "{throw()}"
+            "rA0_19": "|Throw|"
         }
     },
     "rA1_140": {

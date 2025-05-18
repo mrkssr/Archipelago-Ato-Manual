@@ -7,24 +7,24 @@
                 "Using 'goal' as the name of an option let you override some of the generated goal parameters"
             ],
             "display_name": "Goal",
-            "description": "How to End your Randomized playthrough.",
+            "description": "Goal condition to finish the randomizer.",
             "aliases": {
                 "rebirth": 0,
                 "final boss": 0,
-                "mask hunt (11)": 1,
-                "boss hunt low": 1,
-                "mask hunt (22)": 2,
-                "boss hunt mid": 2,
-                "mask hunt (All)": 3,
-                "all bosses": 3,
-                "coin hunt (8 coins)": 4,
-                "coin hunt low": 4,
-                "coin hunt (16 coins)": 5,
-                "coin hunt mid": 5,
-                "coin hunt (24 coins)": 6,
-                "coin hunt high": 6,
-                "coin hunt (all coins)": 7,
-                "all coins": 7
+                "coin hunt (8 coins)": 1,
+                "coin hunt low": 1,
+                "coin hunt (16 coins)": 2,
+                "coin hunt mid": 2,
+                "coin hunt (24 coins)": 3,
+                "coin hunt high": 3,
+                "coin hunt (all coins)": 4,
+                "all coins": 4,
+                "mask hunt (11)": 5,
+                "boss hunt low": 5,
+                "mask hunt (22)": 6,
+                "boss hunt mid": 6,
+                "mask hunt (All)": 7,
+                "all bosses": 7
             },
             "hidden": false
         },
@@ -43,29 +43,7 @@
             "type": "Toggle",
             "default": true
         },
-        "goal": {
-            "type": "Choice",
-            "description": [
-                "This is a Choice",
-                "Let the user pick from a list of values",
-                "allow_custom_value let a player define their own text value",
-                "Currently the only use for Choice in Manual outside of hooks is the goal"
-            ],
-            "values": {
-                "Goal: Defeat Rebirth": 0,
-                "Goal: Mask Hunt (11 Masks)": 1,
-                "Goal: Mask Hunt (22 Masks)": 2,
-                "Goal: Mask Hunt (All Masks)": 3,
-                "Goal: Coin Hunt (8 Coins)": 4,
-                "Goal: Coin Hunt (16 Coins)": 5,
-                "Goal: Coin Hunt (24 Coins)": 6,
-                "Goal: Coin Hunt (All Coins)": 7
-            },
-            "default": 0,
-            "allow_custom_value": false,
-            "group": "Goal"
-        },
-        "orb_shuffle": {
+        "shard_shuffle": {
             "description": [
                 "Randomize the shards"
             ],
@@ -126,22 +104,6 @@
             "default": 0,
             "allow_custom_value": false
 
-        },
-        "Example_Range": {
-            "type": "Range",
-            "description": [
-                "This is a Range",
-                "Allow the player to specify a value between 'start' and 'end'",
-                "if you include a \"values\" you can define the label for certain values",
-                "Currently the only use for Range in Manual outside of hooks is 'filler_trap'"
-            ],
-            "range_start": 0,
-            "default": 1,
-            "range_end": 10,
-            "values": {
-                "example": 2
-            },
-            "group": "Example Options"
         }
     }
 }

@@ -1,15 +1,36 @@
 {
     "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
-    "Shards": {},
-    "Skills": {},
-    "Runes": {},
-    "Coins": {},
-    "Talismans": {},
+    "Shards": {
+        "yaml_option": [
+            "shard_shuffle"
+        ]
+    },
+    "Skills": {
+        "yaml_option": [
+            "skills_shuffle"
+        ]
+    },
+    "Runes": {
+        "yaml_option": [
+            "runes_shuffle"
+        ]
+    },
+    "Coins": {
+        "yaml_option": [
+            "coins_shuffle"
+        ]
+    },
+    "Talismans": {
+        "yaml_option": [
+            "talismans_shuffle"
+        ]
+    },
     "Checkpoints": {
         "yaml_option": [
             "checkpoints_shuffle"
         ]
     },
+
     "Blossom": {},
     "Hills": {},
     "Fall": {},
@@ -19,9 +40,11 @@
     "Swamp": {},
     "Forbidden": {},
     "Temple": {},
+    
     "Bosses": {
         "hidden": true
     },
+    "Masks": {},
     "Events": {},
     "Filler": {
         "hidden": true

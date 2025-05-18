@@ -5,12 +5,12 @@
             "name": "Acolyte",
             "category": [
                 "Lake",
-                "Bosses",
-                "Events"
+                "Bosses"
             ],
             "region": "rA0_45Boss",
             "place_item": [
-                "Prologue Done"
+                "Prologue Done",
+                "Masks"
             ],
             "id": 300
         },
@@ -18,12 +18,12 @@
             "name": "Samurai",
             "category": [
                 "Temple",
-                "Bosses",
-                "Events"
+                "Bosses"
             ],
             "region": "rA0_45Boss",
             "place_item": [
-                "Defeated Samurai"
+                "Defeated Samurai",
+                "Masks"
             ],
             "id": 301
         }

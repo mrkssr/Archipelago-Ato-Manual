@@ -42,7 +42,7 @@
         }
     },
     "rA1_148Boss": {
-        "requires": "{double_jump()} or {armor()}"
+        "requires": "{double_jump()}"
     },
     "rA1_149": {
         "connects_to": [
@@ -50,11 +50,11 @@
             "rA1_151"
         ],
         "exit_requires": {
-            "rA1_151": "({logic_normal()} and {double_jump()} and {armor()} and {throw() and {vision()}} and {chain_dash()}) or ({logic_hard()} and {double_jump()} and {armor()})"
+            "rA1_151": "({logic_normal()} and {double_jump()} and {armor()} and |Throw| and {vision()} and {chain_dash()}) or ({logic_hard()} and {double_jump()} and {armor()})"
         }
     },
     "rA1_150Warp": {
-        "requires": "{double_jump()} and (|Dash:2| or (|Dash:1| and {armor()}))"
+        "requires": "{double_jump()} and {chain_dash()}"
     },
     "rA1_151": {
         "requires": "{double_jump()}",
