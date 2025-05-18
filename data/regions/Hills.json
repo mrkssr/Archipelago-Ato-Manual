@@ -68,7 +68,7 @@
         }
     },
     "rA1_41Nothing": {
-        "requires": "{double_jump()",
+        "requires": "{double_jump()}",
         "connects_to": [
             "rA1_42Boss"
         ]
