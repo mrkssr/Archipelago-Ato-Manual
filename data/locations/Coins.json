@@ -4,7 +4,8 @@
         {
             "name": "Coin Most Left",
             "category": [
-                "Forbidden"
+                "Forbidden",
+                "Coins"
             ],
             "region": "rA1_122",
             "id": 100
@@ -12,7 +13,8 @@
         {
             "name": "Coin Basement",
             "category": [
-                "Blossom"
+                "Blossom",
+                "Coins"
             ],
             "region": "rA1_8Basement",
             "id": 101
@@ -20,7 +22,8 @@
         {
             "name": "Coin Love Room",
             "category": [
-                "Blossom"
+                "Blossom",
+                "Coins"
             ],
             "region": "rA1_136Love",
             "requires": "{dash()}",
@@ -29,7 +32,8 @@
         {
             "name": "Coin Hub Left",
             "category": [
-                "Blossom"
+                "Blossom",
+                "Coins"
             ],
             "region": "rA1_1Coin0",
             "requires": "{double_jump()}",
@@ -38,7 +42,8 @@
         {
             "name": "Coin Hub Up",
             "category": [
-                "Blossom"
+                "Blossom",
+                "Coins"
             ],
             "region": "rA1_1Coin1",
             "requires": "{double_jump()}",
@@ -47,7 +52,8 @@
         {
             "name": "Coin Vagrant II Reward",
             "category": [
-                "Blossom"
+                "Blossom",
+                "Coins"
             ],
             "region": "rA1_29VagrantBossReward",
             "requires": "{double_jump()}",
@@ -56,7 +62,8 @@
         {
             "name": "Coin Rogue",
             "category": [
-                "Blossom"
+                "Blossom",
+                "Coins"
             ],
             "requires": "{double_jump()} and {chain_dash()}",
             "region": "rA0_5Coin",
@@ -65,7 +72,8 @@
         {
             "name": "Coin Spins",
             "category": [
-                "Pillar"
+                "Pillar",
+                "Coins"
             ],
             "region": "rA1_23",
             "requires": "{spin()} and {double_jump()}",
@@ -74,7 +82,8 @@
         {
             "name": "Coin Phantom Shin",
             "category": [
-                "Hills"
+                "Hills",
+                "Coins"
             ],
             "region": "rA1_37",
             "requires": "{double_jump()}",
@@ -83,7 +92,8 @@
         {
             "name": "Coin Behind Warp",
             "category": [
-                "Hills"
+                "Hills",
+                "Coins"
             ],
             "region": "rA1_39Coin",
             "id": 109
@@ -91,7 +101,8 @@
         {
             "name": "Coin Hidden Time Puzzle",
             "category": [
-                "Hills"
+                "Hills",
+                "Coins"
             ],
             "region": "rA0_9Coin",
             "id": 110
@@ -99,7 +110,8 @@
         {
             "name": "Coin 8 Coins Door",
             "category": [
-                "Hills"
+                "Hills",
+                "Coins"
             ],
             "region": "rA1_43",
             "id": 111
@@ -107,7 +119,8 @@
         {
             "name": "Coin Twitch Arena",
             "category": [
-                "Fall"
+                "Fall",
+                "Coins"
             ],
             "region": "rA1_54",
             "id": 112
@@ -115,7 +128,8 @@
         {
             "name": "Coin Secret Room",
             "category": [
-                "Fall"
+                "Fall",
+                "Coins"
             ],
             "region": "rA0_14secret",
             "requires": "({logic_normal()} and {chain_dash()} and |Speed Charge|) or ({logic_hard()} or {chain_dash()})",
@@ -124,7 +138,8 @@
         {
             "name": "Coin Phantom Jin",
             "category": [
-                "Fall"
+                "Fall",
+                "Coins"
             ],
             "region": "rA1_64Coin",
             "requires": "{spin()}",
@@ -133,7 +148,8 @@
         {
             "name": "Coin Right Red Area Entry",
             "category": [
-                "Fall"
+                "Fall",
+                "Coins"
             ],
             "region": "rA0_24",
             "requires": "{double_jump()} and ({chain_dash()})",
@@ -142,7 +158,8 @@
         {
             "name": "Coin Left of Bridge Room",
             "category": [
-                "Fall"
+                "Fall",
+                "Coins"
             ],
             "region": "rA0_26Coin",
             "requires": "|Speed Charge| and {double_jump()}",
@@ -151,7 +168,8 @@
         {
             "name": "Coin Right of Double Jump Room",
             "category": [
-                "Fall"
+                "Fall",
+                "Coins"
             ],
             "region": "rA0_19Coin",
             "requires": "{double_jump()} and {throw()}",
@@ -160,7 +178,8 @@
         {
             "name": "Coin Tempest",
             "category": [
-                "Fall"
+                "Fall",
+                "Coins"
             ],
             "region": "rA1_165Coin",
             "requires": "{double_jump()}",
@@ -169,7 +188,8 @@
         {
             "name": "Coin After Bridge Drop",
             "category": [
-                "Lake"
+                "Lake",
+                "Coins"
             ],
             "region": "rA0_28",
             "requires": "({logic_normal()} and {double_jump()} and |Speed Charge|) or ({logic_hard()})",
@@ -178,7 +198,8 @@
         {
             "name": "Coin Vagrant I Reward",
             "category": [
-                "Lake"
+                "Lake",
+                "Coins"
             ],
             "region": "rA1_81VagrantBossReward",
             "id": 120
@@ -186,7 +207,8 @@
         {
             "name": "Coin Fatal Draw",
             "category": [
-                "Lake"
+                "Lake",
+                "Coins"
             ],
             "region": "rA1_82",
             "id": 121
@@ -194,7 +216,8 @@
         {
             "name": "Coin Breakable Floors",
             "category": [
-                "Lake"
+                "Lake",
+                "Coins"
             ],
             "region": "rA1_84Coin",
             "requires": "{double_jump()}",
@@ -203,7 +226,8 @@
         {
             "name": "Coin Tiny Warrior Entry",
             "category": [
-                "Lake"
+                "Lake",
+                "Coins"
             ],
             "region": "rA1_169",
             "requires": "({logic_normal()} and {double_jump()} and {dash()}) or ({logic_hard()} and {armor()})",
@@ -212,7 +236,8 @@
         {
             "name": "Coin Time Puzzle Tiny Warrior",
             "category": [
-                "Lake"
+                "Lake",
+                "Coins"
             ],
             "region": "rA1_139",
             "requires": "{double_jump()}",
@@ -221,7 +246,8 @@
         {
             "name": "Coin Bumper Time Puzzle",
             "category": [
-                "Lake"
+                "Lake",
+                "Coins"
             ],
             "region": "rA0_36Coin",
             "id": 125
@@ -229,7 +255,8 @@
         {
             "name": "Coin Yari",
             "category": [
-                "Crimson"
+                "Crimson",
+                "Coins"
             ],
             "region": "rA1_77Coin",
             "requires": "{throw()}",
@@ -238,7 +265,8 @@
         {
             "name": "Coin Armor Time Puzzle",
             "category": [
-                "Swamp"
+                "Swamp",
+                "Coins"
             ],
             "region": "rA1_100Coin",
             "requires": "{armor()}",
@@ -247,7 +275,8 @@
         {
             "name": "Coin Father",
             "category": [
-                "Swamp"
+                "Swamp",
+                "Coins"
             ],
             "region": "rA1_105",
             "id": 128
@@ -255,7 +284,8 @@
         {
             "name": "Coin Double Jump Paradise",
             "category": [
-                "Temple"
+                "Temple",
+                "Coins"
             ],
             "region": "rA1_144Coin",
             "requires": "{double_jump()}",
@@ -264,7 +294,8 @@
         {
             "name": "Coin Switch Puzzle",
             "category": [
-                "Temple"
+                "Temple",
+                "Coins"
             ],
             "region": "rA1_151",
             "requires": "{throw()}",
@@ -273,7 +304,8 @@
         {
             "name": "Coin Black Area Entry",
             "category": [
-                "Temple"
+                "Temple",
+                "Coins"
             ],
             "region": "rA1_152",
             "requires": "|Speed Charge| and {double_jump()}",

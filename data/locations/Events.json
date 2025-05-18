@@ -5,7 +5,8 @@
             "name": "Acolyte",
             "category": [
                 "Lake",
-                "Bosses"
+                "Bosses",
+                "Events"
             ],
             "region": "rA0_45Boss",
             "place_item": [
@@ -17,7 +18,8 @@
             "name": "Samurai",
             "category": [
                 "Temple",
-                "Bosses"
+                "Bosses",
+                "Events"
             ],
             "region": "rA0_45Boss",
             "place_item": [

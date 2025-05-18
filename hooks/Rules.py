@@ -110,7 +110,7 @@ def logic_hard(world: World, multiworld: MultiWorld, state: CollectionState, pla
 # Events
 def prologue_done(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
     """Post prologue environment"""
-    return False
+    return state.has("Prologue Done", player)
 
 def is_prologue(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
     """Prologue environment"""

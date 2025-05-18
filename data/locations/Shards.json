@@ -4,7 +4,8 @@
         {
             "name": "Blue Shard",
             "category": [
-                "Pillar"
+                "Pillar",
+                "Shards"
             ],
             "region": "rA1_28",
             "id": 1
@@ -12,7 +13,8 @@
         {
             "name": "Red Shard",
             "category": [
-                "Crimson"
+                "Crimson",
+                "Shards"
             ],
             "region": "rA1_79",
             "id": 2
@@ -20,7 +22,8 @@
         {
             "name": "Yellow Shard",
             "category": [
-                "Swamp"
+                "Swamp",
+                "Shards"
             ],
             "region": "rA1_112",
             "id": 3

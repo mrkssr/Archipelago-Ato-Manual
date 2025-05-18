@@ -4,7 +4,8 @@
         {
             "name": "Magic Bar Vagrant",
             "category": [
-                "Blossom"
+                "Blossom",
+                "Magic Bars"
             ],
             "region": "rA1_1VagrantBossFinalReward",
             "id": 60
@@ -12,7 +13,8 @@
         {
             "name": "Magic Bar Tiny Warrior",
             "category": [
-                "Lake"
+                "Lake",
+                "Magic Bars"
             ],
             "region": "rA1_171TWReward",
             "id": 61

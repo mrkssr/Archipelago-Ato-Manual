@@ -5,7 +5,11 @@
     "Runes": {},
     "Coins": {},
     "Talismans": {},
-    "Checkpoints": {},
+    "Checkpoints": {
+        "yaml_option": [
+            "checkpoints_shuffle"
+        ]
+    },
     "Blossom": {},
     "Hills": {},
     "Fall": {},

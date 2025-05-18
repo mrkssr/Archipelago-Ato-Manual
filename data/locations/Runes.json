@@ -4,7 +4,8 @@
         {
             "name": "Echo Rune",
             "category": [
-                "Fall"
+                "Fall",
+                "Runes"
             ],
             "region": "rA1_64",
             "requires": "{double_jump()} or {vision()}",
@@ -13,7 +14,8 @@
         {
             "name": "Agility Rune",
             "category": [
-                "Temple"
+                "Temple",
+                "Runes"
             ],
             "region": "rA1_153Boss",
             "requires": "{chain_dash()}",
@@ -22,7 +24,8 @@
         {
             "name": "Mind Rune",
             "category": [
-                "Fall"
+                "Fall",
+                "Runes"
             ],
             "region": "rA1_59BossHiddenReward",
             "id": 52
@@ -30,7 +33,8 @@
         {
             "name": "Juggernaut Rune",
             "category": [
-                "Blossom"
+                "Blossom",
+                "Runes"
             ],
             "region": "rA1_35",
             "id": 53
@@ -38,7 +42,8 @@
         {
             "name": "Flurry Rune",
             "category": [
-                "Hills"
+                "Hills",
+                "Runes"
             ],
             "region": "rA0_10",
             "requires": "{double_jump()} and {prologue_done()}",
@@ -47,7 +52,8 @@
         {
             "name": "Risk Rune",
             "category": [
-                "Temple"
+                "Temple",
+                "Runes"
             ],
             "region": "rA1_148Boss",
             "id": 55

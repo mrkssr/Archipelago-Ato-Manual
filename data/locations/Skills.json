@@ -4,7 +4,8 @@
         {
             "name": "Demon Blade",
             "category": [
-                "Forbidden"
+                "Forbidden",
+                "Skills"
             ],
             "region": "rA1_134",
             "id": 4
@@ -12,7 +13,8 @@
         {
             "name": "Dodge",
             "category": [
-                "Blossom"
+                "Blossom",
+                "Skills"
             ],
             "region": "rA0_4PowerUp",
             "id": 10
@@ -20,7 +22,8 @@
         {
             "name": "Dodge Upgrade",
             "category": [
-                "Blossom"
+                "Blossom",
+                "Skills"
             ],
             "region": "rA1_4-down",
             "id": 11
@@ -28,7 +31,8 @@
         {
             "name": "Dash",
             "category": [
-                "Hills"
+                "Hills",
+                "Skills"
             ],
             "region": "rA0_7-down",
             "id": 12
@@ -36,7 +40,8 @@
         {
             "name": "Chain Dash",
             "category": [
-                "Fall"
+                "Fall",
+                "Skills"
             ],
             "region": "rA0_23",
             "id": 13
@@ -44,7 +49,8 @@
         {
             "name": "Chain Dash Upgrade",
             "category": [
-                "Lake"
+                "Lake",
+                "Skills"
             ],
             "region": "rA1_168ArcherReward",
             "requires": "{double_jump()}",
@@ -53,7 +59,8 @@
         {
             "name": "Double Jump",
             "category": [
-                "Fall"
+                "Fall",
+                "Skills"
             ],
             "region": "rA0_19",
             "requires": "{dash()}",
@@ -62,7 +69,8 @@
         {
             "name": "Speed Charge",
             "category": [
-                "Lake"
+                "Lake",
+                "Skills"
             ],
             "region": "rA0_40",
             "id": 16
@@ -70,7 +78,8 @@
         {
             "name": "Crystal Break",
             "category": [
-                "Blossom"
+                "Blossom",
+                "Skills"
             ],
             "region": "rA1_8",
             "id": 17
@@ -78,7 +87,8 @@
         {
             "name": "Spin",
             "category": [
-                "Pillar"
+                "Pillar",
+                "Skills"
             ],
             "region": "rA1_16spinpower",
             "id": 18
@@ -86,7 +96,8 @@
         {
             "name": "Spin Upgrade",
             "category": [
-                "Lake"
+                "Lake",
+                "Skills"
             ],
             "region": "rA1_94ArenaSpin",
             "requires": "{spin()}",
@@ -95,7 +106,8 @@
         {
             "name": "Throw",
             "category": [
-                "Crimson"
+                "Crimson",
+                "Skills"
             ],
             "region": "rA1_69",
             "requires": "{double_jump()}",
@@ -104,7 +116,8 @@
         {
             "name": "Throw Upgrade",
             "category": [
-                "Hills"
+                "Hills",
+                "Skills"
             ],
             "region": "rA1_137-ArenaReward",
             "id": 21
@@ -112,7 +125,8 @@
         {
             "name": "Armor",
             "category": [
-                "Swamp"
+                "Swamp",
+                "Skills"
             ],
             "region": "rA1_98",
             "id": 22
@@ -120,7 +134,8 @@
         {
             "name": "Armor Upgrade",
             "category": [
-                "Fall"
+                "Fall",
+                "Skills"
             ],
             "region": "rA1_141ArenaArmor",
             "requires": "{armor()}",
@@ -129,7 +144,8 @@
         {
             "name": "Vision",
             "category": [
-                "Lake"
+                "Lake",
+                "Skills"
             ],
             "region": "rA1_91",
             "id": 24
@@ -137,7 +153,8 @@
         {
             "name": "Parry",
             "category": [
-                "Fall"
+                "Fall",
+                "Skills"
             ],
             "region": "rA1_51BossReward",
             "id": 25
@@ -145,7 +162,8 @@
         {
             "name": "Meditate",
             "category": [
-                "Fall"
+                "Fall",
+                "Skills"
             ],
             "region": "rA1_165Meditate",
             "id": 26
@@ -153,7 +171,8 @@
         {
             "name": "Triple Slash",
             "category": [
-                "Fall"
+                "Fall",
+                "Skills"
             ],
             "region": "rA1_166TempestReward",
             "id": 27
@@ -161,7 +180,8 @@
         {
             "name": "Electric Wind Lethal Strike",
             "category": [
-                "Hills"
+                "Hills",
+                "Skills"
             ],
             "region": "rA1_42Boss",
             "requires": "{double_jump()}",
@@ -170,7 +190,8 @@
         {
             "name": "Fatal Draw",
             "category": [
-                "Lake"
+                "Lake",
+                "Skills"
             ],
             "region": "rA1_82FatalDraw",
             "id": 29
@@ -178,7 +199,8 @@
         {
             "name": "Fatal Draw Upgrade",
             "category": [
-                "Forbidden"
+                "Forbidden",
+                "Skills"
             ],
             "region": "rA1_118ArenaFatalReward",
             "id": 30

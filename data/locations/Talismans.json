@@ -4,7 +4,8 @@
         {
             "name": "Talisman Start Room",
             "category": [
-                "Blossom"
+                "Blossom",
+                "Talismans"
             ],
             "region": "rA0_0",
             "requires": "{dash()}",
@@ -13,7 +14,8 @@
         {
             "name": "Talisman Runway",
             "category": [
-                "Blossom"
+                "Blossom",
+                "Talismans"
             ],
             "region": "rA1_0runway",
             "requires": "|Speed Charge| and {double_jump()}",
@@ -22,7 +24,8 @@
         {
             "name": "Talisman Under Leaves",
             "category": [
-                "Blossom"
+                "Blossom",
+                "Talismans"
             ],
             "region": "rA1_1under",
             "requires": "{double_jump()} or {armor()}",
@@ -31,7 +34,8 @@
         {
             "name": "Talisman Bandit",
             "category": [
-                "Blossom"
+                "Blossom",
+                "Talismans"
             ],
             "region": "rA1_4-up",
             "requires": "({logic_normal()} and {double_jump()} and {dodge_upgrade()}) or ({logic_hard()} and {double_jump()} and {armor()})",
@@ -40,7 +44,8 @@
         {
             "name": "Talisman Leave Room",
             "category": [
-                "Blossom"
+                "Blossom",
+                "Talismans"
             ],
             "region": "rA1_9",
             "requires": "({logic_normal()} and {spin()}) or ({logic_hard()} and {double_jump()} and {chain_dash()})",
@@ -49,7 +54,8 @@
         {
             "name": "Talisman Behind Rocks",
             "category": [
-                "Blossom"
+                "Blossom",
+                "Talismans"
             ],
             "region": "rA1_11Armor",
             "requires": "{armor()}",
@@ -58,7 +64,8 @@
         {
             "name": "Talisman Spin Puzzle",
             "category": [
-                "Blossom"
+                "Blossom",
+                "Talismans"
             ],
             "region": "rA1_36",
             "requires": "{spin()} and {double_jump()}",
@@ -67,7 +74,8 @@
         {
             "name": "Talisman Deflector",
             "category": [
-                "Blossom"
+                "Blossom",
+                "Talismans"
             ],
             "region": "rA1_32Deflector",
             "requires": "({logic_normal()} and {double_jump()} and |Throw| and {dash()}) or ({logic_hard()} and {double_jump()} and {armor()})",
@@ -76,7 +84,8 @@
         {
             "name": "Talisman Twins",
             "category": [
-                "Blossom"
+                "Blossom",
+                "Talismans"
             ],
             "region": "rA1_35",
             "requires": "{double_jump()}",
@@ -85,7 +94,8 @@
         {
             "name": "Talisman Spins",
             "category": [
-                "Pillar"
+                "Pillar",
+                "Talismans"
             ],
             "region": "rA1_20",
             "requires": "{spin()} and {double_jump()}",
@@ -94,7 +104,8 @@
         {
             "name": "Talisman Ancient Warrior Checkpoint Room",
             "category": [
-                "Pillar"
+                "Pillar",
+                "Talismans"
             ],
             "region": "rA1_25CP",
             "requires": "{spin()} and {double_jump()}",
@@ -103,7 +114,8 @@
         {
             "name": "Talisman Preview",
             "category": [
-                "Hills"
+                "Hills",
+                "Talismans"
             ],
             "region": "rA0_9",
             "id": 161
@@ -111,7 +123,8 @@
         {
             "name": "Talisman Top Platforms",
             "category": [
-                "Hills"
+                "Hills",
+                "Talismans"
             ],
             "region": "rA0_8",
             "requires": "{dash()}",
@@ -120,7 +133,8 @@
         {
             "name": "Talisman Dash",
             "category": [
-                "Hills"
+                "Hills",
+                "Talismans"
             ],
             "region": "rA0_7-up",
             "requires": "({logic_normal()} and {dash()}) or ({logic_hard()})",
@@ -129,7 +143,8 @@
         {
             "name": "Talisman Jin",
             "category": [
-                "Hills"
+                "Hills",
+                "Talismans"
             ],
             "region": "rA0_11",
             "requires": "({logic_normal()} and {double_jump()}) or ({logic_hard()} and {armor()})",
@@ -138,7 +153,8 @@
         {
             "name": "Talisman Hidden",
             "category": [
-                "Fall"
+                "Fall",
+                "Talismans"
             ],
             "region": "rA1_46Hidden",
             "requires": "{vision()}",
@@ -147,7 +163,8 @@
         {
             "name": "Talisman Armor Haunt Area",
             "category": [
-                "Fall"
+                "Fall",
+                "Talismans"
             ],
             "region": "rA1_47Armor",
             "requires": "{armor()}",
@@ -156,7 +173,8 @@
         {
             "name": "Talisman Fans",
             "category": [
-                "Fall"
+                "Fall",
+                "Talismans"
             ],
             "region": "rA1_56fan",
             "requires": "{dodge_upgrade()} and ({spin()})",
@@ -165,7 +183,8 @@
         {
             "name": "Talisman Bumper Time Puzzle",
             "category": [
-                "Fall"
+                "Fall",
+                "Talismans"
             ],
             "region": "rA1_57Secret",
             "id": 168
@@ -173,7 +192,8 @@
         {
             "name": "Talisman Secret",
             "category": [
-                "Fall"
+                "Fall",
+                "Talismans"
             ],
             "region": "rA0_17secret",
             "id": 169
@@ -181,7 +201,8 @@
         {
             "name": "Talisman Left Red Area Entry",
             "category": [
-                "Fall"
+                "Fall",
+                "Talismans"
             ],
             "region": "rA0_16secret",
             "requires": "{double_jump()} and {dash()}",
@@ -190,7 +211,8 @@
         {
             "name": "Talisman Chain Dash Room",
             "category": [
-                "Fall"
+                "Fall",
+                "Talismans"
             ],
             "region": "rA0_23",
             "requires": "({logic_normal()} and {chain_dash()}) or ({logic_normal()} and {double_jump()} and |Speed Charge|) or ({logic_hard()})",
@@ -199,7 +221,8 @@
         {
             "name": "Talisman Black Piles Room",
             "category": [
-                "Crimson"
+                "Crimson",
+                "Talismans"
             ],
             "region": "rA1_66dark",
             "requires": "{dash()}",
@@ -208,7 +231,8 @@
         {
             "name": "Talisman Yari",
             "category": [
-                "Crimson"
+                "Crimson",
+                "Talismans"
             ],
             "region": "rA1_74",
             "requires": "{double_jump()} and {dash()} and {throw()}",
@@ -217,7 +241,8 @@
         {
             "name": "Talisman 3 Coins Door",
             "category": [
-                "Lake"
+                "Lake",
+                "Talismans"
             ],
             "region": "rA0_31Secret",
             "requires": "|Coin:3|",
@@ -226,7 +251,8 @@
         {
             "name": "Talisman Bumper",
             "category": [
-                "Lake"
+                "Lake",
+                "Talismans"
             ],
             "region": "rA1_84",
             "requires": "{double_jump()} and {chain_dash()}",
@@ -235,7 +261,8 @@
         {
             "name": "Talisman Tiny Warrior",
             "category": [
-                "Lake"
+                "Lake",
+                "Talismans"
             ],
             "region": "rA0_32secret",
             "requires": "({$logic_normal()} and {double_jump()} and {chain_dash()}) and ({$logic_hard()} and {double_jump()} and {dash()})",
@@ -244,7 +271,8 @@
         {
             "name": "Talisman Archer",
             "category": [
-                "Lake"
+                "Lake",
+                "Talismans"
             ],
             "region": "rA0_37",
             "requires": "{double_jump()} and {chain_dash()}",
@@ -253,7 +281,8 @@
         {
             "name": "Talisman Ninja",
             "category": [
-                "Lake"
+                "Lake",
+                "Talismans"
             ],
             "region": "rA0_39",
             "requires": "({logic_normal()} and {double_jump()} and {chain_dash()}) or ({logic_hard()} and {double_jump()} and |Speed Charge| and {armor()}) or",
@@ -262,7 +291,8 @@
         {
             "name": "Talisman Hidden Breakables",
             "category": [
-                "Lake"
+                "Lake",
+                "Talismans"
             ],
             "region": "rA1_92",
             "requires": "({logic_normal()} and {double_jump()} and {dash()} and {vision()}) or ({logic_hard()} and {double_jump()} and {armor()})",
@@ -271,7 +301,8 @@
         {
             "name": "Talisman Sentinel",
             "category": [
-                "Lake"
+                "Lake",
+                "Talismans"
             ],
             "region": "rA1_87",
             "id": 180
@@ -279,7 +310,8 @@
         {
             "name": "Talisman Owl",
             "category": [
-                "Lake"
+                "Lake",
+                "Talismans"
             ],
             "region": "rA1_FH0",
             "requires": "{double_jump()}",
@@ -288,7 +320,8 @@
         {
             "name": "Talisman Throws",
             "category": [
-                "Swamp"
+                "Swamp",
+                "Talismans"
             ],
             "region": "rA1_97",
             "requires": "{throw()} and ({double_jump()} or {armor()})",
@@ -297,7 +330,8 @@
         {
             "name": "Talisman Warps",
             "category": [
-                "Swamp"
+                "Swamp",
+                "Talismans"
             ],
             "region": "rA1_102",
             "requires": "({logic_normal()} and {armor()} and {double_jump()}) or ({logic_hard()} and {armor()})",
@@ -306,7 +340,8 @@
         {
             "name": "Talisman Warp Obstacles",
             "category": [
-                "Temple"
+                "Temple",
+                "Talismans"
             ],
             "region": "rA1_151Coin",
             "requires": "{double_jump()} and |Crystal Break|",
@@ -315,7 +350,8 @@
         {
             "name": "Talisman Lore Room",
             "category": [
-                "Temple"
+                "Temple",
+                "Talismans"
             ],
             "region": "rA1_145",
             "requires": "({logic_normal()} and {double_jump()} and {throw()} and {vision()}) or ({logic_hard()} and {double_jump()} and {throw()}})",
