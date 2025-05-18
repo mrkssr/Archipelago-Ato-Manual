@@ -10,7 +10,7 @@
             "region": "rA0_45Boss",
             "place_item": [
                 "Prologue Done",
-                "Masks"
+                "Mask"
             ],
             "id": 300
         },
@@ -23,7 +23,7 @@
             "region": "rA0_45Boss",
             "place_item": [
                 "Defeated Samurai",
-                "Masks"
+                "Mask"
             ],
             "id": 301
         }
