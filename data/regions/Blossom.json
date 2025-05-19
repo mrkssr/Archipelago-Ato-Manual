@@ -61,7 +61,7 @@
             "rA1_8"
         ],
         "exit_requires": {
-            "rA1_7Warp": "|Crystal Break|"
+            "rA1_7Warp": "{OptOne(Crystal Break)}"
         }
     },
     "rA1_7Warp": {},
@@ -75,7 +75,7 @@
         },
         "exit_requires": {
             "rA1_8Basement": "{armor()}",
-            "rA1_115": "{all_shards()} and |Crystal Break|"
+            "rA1_115": "{all_shards()} and {OptOne(Crystal Break)}"
         }
     },
     "rA1_8Basement": {},
@@ -86,7 +86,7 @@
         ],
         "exit_requires": {
             "rA1_0runway": "{chain_dash()} and {double_jump()}",
-            "rA1_1": "{chain_dash()} and |Crystal Break|"
+            "rA1_1": "{chain_dash()} and {OptOne(Crystal Break)}"
         }
     },
     "rA1_0runway": {
@@ -188,7 +188,7 @@
         }
     },
     "rA1_29VagrantBoss": {
-        "requires": "|Coin:5|",
+        "requires": "{OptAll(|Coin:5|)}",
         "connects_to": [
             "rA1_29VagrantBossReward"
         ]

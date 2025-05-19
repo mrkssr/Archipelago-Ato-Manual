@@ -23,7 +23,7 @@
             "rA1_55Warp"
         ],
         "entrance_requires": {
-            "rA0_13": "|Crystal Break|"
+            "rA0_13": "{OptOne(Crystal Break)}"
         }
     },
     "rA1_44": {
@@ -31,7 +31,7 @@
             "rA1_45"
         ],
         "exit_requires": {
-            "rA1_45": "|Coin:10|"
+            "rA1_45": "{OptAll(|Coin:10|)}"
         }
     },
     "rA1_45": {
@@ -120,7 +120,7 @@
             "rA1_166Tempest"
         ],
         "exit_requires": {
-            "rA1_166Tempest": "|Demon Blade|"
+            "rA1_166Tempest": "{OptOne(Demon Blade)}"
         }
     },
     "rA1_165Coin": {},
@@ -157,7 +157,7 @@
     },
     "rA0_19Coin": {
         "entrance_requires": {
-            "rA0_19": "|Throw|"
+            "rA0_19": "{OptOne(Throw)}"
         }
     },
     "rA1_140": {
@@ -165,7 +165,7 @@
             "rA1_141ArenaArmor"
         ],
         "exit_requires": {
-            "rA1_141ArenaArmor": "|Coin:13| and {armor()}"
+            "rA1_141ArenaArmor": "{OptAll(|Coin:13|)} and {armor()}"
         }
     },
     "rA1_141ArenaArmor": {},
@@ -199,7 +199,7 @@
             "rA1_61"
         ],
         "exit_requires": {
-            "rA1_61": "({double_jump()} or |Speed Charge|) and {chain_dash()}"
+            "rA1_61": "({double_jump()} or {OptOne(Speed Charge)}) and {chain_dash()}"
         }
     },
     "rA0_25hallway": {
@@ -215,7 +215,7 @@
             "rA1_80Warp"
         ],
         "exit_requires": {
-            "rA0_26Coin": "{double_jump()} and |Speed Charge|",
+            "rA0_26Coin": "{double_jump()} and {OptOne(Speed Charge)}",
             "rA1_80Warp": "{double_jump()}"
         }
     },
@@ -230,7 +230,7 @@
             "rA1_65": "{double_jump()}"
         },
         "entrance_requires": {
-            "rA0_24": "|Crystal Break|"
+            "rA0_24": "{OptOne(Crystal Break)}"
         }
     },
     "rA1_60": {
@@ -250,10 +250,10 @@
         ],
         "exit_requires": {
             "rA0_17secret": "{double_jump()} and {chain_dash()}",
-            "rA1_60": "{double_jump()} and {dash()} and |Crystal Break|"
+            "rA1_60": "{double_jump()} and {dash()} and {OptOne(Crystal Break)}"
         },
         "entrance_requires": {
-            "rA1_60": "|Crystal Break|"
+            "rA1_60": "{OptOne(Crystal Break)}"
         }
     },
     "rA0_17secret": {
@@ -270,7 +270,7 @@
         "connects_to": [
             "rA1_63BossDevil"
         ],
-        "requires": "|Coin:10|"
+        "requires": "{OptAll(|Coin:10|)}"
     },
     "rA1_63BossDevil": {
         "connects_to": [

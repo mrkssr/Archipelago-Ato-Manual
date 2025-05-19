@@ -49,7 +49,7 @@
         ]
     },
     "rA1_20": {
-        "requires": "|Crystal Break|",
+        "requires": "{OptOne(Crystal Break)}",
         "connects_to": []
     },
     "rA1_21": {

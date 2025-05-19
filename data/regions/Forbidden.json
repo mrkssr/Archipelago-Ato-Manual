@@ -22,11 +22,10 @@
             "rA1_119"
         ],
         "exit_requires": {
-            "rA1_118ArenaFatal": "|Fatal Draw| and |Coin:32|"
+            "rA1_118ArenaFatal": "{OptOne(Fatal Draw)} and {OptAll(|Coin:32|)}"
         }
     },
     "rA1_118ArenaFatal": {
-        "requires": "|Coin:32| and {dash()} and {double_jump()}",
         "connects_to": [
             "rA1_118ArenaFatalReward"
         ]
@@ -38,7 +37,7 @@
             "rA1_123"
         ],
         "exit_requires": {
-            "rA1_123": "({logic_normal()} and {dash()} and {double_jump()} and |Speed Charge|) or ({logic_hard()} and {dash()} and {double_jump()} and {armor()})"
+            "rA1_123": "({logic_normal()} and {dash()} and {double_jump()} and {OptOne(Speed Charge)}) or ({logic_hard()} and {dash()} and {double_jump()} and {armor()})"
         }
     },
     "rA1_120": {
@@ -65,7 +64,7 @@
         ]
     },
     "rA1_125": {
-        "requires": "{double_jump()} and |Throw|",
+        "requires": "{double_jump()} and {OptOne(Throw)}",
         "connects_to": [
             "rA1_126"
         ]
@@ -79,7 +78,7 @@
         }
     },
     "rA1_127": {
-        "requires": "{double_jump()} and {spin()} and |Throw| and {armor()} and (({logic_normal()} and {dash()}) or ({logic_hard()}))",
+        "requires": "{double_jump()} and {spin()} and {OptOne(Throw)} and {armor()} and (({logic_normal()} and {dash()}) or ({logic_hard()}))",
         "connects_to": [
             "rA1_128"
         ]
@@ -120,7 +119,7 @@
             "rA1_135"
         ],
         "exit_requires": {
-            "rA1_135": "{double_jump()} and {chain_dash()} and |Demon Blade|"
+            "rA1_135": "{double_jump()} and {chain_dash()} and {OptOne(Demon Blade)}"
         }
     },
     "rA1_135": {

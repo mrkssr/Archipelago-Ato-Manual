@@ -30,7 +30,7 @@
         ],
         "exit_requires": {
             "rA1_149": "{double_jump()}",
-            "rA1_152": "|Defeated Samurai|"
+            "rA1_152": "{OptOne(Defeated Samurai)}"
         }
     },
     "rA1_147": {
@@ -50,7 +50,7 @@
             "rA1_151"
         ],
         "exit_requires": {
-            "rA1_151": "({logic_normal()} and {double_jump()} and {armor()} and |Throw| and {vision()} and {chain_dash()}) or ({logic_hard()} and {double_jump()} and {armor()})"
+            "rA1_151": "({logic_normal()} and {double_jump()} and {armor()} and {OptOne(Throw)} and {vision()} and {chain_dash()}) or ({logic_hard()} and {double_jump()} and {armor()})"
         }
     },
     "rA1_150Warp": {
@@ -63,14 +63,14 @@
         ]
     },
     "rA1_151Coin": {
-        "requires": "|Coin:13| and |Crystal Break|"
+        "requires": "{OptAll(|Coin:13|)} and {OptOne(Crystal Break)}"
     },
     "rA1_152": {
         "connects_to": [
             "rA1_153Boss"
         ],
         "exit_requires": {
-            "rA1_153Boss": "|Demon Blade|"
+            "rA1_153Boss": "{OptOne(Demon Blade)}"
         }
     },
     "rA1_153Boss": {

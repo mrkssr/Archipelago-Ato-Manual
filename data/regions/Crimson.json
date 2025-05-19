@@ -35,7 +35,7 @@
             "rA1_71"
         ],
         "exit_requires": {
-            "rA1_71": "({logic_normal()} and |Throw| and {double_jump()} and {dash()}) or ({logic_hard()} and {double_jump()} and {armor()})"
+            "rA1_71": "({logic_normal()} and {OptOne(Throw)} and {double_jump()} and {dash()}) or ({logic_hard()} and {double_jump()} and {armor()})"
         }
     },
     "rA1_71": {
@@ -43,11 +43,11 @@
             "rA1_72"
         ],
         "exit_requires": {
-            "rA1_72": "({logic_normal()} and |Throw| and {double_jump()}) or ({logic_hard()} and {double_jump()} and {armor()} and {spin()})"
+            "rA1_72": "({logic_normal()} and {OptOne(Throw)} and {double_jump()}) or ({logic_hard()} and {double_jump()} and {armor()} and {spin()})"
         }
     },
     "rA1_72": {
-        "requires": "{logic_normal()} and |Throw| and {dash()}",
+        "requires": "{logic_normal()} and {OptOne(Throw)} and {dash()}",
         "connects_to": [
             "rA1_73"
         ],
@@ -56,7 +56,7 @@
         }
     },
     "rA1_73": {
-        "requires": "{double_jump()} and |Throw|",
+        "requires": "{double_jump()} and {OptOne(Throw)}",
         "connects_to": [
             "rA1_74",
             "rA1_75"
@@ -68,7 +68,7 @@
             "rA1_76"
         ],
         "exit_requires": {
-            "rA1_76": "({logic_normal()} and {double_jump()} and |Throw|) or ({logic_hard()} and {double_jump()} and {armor()} and {spin()})"
+            "rA1_76": "({logic_normal()} and {double_jump()} and {OptOne(Throw)}) or ({logic_hard()} and {double_jump()} and {armor()} and {spin()})"
         }
     },
     "rA1_76": {
@@ -76,7 +76,7 @@
             "rA1_77"
         ],
         "exit_requires": {
-            "rA1_77": "({logic_normal()} and |Throw|) or ({logic_hard()} and {double_jump()} and {armor()} and {spin()} and |Speed Charge|)"
+            "rA1_77": "({logic_normal()} and {OptOne(Throw)}) or ({logic_hard()} and {double_jump()} and {armor()} and {spin()} and {OptOne(Speed Charge)})"
         }
     },
     "rA1_77": {

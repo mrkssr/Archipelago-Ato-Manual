@@ -6,16 +6,27 @@ from .. import Rules
     
 import re
 
+# Coin Rogue, Coin Yari, Red Shard, Mind Rune, Coin Phantom Jin, Fatal Draw Upgrade, Electric Wind Lethal Strike, Coin Switch Puzzle
+
 # Skills
-def dodge(state: CollectionState, player: int):
+def dodge(multiworld: MultiWorld, state: CollectionState, player: int):
+    if not Rules.YamlEnabled(multiworld, player, "skills_shuffle"):
+        return True
+
     """Has the player dodge ability?"""
     return state.has("Dodge", player)
 
-def dodge_upgrade(state: CollectionState, player: int):
+def dodge_upgrade(multiworld: MultiWorld, state: CollectionState, player: int):
+    if not Rules.YamlEnabled(multiworld, player, "skills_shuffle"):
+        return True
+
     """Has the player dodge upgrade ability?"""
     return state.has_all("Dodge", player)
 
 def dash(multiworld: MultiWorld, state: CollectionState, player: int):
+    if not Rules.YamlEnabled(multiworld, player, "skills_shuffle"):
+        return True
+
     """Has player dash ability?"""
     if state.has("Dash", player):
         return True
@@ -26,6 +37,9 @@ def dash(multiworld: MultiWorld, state: CollectionState, player: int):
     return False
 
 def chain_dash(multiworld: MultiWorld, state: CollectionState, player: int):
+    if not Rules.YamlEnabled(multiworld, player, "skills_shuffle"):
+        return True
+
     """Has the player chain dash ability?"""
     if dash_state(state, player, 2):
         return True
@@ -43,6 +57,9 @@ def chain_dash(multiworld: MultiWorld, state: CollectionState, player: int):
     return False
 
 def chain_dash_upgrade(multiworld: MultiWorld, state: CollectionState, player: int):
+    if not Rules.YamlEnabled(multiworld, player, "skills_shuffle"):
+        return True
+
     """Has the player the upgraded chain dash ability?"""
     if dash_state(state, player, 3):
         return True
@@ -64,6 +81,9 @@ def dash_state(state: CollectionState, player: int, amount: str):
     return int(amount) <= state.count("Dash", player)
 
 def double_jump(multiworld: MultiWorld, state: CollectionState, player: int):
+    if not Rules.YamlEnabled(multiworld, player, "skills_shuffle"):
+        return True
+
     """Has the player double jump ability?"""
     if state.has("Double Jump", player):
         return True
@@ -73,15 +93,24 @@ def double_jump(multiworld: MultiWorld, state: CollectionState, player: int):
     
     return False
 
-def armor(state: CollectionState, player: int):
+def armor(multiworld: MultiWorld, state: CollectionState, player: int):
+    if not Rules.YamlEnabled(multiworld, player, "skills_shuffle"):
+        return True
+
     """Has the player armor ability?"""
     return state.has("Armor", player)
 
-def spin(state: CollectionState, player: int):
+def spin(multiworld: MultiWorld, state: CollectionState, player: int):
+    if not Rules.YamlEnabled(multiworld, player, "skills_shuffle"):
+        return True
+
     """Has the player spin ability?"""
     return state.has("Spin", player)
 
 def vision(multiworld: MultiWorld, state: CollectionState, player: int):
+    if not Rules.YamlEnabled(multiworld, player, "skills_shuffle"):
+        return True
+
     if state.has("vision", player):
         return True
 
@@ -92,7 +121,10 @@ def vision(multiworld: MultiWorld, state: CollectionState, player: int):
 # Skills Done
 
 # Shards
-def all_shards(state: CollectionState, player: int):
+def all_shards(multiworld: MultiWorld, state: CollectionState, player: int):
+    if not Rules.YamlEnabled(multiworld, player, "shard_shuffle"):
+        return True
+
     """All all shards collected?"""
     return state.has_all(["Blue Shard", "Red Shard", "Yellow Shard"], player)
 # Shards Done

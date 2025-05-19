@@ -18,7 +18,7 @@
                 "Talismans"
             ],
             "region": "rA1_0runway",
-            "requires": "|Speed Charge| and {double_jump()}",
+            "requires": "{OptOne(Speed Charge)} and {double_jump()}",
             "id": 151
         },
         {
@@ -78,7 +78,7 @@
                 "Talismans"
             ],
             "region": "rA1_32Deflector",
-            "requires": "({logic_normal()} and {double_jump()} and |Throw| and {dash()}) or ({logic_hard()} and {double_jump()} and {armor()})",
+            "requires": "({logic_normal()} and {double_jump()} and {OptOne(Throw)} and {dash()}) or ({logic_hard()} and {double_jump()} and {armor()})",
             "id": 157
         },
         {
@@ -215,7 +215,7 @@
                 "Talismans"
             ],
             "region": "rA0_23",
-            "requires": "({logic_normal()} and {chain_dash()}) or ({logic_normal()} and {double_jump()} and |Speed Charge|) or ({logic_hard()})",
+            "requires": "({logic_normal()} and {chain_dash()}) or ({logic_normal()} and {double_jump()} and {OptOne(Speed Charge)}) or ({logic_hard()})",
             "id": 171
         },
         {
@@ -235,7 +235,7 @@
                 "Talismans"
             ],
             "region": "rA1_74",
-            "requires": "{double_jump()} and {dash()} and |Throw|",
+            "requires": "{double_jump()} and {dash()} and {OptOne(Throw)}",
             "id": 173
         },
         {
@@ -245,7 +245,7 @@
                 "Talismans"
             ],
             "region": "rA0_31Secret",
-            "requires": "|Coin:3|",
+            "requires": "{OptAll(|Coin:3|)}",
             "id": 174
         },
         {
@@ -285,7 +285,7 @@
                 "Talismans"
             ],
             "region": "rA0_39",
-            "requires": "({logic_normal()} and {double_jump()} and {chain_dash()}) or ({logic_hard()} and {double_jump()} and |Speed Charge| and {armor()})",
+            "requires": "({logic_normal()} and {double_jump()} and {chain_dash()}) or ({logic_hard()} and {double_jump()} and {OptOne(Speed Charge)} and {armor()})",
             "id": 178
         },
         {
@@ -324,7 +324,7 @@
                 "Talismans"
             ],
             "region": "rA1_97",
-            "requires": "|Throw| and ({double_jump()} or {armor()})",
+            "requires": "{OptOne(Throw)} and ({double_jump()} or {armor()})",
             "id": 182
         },
         {
@@ -344,7 +344,7 @@
                 "Talismans"
             ],
             "region": "rA1_151Coin",
-            "requires": "{double_jump()} and |Crystal Break|",
+            "requires": "{double_jump()} and {OptOne(Crystal Break)}",
             "id": 184
         },
         {
@@ -354,7 +354,7 @@
                 "Talismans"
             ],
             "region": "rA1_145",
-            "requires": "({logic_normal()} and {double_jump()} and |Throw| and {vision()}) or ({logic_hard()} and {double_jump()} and |Throw|)",
+            "requires": "({logic_normal()} and {double_jump()} and {OptOne(Throw)} and {vision()}) or ({logic_hard()} and {double_jump()} and {OptOne(Throw)})",
             "id": 185
         }
     ]

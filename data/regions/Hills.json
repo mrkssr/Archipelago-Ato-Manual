@@ -13,7 +13,7 @@
     },
     "rA0_7-up": {
         "entrance_requires": {
-            "rA1_43": "|Crystal Break|"
+            "rA1_43": "{OptOne(Crystal Break)}"
         }
     },
     "rA0_7-down": {},
@@ -27,11 +27,11 @@
         "exit_requires": {
             "rA0_9": "{dash()}",
             "rA0_10": "({logic_normal()} and {dash()}) or ({logic_hard()})",
-            "rA1_38": "{dash()} and |Crystal Break|",
+            "rA1_38": "{dash()} and {OptOne(Crystal Break)}",
             "rA1_137-CP": "{double_jump()} and {dash()}"
         },
         "entrance_requires": {
-            "rA1_38": "|Crystal Break|"
+            "rA1_38": "{OptOne(Crystal Break)}"
         }
     },
     "rA0_9": {
@@ -55,7 +55,7 @@
         ],
         "exit_requires": {
             "rA1_30" : "{double_jump()}",
-            "rA1_39Warp" : "({logic_normal()} and {double_jump()} and {dash()}) or ({logic_hard()} and {armor()}) or ({logic_hard()} and {double_jump()} and |Speed Charge|)"
+            "rA1_39Warp" : "({logic_normal()} and {double_jump()} and {dash()}) or ({logic_hard()} and {armor()}) or ({logic_hard()} and {double_jump()} and {OptOne(Speed Charge)})"
         }
     },
     "rA1_40Nothing": {
@@ -104,19 +104,19 @@
             "rA0_14secret"
         ],
         "entrance_requires": {
-            "rA0_14secret": "|Coin:8|"
+            "rA0_14secret": "{OptAll(|Coin:8|)}"
         },
         "exit_requires": {
             "rA0_7-up": "{double_jump()}"
         }
     },
     "rA1_137-CP": {
-        "requires": "|Coin:13|",
+        "requires": "{OptAll(|Coin:13|)}",
         "connects_to": [
             "rA1_138ArenaThrow"
         ],
         "exit_requires": {
-            "rA1_138ArenaThrow": "({logic_normal()} and |Throw|) or ({logic_hard()} and {double_jump()} and {armor()})"
+            "rA1_138ArenaThrow": "({logic_normal()} and {OptOne(Throw)}) or ({logic_hard()} and {double_jump()} and {armor()})"
         }
     },
     "rA1_137-ArenaReward": {

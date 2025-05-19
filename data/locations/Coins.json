@@ -132,7 +132,7 @@
                 "Coins"
             ],
             "region": "rA0_14secret",
-            "requires": "({logic_normal()} and {chain_dash()} and |Speed Charge|) or ({logic_hard()} and {chain_dash()})",
+            "requires": "({logic_normal()} and {chain_dash()} and {OptOne(Speed Charge)}) or ({logic_hard()} and {chain_dash()})",
             "id": 113
         },
         {
@@ -162,7 +162,7 @@
                 "Coins"
             ],
             "region": "rA0_26Coin",
-            "requires": "|Speed Charge| and {double_jump()}",
+            "requires": "{OptOne(Speed Charge)} and {double_jump()}",
             "id": 116
         },
         {
@@ -172,7 +172,7 @@
                 "Coins"
             ],
             "region": "rA0_19Coin",
-            "requires": "{double_jump()} and |Throw|",
+            "requires": "{double_jump()} and {OptOne(Throw)}",
             "id": 117
         },
         {
@@ -192,7 +192,7 @@
                 "Coins"
             ],
             "region": "rA0_28",
-            "requires": "({logic_normal()} and {double_jump()} and |Speed Charge|) or ({logic_hard()})",
+            "requires": "({logic_normal()} and {double_jump()} and {OptOne(Speed Charge)}) or ({logic_hard()})",
             "id": 119
         },
         {
@@ -259,7 +259,7 @@
                 "Coins"
             ],
             "region": "rA1_77Coin",
-            "requires": "|Throw|",
+            "requires": "{OptOne(Throw)}",
             "id": 126
         },
         {
@@ -298,7 +298,7 @@
                 "Coins"
             ],
             "region": "rA1_151",
-            "requires": "|Throw|",
+            "requires": "{OptOne(Throw)}",
             "id": 130
         },
         {
@@ -308,7 +308,7 @@
                 "Coins"
             ],
             "region": "rA1_152",
-            "requires": "|Speed Charge| and {double_jump()}",
+            "requires": "{OptOne(Speed Charge)} and {double_jump()}",
             "id": 131
         }
     ]

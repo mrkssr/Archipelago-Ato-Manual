@@ -10,7 +10,7 @@
             "rA0_23"
         ],
         "exit_requires": {
-            "rA0_23": "({logic_normal()} and {double_jump()} and |Speed Charge|) or ({logic_hard()})"
+            "rA0_23": "({logic_normal()} and {double_jump()} and {OptOne(Speed Charge)}) or ({logic_hard()})"
         }
     },
     "rA0_29": {
@@ -23,7 +23,7 @@
             "rA0_31"
         ],
         "exit_requires": {
-            "rA0_31": "({is_prologue()} and {double_jump()}) or ({logic_hard()} and {prologue_done()} and {double_jump()} and |Speed Charge|) or ({logic_hard()} and {prologue_done()} and {double_jump()} and {armor()})"
+            "rA0_31": "({is_prologue()} and {double_jump()}) or ({logic_hard()} and {prologue_done()} and {double_jump()} and {OptOne(Speed Charge)}) or ({logic_hard()} and {prologue_done()} and {double_jump()} and {armor()})"
         }
     },
     "rA0_31": {
@@ -34,8 +34,8 @@
         ],
         "exit_requires": {
             "rA0_31Secret": "({logic_normal()} and {is_prologue()} and {double_jump()} and {dash()}) or ({logic_hard()} and {is_prologue()} and {double_jump()} and {armor()}) or ({prologue_done()})",
-            "rA0_33" : "({is_prologue()} and {logic_normal()} and {double_jump()} and {chain_dash()}) or ({is_prologue()} and {logic_hard()} and {double_jump()} and {dash()}) or ({prologue_done()} and |Speed Charge| and {double_jump()} and {armor()})",
-            "rA0_32secret": "({is_prologue()} and {logic_normal()} and {double_jump()} and {dash()}) or ({is_prologue()} and {logic_hard()} and {dash()}) or ({prologue_done()} and |Crystal Break|)"
+            "rA0_33" : "({is_prologue()} and {logic_normal()} and {double_jump()} and {chain_dash()}) or ({is_prologue()} and {logic_hard()} and {double_jump()} and {dash()}) or ({prologue_done()} and {OptOne(Speed Charge)} and {double_jump()} and {armor()})",
+            "rA0_32secret": "({is_prologue()} and {logic_normal()} and {double_jump()} and {dash()}) or ({is_prologue()} and {logic_hard()} and {dash()}) or ({prologue_done()} and {OptOne(Crystal Break)})"
         }
     },
     "rA0_31Secret": {},
@@ -45,7 +45,7 @@
             "rA1_139"
         ],
         "exit_requires": {
-            "rA1_139": "|Crystal Break|"
+            "rA1_139": "{OptOne(Crystal Break)}"
         }
     },
     "rA1_169": {
@@ -54,7 +54,7 @@
         ]
     },
     "rA1_170": {
-        "requires": "|Demon Blade|",
+        "requires": "{OptOne(Demon Blade)}",
         "connects_to": [
             "rA1_171TW"
         ]
@@ -142,7 +142,7 @@
             "rA0_26"
         ],
         "exit_requires": {
-            "rA0_26": "|Crystal Break|"
+            "rA0_26": "{OptOne(Crystal Break)}"
         }
     },
     "rA1_82": {
@@ -150,7 +150,7 @@
             "rA1_82FatalDraw"
         ],
         "exit_requires": {
-            "rA1_82FatalDraw": "|Coin:18|"
+            "rA1_82FatalDraw": "{OptAll(|Coin:18|)}"
         }
     },
     "rA1_82FatalDraw": {},
@@ -162,7 +162,7 @@
         ]
     },
     "rA1_167": {
-        "requires": "|Demon Blade|",
+        "requires": "{OptOne(Demon Blade)}",
         "connects_to": [
             "rA1_168Archer"
         ]
@@ -180,7 +180,7 @@
             "rA0_85"
         ],
         "exit_requires": {
-            "rA0_85": "{chain_dash()} and |Crystal Break|"
+            "rA0_85": "{chain_dash()} and {OptOne(Crystal Break)}"
         }
     },
     "rA0_39": {},
@@ -190,7 +190,7 @@
         ]
     },
     "rA0_41": {
-        "requires": "|Speed Charge|",
+        "requires": "{OptOne(Speed Charge)}",
         "connects_to": [
             "rA0_42"
         ],
@@ -203,7 +203,7 @@
             "rA0_43"
         ],
         "exit_requires": {
-            "rA0_43": "({is_prologue()} and {double_jump()} and {chain_dash()} and |Speed Charge|) or ({prologue_done()} and {double_jump()} and |Speed Charge|)"
+            "rA0_43": "({is_prologue()} and {double_jump()} and {chain_dash()} and {OptOne(Speed Charge)}) or ({prologue_done()} and {double_jump()} and {OptOne(Speed Charge)})"
         }
     },
     "rA0_43": {
@@ -213,9 +213,9 @@
             "rA1_95"
         ],
         "exit_requires": {
-            "rA0_88": "{double_jump()} and {chain_dash()} and |Speed Charge|",
+            "rA0_88": "{double_jump()} and {chain_dash()} and {OptOne(Speed Charge)}",
             "rA0_44": "{double_jump()}",
-            "rA1_95": "({double_jump()} or {prologue_done()}) and |Crystal Break|"
+            "rA1_95": "({double_jump()} or {prologue_done()}) and {OptOne(Crystal Break)}"
         }
     },
     "rA0_88": {
@@ -224,7 +224,7 @@
             "rA1_87-down"
         ],
         "exit_requires": {
-            "rA1_87-up": "{dash()} and |Speed Charge|"
+            "rA1_87-up": "{dash()} and {OptOne(Speed Charge)}"
         }
     },
     "rA1_87-up": {},
@@ -243,7 +243,7 @@
         "exit_requires": {
             "rA1_89Warp": "{double_jump()}",
             "rA1_92": "{double_jump()}",
-            "rA1_90Sentinel": "({logic_normal()} and {double_jump()} and {dash()} and |Crystal Break|) or ({logic_hard()} and {double_jump()} and {armor()} and |Crystal Break|) or ({logic_hard()} and {double_jump()} and {spin()} and |Crystal Break|)"
+            "rA1_90Sentinel": "({logic_normal()} and {double_jump()} and {dash()} and {OptOne(Crystal Break)}) or ({logic_hard()} and {double_jump()} and {armor()} and {OptOne(Crystal Break)}) or ({logic_hard()} and {double_jump()} and {spin()} and {OptOne(Crystal Break)})"
         }
     },
     "rA0_85": {
@@ -258,7 +258,7 @@
             "rA1_93CP"
         ],
         "exit_requires": {
-            "rA1_93CP": "|Coin:13| and {spin()}"
+            "rA1_93CP": "{OptAll(|Coin:13|)} and {spin()}"
         }
     },
     "rA1_93CP": {
