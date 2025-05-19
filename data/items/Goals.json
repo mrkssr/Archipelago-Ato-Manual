@@ -2,13 +2,14 @@
     "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
     "data": [
         {
+            "count": 33,
             "name": "Mask",
             "category": [
                 "Masks",
                 "Goal"
             ],
             "progression": true,
-            "id": 304
+            "id": 250
         }
     ]
 }

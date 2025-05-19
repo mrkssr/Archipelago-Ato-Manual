@@ -1,0 +1,402 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Rogue",
+            "category": [
+                "Blossom",
+                "Bosses"
+            ],
+            "region": "rA0_5",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 250
+        },
+        {
+            "name": "Jin",
+            "category": [
+                "Hills",
+                "Bosses"
+            ],
+            "region": "rA0_11",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 251
+        },
+        {
+            "name": "Guardian",
+            "category": [
+                "Fall",
+                "Bosses"
+            ],
+            "region": "rA0_22Boss",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 252
+        },
+        {
+            "name": "Ninja",
+            "category": [
+                "Lake",
+                "Bosses"
+            ],
+            "region": "rA0_40",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 253
+        },
+        {
+            "name": "Acolyte",
+            "category": [
+                "Lake",
+                "Bosses"
+            ],
+            "region": "rA0_45Boss",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 254
+        },
+        {
+            "name": "Bandit",
+            "category": [
+                "Blossom",
+                "Bosses"
+            ],
+            "region": "rA1_3Boss",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 255
+        },
+        {
+            "name": "Geisha",
+            "category": [
+                "Fall",
+                "Bosses"
+            ],
+            "region": "rA1_51Boss",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 256
+        },
+        {
+            "name": "Berserker",
+            "category": [
+                "Hills",
+                "Bosses"
+            ],
+            "region": "rA0_10",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 257
+        },
+        {
+            "name": "Sentinel",
+            "category": [
+                "Lake",
+                "Bosses"
+            ],
+            "region": "rA1_90Sentinel",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 258
+        },
+        {
+            "name": "Samurai",
+            "category": [
+                "Temple",
+                "Bosses"
+            ],
+            "region": "rA1_148Boss",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 259
+        },
+        {
+            "name": "Warden",
+            "category": [
+                "Fall",
+                "Bosses"
+            ],
+            "region": "rA1_59BossHidden",
+            "place_item": [
+                "Mask"
+            ],
+            "requires": "{vision()}",
+            "id": 260
+        },
+        {
+            "name": "Twins",
+            "category": [
+                "Blossom",
+                "Bosses"
+            ],
+            "region": "rA1_34BearDouble",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 261
+        },
+        {
+            "name": "Shadow Jin",
+            "category": [
+                "Fall",
+                "Bosses"
+            ],
+            "region": "rA1_63BossDevil",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 262
+        },
+        {
+            "name": "Phantom Shin",
+            "category": [
+                "Hills",
+                "Bosses"
+            ],
+            "region": "rA1_42Boss",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 263
+        },
+        {
+            "name": "Vagrant",
+            "category": [
+                "Blossom",
+                "Bosses"
+            ],
+            "region": "rA1_1VagrantBossFinal",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 264
+        },
+        {
+            "name": "Mother",
+            "category": [
+                "Pillar",
+                "Bosses"
+            ],
+            "region": "rA1_15boss",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 265
+        },
+        {
+            "name": "Child",
+            "category": [
+                "Crimson",
+                "Bosses"
+            ],
+            "region": "rA1_68Boss",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 266
+        },
+        {
+            "name": "Father",
+            "category": [
+                "Swamp",
+                "Bosses"
+            ],
+            "region": "rA1_104Boss",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 267
+        },
+        {
+            "name": "Ancient Warrior",
+            "category": [
+                "Pillar",
+                "Bosses"
+            ],
+            "region": "rA1_27",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 268
+        },
+        {
+            "name": "Yari",
+            "category": [
+                "Crimson",
+                "Bosses"
+            ],
+            "region": "rA1_78BossYari",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 269
+        },
+        {
+            "name": "Deceiver",
+            "category": [
+                "Swamp",
+                "Bosses"
+            ],
+            "region": "rA1_114Boss",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 270
+        },
+        {
+            "name": "Tiny Warrior",
+            "category": [
+                "Lake",
+                "Bosses"
+            ],
+            "region": "rA1_171TW",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 271
+        },
+        {
+            "name": "Archer",
+            "category": [
+                "Lake",
+                "Bosses"
+            ],
+            "region": "rA1_168Archer",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 272
+        },
+        {
+            "name": "Tempest",
+            "category": [
+                "Fall",
+                "Bosses"
+            ],
+            "region": "rA1_166Tempest",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 273
+        },
+        {
+            "name": "Monk",
+            "category": [
+                "Forbidden",
+                "Bosses"
+            ],
+            "region": "rA1_132Boss",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 274
+        },
+        {
+            "name": "Leader",
+            "category": [
+                "Temple",
+                "Bosses"
+            ],
+            "region": "rA1_153Boss",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 275
+        },
+        {
+            "name": "Demon",
+            "category": [
+                "Temple",
+                "Bosses"
+            ],
+            "region": "rA1_158Boss",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 276
+        },
+        {
+            "name": "Rebirth",
+            "category": [
+                "Temple",
+                "Bosses"
+            ],
+            "region": "rA1_162Boss",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 277
+        },
+        {
+            "name": "Spin Arena Unique Boss",
+            "category": [
+                "Lake",
+                "Bosses"
+            ],
+            "region": "rA1_94ArenaSpin",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 278
+        },
+        {
+            "name": "Throw Arena Unique Boss",
+            "category": [
+                "Hills",
+                "Bosses"
+            ],
+            "region": "rA1_138ArenaThrow",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 279
+        },
+        {
+            "name": "Armor Arena Unique Boss",
+            "category": [
+                "Fall",
+                "Bosses"
+            ],
+            "region": "rA1_141ArenaArmor",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 280
+        },
+        {
+            "name": "Fatal Arena Unique Boss",
+            "category": [
+                "Forbidden",
+                "Bosses"
+            ],
+            "region": "rA1_118ArenaFatal",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 281
+        },
+        {
+            "name": "Owl",
+            "category": [
+                "Lake",
+                "Bosses"
+            ],
+            "region": "rA1_FH0",
+            "place_item": [
+                "Mask"
+            ],
+            "id": 282
+        }
+    ]
+}

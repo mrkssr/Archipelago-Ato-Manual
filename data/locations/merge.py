@@ -4,7 +4,7 @@ import json
 base_json_path = 'locations_base.json'
 transformed_json_path = '../locations.json'
 
-regions = ["Shards", "Skills", "Runes", "Magic Bars", "Coins", "Talismans", "Checkpoints", "Events", "Goals", "Filler"]
+regions = ["Shards", "Skills", "Runes", "Magic Bars", "Coins", "Talismans", "Checkpoints", "Bosses", "Events", "Goals", "Filler"]
 json_content = {}
 
 with open(base_json_path) as base:

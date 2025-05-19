@@ -2,28 +2,26 @@
     "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
     "data": [
         {
-            "name": "Acolyte",
+            "name": "Acolyte - Event",
             "category": [
                 "Lake",
                 "Bosses"
             ],
             "region": "rA0_45Boss",
             "place_item": [
-                "Prologue Done",
-                "Mask"
+                "Prologue Done"
             ],
             "id": 300
         },
         {
-            "name": "Samurai",
+            "name": "Samurai - Event",
             "category": [
                 "Temple",
                 "Bosses"
             ],
-            "region": "rA0_45Boss",
+            "region": "rA1_148Boss",
             "place_item": [
-                "Defeated Samurai",
-                "Mask"
+                "Defeated Samurai"
             ],
             "id": 301
         }
